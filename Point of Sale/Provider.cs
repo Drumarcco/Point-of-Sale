@@ -12,6 +12,7 @@ namespace Point_of_Sale
         public string Name { get; set; }
         public List<string> phone { get; set; }
         public string Address { get; set; }
-        public List<Product> ProductsList { get; set; }
+
+
     }
 }

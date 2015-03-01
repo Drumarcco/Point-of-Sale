@@ -8,68 +8,18 @@ using System.Windows.Forms;
 
 namespace Point_of_Sale
 {
-    class DBConnect
+    public static class DBConnect
     {
-        private MySqlConnection connection;
-        private string server;
-        private string database;
-        private string uid;
-        private string password;
+        public static string ConnectionString { get; set; }
+        public static string Username { get; set; }
+        public static string Password { get; set; }
 
-        public DBConnect(User user)
+        public static void Initialize()
         {
-            Initialize(user);
-            this.OpenConnection();
+            ConnectionString = Properties.Settings.Default.point_of_saleConnectionString;
+            ConnectionString += "Uid=" + Username + ";";
+            ConnectionString += "Pwd=" + Password + ";";
         }
 
-        private void Initialize(User user)
-        {
-            server = "localhost";
-            database = "point-of-sale";
-            uid = user.Username;
-            password = user.Password;
-            string connectionString;
-            connectionString = "SERVER=" + server + ";" + "DATABASE=" +
-                database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
-
-            connection = new MySqlConnection(connectionString);
-        }
-
-        private bool OpenConnection()
-        {
-            try
-            {
-                connection.Open();
-                MessageBox.Show("Opened");
-                return true;
-            }
-            catch (MySqlException ex)
-            {
-                switch (ex.Number)
-                {
-                    case 0:
-                        MessageBox.Show("No se puede conectar al servidor. Contacte al administrador.");
-                        break;
-                    case 1045:
-                        MessageBox.Show("Usuario y contraseña invalidos, intente de nuevo.");
-                        break;
-                }
-                return false;
-            }
-        }
-
-        private bool CloseConnection()
-        {
-            try
-            {
-                connection.Close();
-                return true;
-            }
-            catch (MySqlException ex)
-            {
-                MessageBox.Show(ex.Message);
-                return false;
-            }
-        }
     }
 }

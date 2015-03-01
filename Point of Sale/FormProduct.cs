@@ -8,12 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
 namespace Point_of_Sale
 {
-    public partial class FormHome : Form
+    public partial class FormProduct : Form
     {
-        public FormHome()
+        public FormProduct()
         {
             InitializeComponent();
         }

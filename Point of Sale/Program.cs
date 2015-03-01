@@ -16,7 +16,16 @@ namespace Point_of_Sale
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormHome());
+            FormLogIn login = new FormLogIn();
+            DialogResult result = login.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+                Application.Run(new FormHome());
+            }
+            else
+            {
+                Application.Exit();
+            }
         }
     }
 }
