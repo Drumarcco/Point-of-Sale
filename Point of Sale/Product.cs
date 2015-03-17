@@ -14,7 +14,7 @@ namespace Point_of_Sale
         public string Category { get; set; }
         public float Cost { get; set; }
         public float Price { get; set; }
-        public Provider Provider { get; set; }
+        public int Provider { get; set; }
         
     }
 }
