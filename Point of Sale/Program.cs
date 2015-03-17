@@ -20,7 +20,7 @@ namespace Point_of_Sale
             DialogResult result = login.ShowDialog();
             if (result == DialogResult.OK)
             {
-                Application.Run(new FormHome());
+                Application.Run(new FormProduct());
             }
             else
             {
