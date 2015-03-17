@@ -50,7 +50,7 @@ namespace Point_of_Sale
         {
             _product.Name = txt_name.Text;
             _product.Provider = (int) cbx_provider.SelectedValue;
-            _product.Category = cbx_category.SelectedText;
+            _product.Category = (int) cbx_category.SelectedValue;
             _product.Cost = float.Parse(txt_cost.Text);
             _product.Price = float.Parse(txt_price.Text);
         }
