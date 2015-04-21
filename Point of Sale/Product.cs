@@ -33,14 +33,20 @@ namespace Point_of_Sale
                 DataTable productTable = new DataTable();
                 adapter.Fill(productTable);
 
-                DataRow productInfo = productTable.Rows[0];
-                this.Id = productID;
-                this.Name = (String)productInfo["Name"];
-                this.Price = (float)productInfo["Price"];
-                this.Provider = (int)productInfo["Provider"];
-                this.Category = (int)productInfo["Category"];
-                this.Cost = (float)productInfo["Cost"];
-                this.DiscountPercent = (int)productInfo["DiscountPercent"];
+                if (productTable.Rows.Count > 0)
+                {
+                    DataRow productInfo = productTable.Rows[0];
+                    this.Id = productID;
+                    this.Name = (String)productInfo["Name"];
+                    this.Price = (float)productInfo["Price"];
+                    this.Provider = (int)productInfo["Provider"];
+                    this.Category = (int)productInfo["Category"];
+                    this.Cost = (float)productInfo["Cost"];
+                    this.DiscountPercent = (int)productInfo["DiscountPercent"];
+                }
+                else { 
+                    
+                }
             }
             catch (MySqlException ex)
             {
