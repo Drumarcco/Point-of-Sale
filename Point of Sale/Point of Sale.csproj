@@ -63,6 +63,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DBConnect.cs" />
+    <Compile Include="DialogProductSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogProductSearch.Designer.cs">
+      <DependentUpon>DialogProductSearch.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormLogIn.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +99,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>_point_of_saleDataSet.xsd</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="DialogProductSearch.resx">
+      <DependentUpon>DialogProductSearch.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormHome.resx">
       <DependentUpon>FormHome.cs</DependentUpon>
     </EmbeddedResource>

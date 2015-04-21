@@ -10,3 +10,4 @@ C:\Users\MarcoAntonio\Documents\Visual Studio 2013\Projects\Point of Sale\Point 
 C:\Users\MarcoAntonio\Documents\Visual Studio 2013\Projects\Point of Sale\Point of Sale\obj\Debug\Point of Sale.pdb
 C:\Users\MarcoAntonio\Documents\Visual Studio 2013\Projects\Point of Sale\Point of Sale\obj\Debug\Point_of_Sale.FormProduct.resources
 C:\Users\MarcoAntonio\Documents\Visual Studio 2013\Projects\Point of Sale\Point of Sale\obj\Debug\Point_of_Sale.FormLogIn.resources
+C:\Users\MarcoAntonio\Documents\Visual Studio 2013\Projects\Point of Sale\Point of Sale\obj\Debug\Point_of_Sale.DialogProductSearch.resources
