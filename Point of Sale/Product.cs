@@ -44,8 +44,9 @@ namespace Point_of_Sale
                     this.Cost = (float)productInfo["Cost"];
                     this.DiscountPercent = (int)productInfo["DiscountPercent"];
                 }
-                else { 
-                    
+                else {
+                    throw new ArgumentException("No se encontró el producto, "
+                    + "favor de registrarlo.");
                 }
             }
             catch (MySqlException ex)
@@ -55,6 +56,16 @@ namespace Point_of_Sale
             finally {
                 if (connection != null) connection.Close();
             }
+        }
+
+        public float getDiscount() {
+            float discountPercent = (float)this.DiscountPercent;
+            discountPercent /= 100;
+            return this.Price * discountPercent;
+        }
+
+        public float getRealPrice() {
+            return this.Price - getDiscount();
         }
     }
 }
