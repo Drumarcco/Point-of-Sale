@@ -10,11 +10,15 @@ namespace Point_of_Sale
     {
         public int Quantity { get; set; }
         public Product Product { get; set; }
-        public float Subtotal { get; set; }
+        public float Subtotal { get { return _subtotal * Quantity; } set { this._subtotal = value; } }
+
+        private float _subtotal = 0;
 
         public Lot(Product product, int quantity)
         {
-            Subtotal = product.Price * quantity;
+            this.Product = product;
+            this.Quantity = quantity;
+            Subtotal = product.getRealPrice() * quantity;
         }
     }
 }
