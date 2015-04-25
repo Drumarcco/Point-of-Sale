@@ -63,6 +63,8 @@
             // 
             // dag_productTable
             // 
+            this.dag_productTable.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dag_productTable.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dag_productTable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dag_productTable.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ID,
@@ -73,7 +75,8 @@
             this.Subtotal});
             this.dag_productTable.Location = new System.Drawing.Point(16, 59);
             this.dag_productTable.Name = "dag_productTable";
-            this.dag_productTable.Size = new System.Drawing.Size(544, 150);
+            this.dag_productTable.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
+            this.dag_productTable.Size = new System.Drawing.Size(544, 265);
             this.dag_productTable.TabIndex = 2;
             // 
             // ID
