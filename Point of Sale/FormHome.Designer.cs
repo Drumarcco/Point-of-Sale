@@ -54,6 +54,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.lbl_received = new System.Windows.Forms.Label();
             this.lbl_change = new System.Windows.Forms.Label();
+            this.btn_cancelSale = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dag_productTable)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -267,10 +268,21 @@
             this.lbl_change.TabIndex = 13;
             this.lbl_change.Text = "-";
             // 
+            // btn_cancelSale
+            // 
+            this.btn_cancelSale.Location = new System.Drawing.Point(15, 347);
+            this.btn_cancelSale.Name = "btn_cancelSale";
+            this.btn_cancelSale.Size = new System.Drawing.Size(75, 45);
+            this.btn_cancelSale.TabIndex = 14;
+            this.btn_cancelSale.Text = "Cancelar Venta";
+            this.btn_cancelSale.UseVisualStyleBackColor = true;
+            this.btn_cancelSale.Click += new System.EventHandler(this.btn_cancelSale_Click);
+            // 
             // FormHome
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
-            this.ClientSize = new System.Drawing.Size(786, 417);
+            this.ClientSize = new System.Drawing.Size(786, 446);
+            this.Controls.Add(this.btn_cancelSale);
             this.Controls.Add(this.lbl_change);
             this.Controls.Add(this.lbl_received);
             this.Controls.Add(this.label6);
@@ -320,6 +332,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label lbl_received;
         private System.Windows.Forms.Label lbl_change;
+        private System.Windows.Forms.Button btn_cancelSale;
     }
 }
 

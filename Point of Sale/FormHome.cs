@@ -162,7 +162,6 @@ namespace Point_of_Sale
             return -1;
         }
 
-
         private void updateProductListTable() {
             dag_productTable.Rows.Clear();
             foreach (Lot lot in productList) {
@@ -180,6 +179,13 @@ namespace Point_of_Sale
         {
             FormProduct formProduct = new FormProduct();
             formProduct.ShowDialog();
+        }
+
+        private void btn_cancelSale_Click(object sender, EventArgs e)
+        {
+            newSale();
+            resetLabels();
+            dag_productTable.Rows.Clear();
         }
     }
 }
