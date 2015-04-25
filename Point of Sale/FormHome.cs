@@ -18,14 +18,12 @@ namespace Point_of_Sale
         private float subtotal;
         private float tax;
         private float total;
+        private bool saleIsActive;
 
         public FormHome()
         {
             InitializeComponent();
-            productList = new BindingList<Lot>();
-            subtotal = 0;
-            tax = 0;
-            total = 0;
+            newSale();
         }
 
         private void setSubtotal()
@@ -58,23 +56,66 @@ namespace Point_of_Sale
         private void txt_Search_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter) {
+                if (!saleIsActive) {
+                    newSale();
+                }
                 int productID;
                 if (! int.TryParse(txt_Search.Text, out productID))
                 {
-                    DialogProductSearch productSearch = new DialogProductSearch(txt_Search.Text);
-                    productSearch.ShowDialog();
-                    if (productSearch.DialogResult == DialogResult.OK)
+                    if (txt_Search.Text.Trim() == "" && productList.Count > 0)
                     {
-                        productID = productSearch.productId;
+                        endSale();
+                        return;
                     }
                     else {
-                        txt_Search.Clear();
-                        return;
+                        DialogProductSearch productSearch = new DialogProductSearch(txt_Search.Text);
+                        productSearch.ShowDialog();
+                        if (productSearch.DialogResult == DialogResult.OK)
+                        {
+                            productID = productSearch.productId;
+                        }
+                        else
+                        {
+                            txt_Search.Clear();
+                            return;
+                        }
                     }
                 }
                 addProductToList(productID);
                 txt_Search.Clear();
             }
+        }
+
+        private void newSale() {
+            productList = new BindingList<Lot>();
+            subtotal = 0;
+            tax = 0;
+            total = 0;
+            saleIsActive = true;
+            resetLabels();
+        }
+
+        private void resetLabels() {
+            lbl_change.Text = "-";
+            lbl_received.Text = "-";
+            lbl_subtotal.Text = "-";
+            lbl_tax.Text = "-";
+            lbl_total.Text = "-";
+        }
+
+        private void endSale() {
+            FormPayment formPayment = new FormPayment();
+            formPayment.ShowDialog();
+            if (formPayment.DialogResult == System.Windows.Forms.DialogResult.OK) {
+                lbl_received.Text = formPayment.received.ToString("C2");
+                updateChange(formPayment.received);
+                saleIsActive = false;
+            }
+        }
+
+        private void updateChange(float received) {
+            float change = received - total;
+            lbl_change.Text = change.ToString("C2");
         }
 
         private void addProductToList(int productID) {

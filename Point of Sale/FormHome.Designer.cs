@@ -50,6 +50,10 @@
             this.lbl_subtotal = new System.Windows.Forms.Label();
             this.lbl_tax = new System.Windows.Forms.Label();
             this.lbl_total = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.lbl_received = new System.Windows.Forms.Label();
+            this.lbl_change = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dag_productTable)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -83,6 +87,7 @@
             this.Price,
             this.Discount,
             this.Subtotal});
+            this.dag_productTable.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dag_productTable.Location = new System.Drawing.Point(15, 76);
             this.dag_productTable.Name = "dag_productTable";
             this.dag_productTable.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
@@ -153,7 +158,7 @@
             // productoToolStripMenuItem
             // 
             this.productoToolStripMenuItem.Name = "productoToolStripMenuItem";
-            this.productoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.productoToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
             this.productoToolStripMenuItem.Text = "Producto";
             this.productoToolStripMenuItem.Click += new System.EventHandler(this.productoToolStripMenuItem_Click);
             // 
@@ -161,7 +166,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(570, 76);
+            this.label2.Location = new System.Drawing.Point(573, 79);
             this.label2.Margin = new System.Windows.Forms.Padding(3, 0, 3, 10);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(86, 25);
@@ -172,7 +177,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(570, 111);
+            this.label3.Location = new System.Drawing.Point(573, 112);
             this.label3.Margin = new System.Windows.Forms.Padding(3, 0, 3, 10);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(86, 25);
@@ -183,7 +188,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(598, 146);
+            this.label4.Location = new System.Drawing.Point(601, 146);
             this.label4.Margin = new System.Windows.Forms.Padding(3, 0, 3, 10);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(58, 25);
@@ -194,7 +199,7 @@
             // 
             this.lbl_subtotal.AutoSize = true;
             this.lbl_subtotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_subtotal.Location = new System.Drawing.Point(662, 76);
+            this.lbl_subtotal.Location = new System.Drawing.Point(679, 76);
             this.lbl_subtotal.Name = "lbl_subtotal";
             this.lbl_subtotal.Size = new System.Drawing.Size(21, 29);
             this.lbl_subtotal.TabIndex = 7;
@@ -204,7 +209,7 @@
             // 
             this.lbl_tax.AutoSize = true;
             this.lbl_tax.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_tax.Location = new System.Drawing.Point(662, 108);
+            this.lbl_tax.Location = new System.Drawing.Point(679, 108);
             this.lbl_tax.Name = "lbl_tax";
             this.lbl_tax.Size = new System.Drawing.Size(21, 29);
             this.lbl_tax.TabIndex = 8;
@@ -214,16 +219,62 @@
             // 
             this.lbl_total.AutoSize = true;
             this.lbl_total.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_total.Location = new System.Drawing.Point(662, 143);
+            this.lbl_total.Location = new System.Drawing.Point(679, 143);
             this.lbl_total.Name = "lbl_total";
             this.lbl_total.Size = new System.Drawing.Size(21, 29);
             this.lbl_total.TabIndex = 9;
             this.lbl_total.Text = "-";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(570, 226);
+            this.label5.Margin = new System.Windows.Forms.Padding(3, 0, 3, 10);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(89, 25);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "Recibido:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(578, 261);
+            this.label6.Margin = new System.Windows.Forms.Padding(3, 0, 3, 10);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(81, 25);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "Cambio:";
+            // 
+            // lbl_received
+            // 
+            this.lbl_received.AutoSize = true;
+            this.lbl_received.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_received.Location = new System.Drawing.Point(679, 223);
+            this.lbl_received.Name = "lbl_received";
+            this.lbl_received.Size = new System.Drawing.Size(21, 29);
+            this.lbl_received.TabIndex = 12;
+            this.lbl_received.Text = "-";
+            // 
+            // lbl_change
+            // 
+            this.lbl_change.AutoSize = true;
+            this.lbl_change.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_change.Location = new System.Drawing.Point(679, 258);
+            this.lbl_change.Name = "lbl_change";
+            this.lbl_change.Size = new System.Drawing.Size(21, 29);
+            this.lbl_change.TabIndex = 13;
+            this.lbl_change.Text = "-";
+            // 
             // FormHome
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.ClientSize = new System.Drawing.Size(786, 417);
+            this.Controls.Add(this.lbl_change);
+            this.Controls.Add(this.lbl_received);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.lbl_total);
             this.Controls.Add(this.lbl_tax);
             this.Controls.Add(this.lbl_subtotal);
@@ -265,6 +316,10 @@
         private System.Windows.Forms.Label lbl_subtotal;
         private System.Windows.Forms.Label lbl_tax;
         private System.Windows.Forms.Label lbl_total;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lbl_received;
+        private System.Windows.Forms.Label lbl_change;
     }
 }
 
