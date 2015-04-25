@@ -13,10 +13,12 @@ namespace Point_of_Sale
     public partial class FormPayment : Form
     {
         public float received;
+        public float total;
 
-        public FormPayment()
+        public FormPayment(float total)
         {
             InitializeComponent();
+            this.total = total;
         }
 
         private void FormPayment_Load(object sender, EventArgs e)
@@ -28,8 +30,15 @@ namespace Point_of_Sale
         {
             if (float.TryParse(txt_received.Text, out received))
             {
-                this.DialogResult = System.Windows.Forms.DialogResult.OK;
-                this.Close();
+                if (total > received)
+                {
+                    MessageBox.Show("Dinero insuficiente.");
+                    txt_received.Clear();
+                }
+                else {
+                    this.DialogResult = System.Windows.Forms.DialogResult.OK;
+                    this.Close();
+                }
             }
             else {
                 MessageBox.Show("Revise que el dato sea numérico.");

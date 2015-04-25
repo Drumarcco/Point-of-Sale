@@ -104,7 +104,7 @@ namespace Point_of_Sale
         }
 
         private void endSale() {
-            FormPayment formPayment = new FormPayment();
+            FormPayment formPayment = new FormPayment(this.total);
             formPayment.ShowDialog();
             if (formPayment.DialogResult == System.Windows.Forms.DialogResult.OK) {
                 lbl_received.Text = formPayment.received.ToString("C2");
