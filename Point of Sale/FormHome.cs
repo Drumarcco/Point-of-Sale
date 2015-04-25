@@ -15,11 +15,45 @@ namespace Point_of_Sale
     public partial class FormHome : Form
     {
         private BindingList<Lot> productList;
+        private float subtotal;
+        private float tax;
+        private float total;
+
         public FormHome()
         {
             InitializeComponent();
             productList = new BindingList<Lot>();
+            subtotal = 0;
+            tax = 0;
+            total = 0;
         }
+
+        private void setSubtotal()
+        {
+            float subtotal = 0;
+            foreach (Lot lot in productList) {
+                subtotal += lot.Product.getRealPrice() * lot.Quantity;
+            }
+            this.subtotal = subtotal;
+        }
+
+        private void setTax(float subtotal) {
+            this.tax = (float)(subtotal * 0.16);
+        }
+
+        private void setTotal(float subtotal, float tax) {
+            this.total = subtotal + tax;
+        }
+
+        private void updateSaleValues() {
+            setSubtotal();
+            setTax(subtotal);
+            setTotal(subtotal, tax);
+            lbl_subtotal.Text = subtotal.ToString("C2");
+            lbl_tax.Text = tax.ToString("C2");
+            lbl_total.Text = total.ToString("C2");
+        }
+
 
         private void txt_Search_KeyDown(object sender, KeyEventArgs e)
         {
@@ -60,6 +94,7 @@ namespace Point_of_Sale
                     productList.Add(lot);
                 }
                 updateProductListTable();
+                updateSaleValues();
             }
             catch (ArgumentException argEx) {
                 MessageBox.Show(argEx.Message);
@@ -98,6 +133,12 @@ namespace Point_of_Sale
                 row.Cells[5].Value = lot.Subtotal;
                 dag_productTable.Rows.Add(row);
             }
+        }
+
+        private void productoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormProduct formProduct = new FormProduct();
+            formProduct.ShowDialog();
         }
     }
 }
