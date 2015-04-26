@@ -13,3 +13,18 @@ C:\Users\MarcoAntonio\Documents\Visual Studio 2013\Projects\Point of Sale\Point 
 C:\Users\MarcoAntonio\Documents\Visual Studio 2013\Projects\Point of Sale\Point of Sale\obj\Debug\Point_of_Sale.DialogProductSearch.resources
 C:\Users\MarcoAntonio\Documents\Visual Studio 2013\Projects\Point of Sale\Point of Sale\obj\Debug\Point_of_Sale.FormPayment.resources
 C:\Users\MarcoAntonio\Documents\Visual Studio 2013\Projects\Point of Sale\Point of Sale\obj\Debug\Point_of_Sale.FormDeleteProducts.resources
+C:\Users\JANN\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\Point of Sale.exe.config
+C:\Users\JANN\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point of Sale.exe
+C:\Users\JANN\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point of Sale.pdb
+C:\Users\JANN\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\Point of Sale.exe
+C:\Users\JANN\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\Point of Sale.pdb
+C:\Users\JANN\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\MySql.Data.dll
+C:\Users\JANN\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point of Sale.csprojResolveAssemblyReference.cache
+C:\Users\JANN\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.DialogProductSearch.resources
+C:\Users\JANN\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormDeleteProducts.resources
+C:\Users\JANN\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormHome.resources
+C:\Users\JANN\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormLogIn.resources
+C:\Users\JANN\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormPayment.resources
+C:\Users\JANN\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormProduct.resources
+C:\Users\JANN\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.Properties.Resources.resources
+C:\Users\JANN\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point of Sale.csproj.GenerateResource.Cache
