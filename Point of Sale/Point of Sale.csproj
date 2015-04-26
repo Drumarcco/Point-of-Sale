@@ -69,6 +69,12 @@
     <Compile Include="DialogProductSearch.Designer.cs">
       <DependentUpon>DialogProductSearch.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormDeleteProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDeleteProducts.Designer.cs">
+      <DependentUpon>FormDeleteProducts.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormLogIn.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +113,9 @@
     </Compile>
     <EmbeddedResource Include="DialogProductSearch.resx">
       <DependentUpon>DialogProductSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDeleteProducts.resx">
+      <DependentUpon>FormDeleteProducts.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormHome.resx">
       <DependentUpon>FormHome.cs</DependentUpon>

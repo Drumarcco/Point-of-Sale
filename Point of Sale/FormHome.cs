@@ -187,5 +187,11 @@ namespace Point_of_Sale
             resetLabels();
             dag_productTable.Rows.Clear();
         }
+
+        private void productoToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            FormDeleteProducts frm = new FormDeleteProducts();
+            frm.Show();
+        }
     }
 }

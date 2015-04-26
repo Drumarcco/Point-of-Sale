@@ -12,3 +12,4 @@ C:\Users\MarcoAntonio\Documents\Visual Studio 2013\Projects\Point of Sale\Point 
 C:\Users\MarcoAntonio\Documents\Visual Studio 2013\Projects\Point of Sale\Point of Sale\obj\Debug\Point_of_Sale.FormLogIn.resources
 C:\Users\MarcoAntonio\Documents\Visual Studio 2013\Projects\Point of Sale\Point of Sale\obj\Debug\Point_of_Sale.DialogProductSearch.resources
 C:\Users\MarcoAntonio\Documents\Visual Studio 2013\Projects\Point of Sale\Point of Sale\obj\Debug\Point_of_Sale.FormPayment.resources
+C:\Users\MarcoAntonio\Documents\Visual Studio 2013\Projects\Point of Sale\Point of Sale\obj\Debug\Point_of_Sale.FormDeleteProducts.resources
