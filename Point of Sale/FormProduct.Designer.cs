@@ -33,21 +33,21 @@
             this.txt_name = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.cbx_provider = new System.Windows.Forms.ComboBox();
-            this.providerBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this._point_of_saleDataSet1 = new Point_of_Sale._point_of_saleDataSet();
             this.label3 = new System.Windows.Forms.Label();
             this.cbx_category = new System.Windows.Forms.ComboBox();
-            this.categoryBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.label4 = new System.Windows.Forms.Label();
             this.txt_cost = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.txt_price = new System.Windows.Forms.TextBox();
             this.btn_save = new System.Windows.Forms.Button();
             this.btn_cancel = new System.Windows.Forms.Button();
+            this._point_of_saleDataSet1 = new Point_of_Sale._point_of_saleDataSet();
+            this.providerBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.providerTableAdapter1 = new Point_of_Sale._point_of_saleDataSetTableAdapters.providerTableAdapter();
+            this.categoryBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.categoryTableAdapter = new Point_of_Sale._point_of_saleDataSetTableAdapters.categoryTableAdapter();
-            ((System.ComponentModel.ISupportInitialize)(this.providerBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this._point_of_saleDataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.providerBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.categoryBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
@@ -90,16 +90,6 @@
             this.cbx_provider.TabIndex = 3;
             this.cbx_provider.ValueMember = "ID";
             // 
-            // providerBindingSource
-            // 
-            this.providerBindingSource.DataMember = "provider";
-            this.providerBindingSource.DataSource = this._point_of_saleDataSet1;
-            // 
-            // _point_of_saleDataSet1
-            // 
-            this._point_of_saleDataSet1.DataSetName = "_point_of_saleDataSet";
-            this._point_of_saleDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -121,11 +111,6 @@
             this.cbx_category.Size = new System.Drawing.Size(212, 21);
             this.cbx_category.TabIndex = 5;
             this.cbx_category.ValueMember = "ID";
-            // 
-            // categoryBindingSource
-            // 
-            this.categoryBindingSource.DataMember = "category";
-            this.categoryBindingSource.DataSource = this._point_of_saleDataSet1;
             // 
             // label4
             // 
@@ -160,7 +145,6 @@
             this.txt_price.Name = "txt_price";
             this.txt_price.Size = new System.Drawing.Size(212, 20);
             this.txt_price.TabIndex = 9;
-            this.txt_price.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt_price_KeyDown);
             // 
             // btn_save
             // 
@@ -184,9 +168,24 @@
             this.btn_cancel.UseVisualStyleBackColor = true;
             this.btn_cancel.Click += new System.EventHandler(this.btn_cancel_Click);
             // 
+            // _point_of_saleDataSet1
+            // 
+            this._point_of_saleDataSet1.DataSetName = "_point_of_saleDataSet";
+            this._point_of_saleDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // providerBindingSource
+            // 
+            this.providerBindingSource.DataMember = "provider";
+            this.providerBindingSource.DataSource = this._point_of_saleDataSet1;
+            // 
             // providerTableAdapter1
             // 
             this.providerTableAdapter1.ClearBeforeFill = true;
+            // 
+            // categoryBindingSource
+            // 
+            this.categoryBindingSource.DataMember = "category";
+            this.categoryBindingSource.DataSource = this._point_of_saleDataSet1;
             // 
             // categoryTableAdapter
             // 
@@ -212,8 +211,8 @@
             this.Name = "FormProduct";
             this.Text = "Producto";
             this.Load += new System.EventHandler(this.FormProduct_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.providerBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this._point_of_saleDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.providerBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.categoryBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

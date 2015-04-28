@@ -10,7 +10,6 @@ using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 
 
-
 namespace Point_of_Sale
 {
     public partial class FormHome : Form
@@ -25,7 +24,6 @@ namespace Point_of_Sale
         {
             InitializeComponent();
             newSale();
-            
         }
 
         private void setSubtotal()
@@ -57,20 +55,6 @@ namespace Point_of_Sale
 
         private void txt_Search_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.F2)
-            {
-                ProductQty frmQty = new ProductQty();
-                frmQty.ShowDialog();
-
-                if (frmQty.DialogResult == System.Windows.Forms.DialogResult.OK)
-                {
-                    float quantity = frmQty.quantity;
-                    setProductQuantity(quantity);
-                    updateProductListTable();
-                    updateSaleValues();
-                }
-                
-            }
             if (e.KeyCode == Keys.Enter) {
                 if (!saleIsActive) {
                     newSale();
@@ -209,27 +193,5 @@ namespace Point_of_Sale
             FormDeleteProducts frm = new FormDeleteProducts();
             frm.Show();
         }
-
-        private void dag_productTable_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-       private void setProductQuantity(float quantity)
-        {
-            productList.Last().Quantity = quantity;
-        }
-
-       private void proveedorToolStripMenuItem_Click(object sender, EventArgs e)
-       {
-           FormProviders frmProvider = new FormProviders();
-           frmProvider.Show();
-       }
-
-       private void proveedorToolStripMenuItem1_Click(object sender, EventArgs e)
-       {
-           FormDeleteProviders frmDeleteProvider = new FormDeleteProviders();
-           frmDeleteProvider.Show();
-       }     
     }
 }
