@@ -13,3 +13,21 @@ C:\Users\MarcoAntonio\Documents\Visual Studio 2013\Projects\Point of Sale\Point 
 C:\Users\MarcoAntonio\Documents\Visual Studio 2013\Projects\Point of Sale\Point of Sale\obj\Debug\Point_of_Sale.DialogProductSearch.resources
 C:\Users\MarcoAntonio\Documents\Visual Studio 2013\Projects\Point of Sale\Point of Sale\obj\Debug\Point_of_Sale.FormPayment.resources
 C:\Users\MarcoAntonio\Documents\Visual Studio 2013\Projects\Point of Sale\Point of Sale\obj\Debug\Point_of_Sale.FormDeleteProducts.resources
+D:\Documents\Visual Studio 2013\Projects\Point-of-Sale\Point of Sale\bin\Debug\Point of Sale.exe.config
+D:\Documents\Visual Studio 2013\Projects\Point-of-Sale\Point of Sale\obj\Debug\Point of Sale.exe
+D:\Documents\Visual Studio 2013\Projects\Point-of-Sale\Point of Sale\obj\Debug\Point of Sale.pdb
+D:\Documents\Visual Studio 2013\Projects\Point-of-Sale\Point of Sale\obj\Debug\Point of Sale.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\Point-of-Sale\Point of Sale\bin\Debug\Point of Sale.exe
+D:\Documents\Visual Studio 2013\Projects\Point-of-Sale\Point of Sale\bin\Debug\Point of Sale.pdb
+D:\Documents\Visual Studio 2013\Projects\Point-of-Sale\Point of Sale\bin\Debug\MySql.Data.dll
+D:\Documents\Visual Studio 2013\Projects\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.DialogProductSearch.resources
+D:\Documents\Visual Studio 2013\Projects\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormDeleteProducts.resources
+D:\Documents\Visual Studio 2013\Projects\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormHome.resources
+D:\Documents\Visual Studio 2013\Projects\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormLogIn.resources
+D:\Documents\Visual Studio 2013\Projects\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormPayment.resources
+D:\Documents\Visual Studio 2013\Projects\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormProduct.resources
+D:\Documents\Visual Studio 2013\Projects\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.Properties.Resources.resources
+D:\Documents\Visual Studio 2013\Projects\Point-of-Sale\Point of Sale\obj\Debug\Point of Sale.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2013\Projects\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.ProductQty.resources
+D:\Documents\Visual Studio 2013\Projects\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormProviders.resources
+D:\Documents\Visual Studio 2013\Projects\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormDeleteProviders.resources

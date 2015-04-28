@@ -75,6 +75,12 @@
     <Compile Include="FormDeleteProducts.Designer.cs">
       <DependentUpon>FormDeleteProducts.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormDeleteProviders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDeleteProviders.Designer.cs">
+      <DependentUpon>FormDeleteProviders.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormLogIn.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +98,18 @@
     </Compile>
     <Compile Include="FormProduct.Designer.cs">
       <DependentUpon>FormProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProviders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProviders.Designer.cs">
+      <DependentUpon>FormProviders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductQty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductQty.Designer.cs">
+      <DependentUpon>ProductQty.cs</DependentUpon>
     </Compile>
     <Compile Include="Sale.cs" />
     <Compile Include="FormHome.cs">
@@ -117,6 +135,9 @@
     <EmbeddedResource Include="FormDeleteProducts.resx">
       <DependentUpon>FormDeleteProducts.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormDeleteProviders.resx">
+      <DependentUpon>FormDeleteProviders.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormHome.resx">
       <DependentUpon>FormHome.cs</DependentUpon>
     </EmbeddedResource>
@@ -128,6 +149,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormProduct.resx">
       <DependentUpon>FormProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProviders.resx">
+      <DependentUpon>FormProviders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductQty.resx">
+      <DependentUpon>ProductQty.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

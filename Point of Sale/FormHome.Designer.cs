@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.txt_Search = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.dag_productTable = new System.Windows.Forms.DataGridView();
@@ -44,6 +44,10 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.nuevoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.productoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.proveedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.eliminarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.productoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.proveedorToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -55,8 +59,8 @@
             this.lbl_received = new System.Windows.Forms.Label();
             this.lbl_change = new System.Windows.Forms.Label();
             this.btn_cancelSale = new System.Windows.Forms.Button();
-            this.eliminarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.productoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.label7 = new System.Windows.Forms.Label();
+            this.btn_deleteProduct = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dag_productTable)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -96,6 +100,7 @@
             this.dag_productTable.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             this.dag_productTable.Size = new System.Drawing.Size(544, 265);
             this.dag_productTable.TabIndex = 2;
+            this.dag_productTable.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dag_productTable_CellContentClick);
             // 
             // ID
             // 
@@ -110,33 +115,33 @@
             // 
             // Quantity
             // 
-            dataGridViewCellStyle9.Format = "N2";
-            dataGridViewCellStyle9.NullValue = null;
-            this.Quantity.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle1.Format = "N2";
+            dataGridViewCellStyle1.NullValue = null;
+            this.Quantity.DefaultCellStyle = dataGridViewCellStyle1;
             this.Quantity.HeaderText = "Cantidad";
             this.Quantity.Name = "Quantity";
             // 
             // Price
             // 
-            dataGridViewCellStyle10.Format = "C2";
-            dataGridViewCellStyle10.NullValue = null;
-            this.Price.DefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle2.Format = "C2";
+            dataGridViewCellStyle2.NullValue = null;
+            this.Price.DefaultCellStyle = dataGridViewCellStyle2;
             this.Price.HeaderText = "Precio Unitario";
             this.Price.Name = "Price";
             // 
             // Discount
             // 
-            dataGridViewCellStyle11.Format = "C2";
-            dataGridViewCellStyle11.NullValue = null;
-            this.Discount.DefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle3.Format = "C2";
+            dataGridViewCellStyle3.NullValue = null;
+            this.Discount.DefaultCellStyle = dataGridViewCellStyle3;
             this.Discount.HeaderText = "Descuento";
             this.Discount.Name = "Discount";
             // 
             // Subtotal
             // 
-            dataGridViewCellStyle12.Format = "C2";
-            dataGridViewCellStyle12.NullValue = null;
-            this.Subtotal.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle4.Format = "C2";
+            dataGridViewCellStyle4.NullValue = null;
+            this.Subtotal.DefaultCellStyle = dataGridViewCellStyle4;
             this.Subtotal.HeaderText = "Importe";
             this.Subtotal.Name = "Subtotal";
             // 
@@ -154,7 +159,8 @@
             // nuevoToolStripMenuItem
             // 
             this.nuevoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.productoToolStripMenuItem});
+            this.productoToolStripMenuItem,
+            this.proveedorToolStripMenuItem});
             this.nuevoToolStripMenuItem.Name = "nuevoToolStripMenuItem";
             this.nuevoToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
             this.nuevoToolStripMenuItem.Text = "Nuevo";
@@ -162,9 +168,39 @@
             // productoToolStripMenuItem
             // 
             this.productoToolStripMenuItem.Name = "productoToolStripMenuItem";
-            this.productoToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
+            this.productoToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
             this.productoToolStripMenuItem.Text = "Producto";
             this.productoToolStripMenuItem.Click += new System.EventHandler(this.productoToolStripMenuItem_Click);
+            // 
+            // proveedorToolStripMenuItem
+            // 
+            this.proveedorToolStripMenuItem.Name = "proveedorToolStripMenuItem";
+            this.proveedorToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.proveedorToolStripMenuItem.Text = "Proveedor";
+            this.proveedorToolStripMenuItem.Click += new System.EventHandler(this.proveedorToolStripMenuItem_Click);
+            // 
+            // eliminarToolStripMenuItem
+            // 
+            this.eliminarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.productoToolStripMenuItem1,
+            this.proveedorToolStripMenuItem1});
+            this.eliminarToolStripMenuItem.Name = "eliminarToolStripMenuItem";
+            this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
+            this.eliminarToolStripMenuItem.Text = "Eliminar";
+            // 
+            // productoToolStripMenuItem1
+            // 
+            this.productoToolStripMenuItem1.Name = "productoToolStripMenuItem1";
+            this.productoToolStripMenuItem1.Size = new System.Drawing.Size(128, 22);
+            this.productoToolStripMenuItem1.Text = "Producto";
+            this.productoToolStripMenuItem1.Click += new System.EventHandler(this.productoToolStripMenuItem1_Click);
+            // 
+            // proveedorToolStripMenuItem1
+            // 
+            this.proveedorToolStripMenuItem1.Name = "proveedorToolStripMenuItem1";
+            this.proveedorToolStripMenuItem1.Size = new System.Drawing.Size(128, 22);
+            this.proveedorToolStripMenuItem1.Text = "Proveedor";
+            this.proveedorToolStripMenuItem1.Click += new System.EventHandler(this.proveedorToolStripMenuItem1_Click);
             // 
             // label2
             // 
@@ -281,25 +317,31 @@
             this.btn_cancelSale.UseVisualStyleBackColor = true;
             this.btn_cancelSale.Click += new System.EventHandler(this.btn_cancelSale_Click);
             // 
-            // eliminarToolStripMenuItem
+            // label7
             // 
-            this.eliminarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.productoToolStripMenuItem1});
-            this.eliminarToolStripMenuItem.Name = "eliminarToolStripMenuItem";
-            this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
-            this.eliminarToolStripMenuItem.Text = "Eliminar";
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(12, 412);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(134, 13);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "F2 = Cantidad de Producto";
             // 
-            // productoToolStripMenuItem1
+            // btn_deleteProduct
             // 
-            this.productoToolStripMenuItem1.Name = "productoToolStripMenuItem1";
-            this.productoToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
-            this.productoToolStripMenuItem1.Text = "Producto";
-            this.productoToolStripMenuItem1.Click += new System.EventHandler(this.productoToolStripMenuItem1_Click);
+            this.btn_deleteProduct.Location = new System.Drawing.Point(109, 347);
+            this.btn_deleteProduct.Name = "btn_deleteProduct";
+            this.btn_deleteProduct.Size = new System.Drawing.Size(75, 45);
+            this.btn_deleteProduct.TabIndex = 16;
+            this.btn_deleteProduct.Text = "Borrar Producto";
+            this.btn_deleteProduct.UseVisualStyleBackColor = true;
+            this.btn_deleteProduct.Click += new System.EventHandler(this.btn_deleteProduct_Click);
             // 
             // FormHome
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.ClientSize = new System.Drawing.Size(786, 446);
+            this.Controls.Add(this.btn_deleteProduct);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.btn_cancelSale);
             this.Controls.Add(this.lbl_change);
             this.Controls.Add(this.lbl_received);
@@ -353,6 +395,10 @@
         private System.Windows.Forms.Button btn_cancelSale;
         private System.Windows.Forms.ToolStripMenuItem eliminarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem productoToolStripMenuItem1;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.ToolStripMenuItem proveedorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem proveedorToolStripMenuItem1;
+        private System.Windows.Forms.Button btn_deleteProduct;
     }
 }
 

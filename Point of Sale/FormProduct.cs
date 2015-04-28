@@ -72,5 +72,13 @@ namespace Point_of_Sale
             this.providerTableAdapter1.Fill(this._point_of_saleDataSet1.provider);
 
         }
+
+        private void txt_price_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btn_save_Click(null, null);
+            }
+        }
     }
 }
