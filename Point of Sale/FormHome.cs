@@ -234,16 +234,24 @@ namespace Point_of_Sale
 
        private void removeProductToList()
        {
-           int row = dag_productTable.CurrentRow.Index;
-           productList.RemoveAt(row);
-           dag_productTable.Rows.RemoveAt(row);
-           resetLabels();
-           updateSaleValues();
+           try
+           {
+               int row = dag_productTable.CurrentRow.Index;
+               productList.RemoveAt(row);
+               dag_productTable.Rows.RemoveAt(row);
+               resetLabels();
+               updateSaleValues();
+           }
+           catch{
+
+               resetLabels();
+               updateSaleValues();
+            }
        }
 
        private void btn_deleteProduct_Click(object sender, EventArgs e)
        {
-           removeProductToList();
+               removeProductToList();
        }
     }
 }

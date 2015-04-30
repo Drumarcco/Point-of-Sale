@@ -16,6 +16,8 @@ namespace Point_of_Sale
         public FormLogIn()
         {
             InitializeComponent();
+            txt_user.Text = "arturo";
+            txt_password.Text = "arturo";
          
         }
 
@@ -34,7 +36,8 @@ namespace Point_of_Sale
             }
             catch (MySqlException ex)
             {
-                MessageBox.Show("Usuario o contraseña incorrecto(s).");
+              //  MessageBox.Show("Usuario o contraseña incorrecto(s).");
+                MessageBox.Show(ex.Message);
             }
 
         }
