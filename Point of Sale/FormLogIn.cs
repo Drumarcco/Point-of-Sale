@@ -34,7 +34,8 @@ namespace Point_of_Sale
             }
             catch (MySqlException ex)
             {
-                MessageBox.Show("Usuario o contraseña incorrecto(s).");
+              //  MessageBox.Show("Usuario o contraseña incorrecto(s).");
+                MessageBox.Show(ex.Message);
             }
 
         }

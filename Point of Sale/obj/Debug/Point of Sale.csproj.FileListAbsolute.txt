@@ -31,6 +31,7 @@ D:\Documents\Visual Studio 2013\Projects\Point-of-Sale\Point of Sale\obj\Debug\P
 D:\Documents\Visual Studio 2013\Projects\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.ProductQty.resources
 D:\Documents\Visual Studio 2013\Projects\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormProviders.resources
 D:\Documents\Visual Studio 2013\Projects\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormDeleteProviders.resources
+<<<<<<< HEAD
 C:\Users\Mario\Music\Javier Rosas - Me a Tratado Bien la Vida (2012)(CorridosAlterados.Net)\Point-of-Sale-master\Point of Sale\bin\Debug\Point of Sale.exe.config
 C:\Users\Mario\Music\Javier Rosas - Me a Tratado Bien la Vida (2012)(CorridosAlterados.Net)\Point-of-Sale-master\Point of Sale\obj\Debug\Point of Sale.exe
 C:\Users\Mario\Music\Javier Rosas - Me a Tratado Bien la Vida (2012)(CorridosAlterados.Net)\Point-of-Sale-master\Point of Sale\obj\Debug\Point of Sale.pdb
@@ -71,3 +72,5 @@ C:\Users\Mario\Documents\Point-of-Sale-master\Point of Sale\obj\Debug\Point_of_S
 C:\Users\Mario\Documents\Point-of-Sale-master\Point of Sale\obj\Debug\Point_of_Sale.ProductQty.resources
 C:\Users\Mario\Documents\Point-of-Sale-master\Point of Sale\obj\Debug\Point_of_Sale.Properties.Resources.resources
 C:\Users\Mario\Documents\Point-of-Sale-master\Point of Sale\obj\Debug\Point of Sale.csproj.GenerateResource.Cache
+=======
+>>>>>>> origin/master
