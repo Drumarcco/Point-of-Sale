@@ -69,17 +69,59 @@
     <Compile Include="DialogProductSearch.Designer.cs">
       <DependentUpon>DialogProductSearch.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormDeleteProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDeleteProducts.Designer.cs">
+      <DependentUpon>FormDeleteProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDeleteProviders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDeleteProviders.Designer.cs">
+      <DependentUpon>FormDeleteProviders.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormLogIn.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormLogIn.Designer.cs">
       <DependentUpon>FormLogIn.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPayment.Designer.cs">
+      <DependentUpon>FormPayment.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormProduct.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormProduct.Designer.cs">
       <DependentUpon>FormProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProviders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProviders.Designer.cs">
+      <DependentUpon>FormProviders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUpdateProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUpdateProduct.Designer.cs">
+      <DependentUpon>FormUpdateProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUpdateProvider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUpdateProvider.Designer.cs">
+      <DependentUpon>FormUpdateProvider.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductQty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductQty.Designer.cs">
+      <DependentUpon>ProductQty.cs</DependentUpon>
     </Compile>
     <Compile Include="Sale.cs" />
     <Compile Include="FormHome.cs">
@@ -99,8 +141,19 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>_point_of_saleDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="_point_of_saleDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_point_of_saleDataSet1.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="DialogProductSearch.resx">
       <DependentUpon>DialogProductSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDeleteProducts.resx">
+      <DependentUpon>FormDeleteProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDeleteProviders.resx">
+      <DependentUpon>FormDeleteProviders.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormHome.resx">
       <DependentUpon>FormHome.cs</DependentUpon>
@@ -108,8 +161,23 @@
     <EmbeddedResource Include="FormLogIn.resx">
       <DependentUpon>FormLogIn.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormPayment.resx">
+      <DependentUpon>FormPayment.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormProduct.resx">
       <DependentUpon>FormProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProviders.resx">
+      <DependentUpon>FormProviders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUpdateProduct.resx">
+      <DependentUpon>FormUpdateProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUpdateProvider.resx">
+      <DependentUpon>FormUpdateProvider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductQty.resx">
+      <DependentUpon>ProductQty.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -139,6 +207,17 @@
     </None>
     <None Include="_point_of_saleDataSet.xss">
       <DependentUpon>_point_of_saleDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="_point_of_saleDataSet1.xsc">
+      <DependentUpon>_point_of_saleDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="_point_of_saleDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_point_of_saleDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_point_of_saleDataSet1.xss">
+      <DependentUpon>_point_of_saleDataSet1.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

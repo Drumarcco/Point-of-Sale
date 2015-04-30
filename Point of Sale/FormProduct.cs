@@ -14,10 +14,19 @@ namespace Point_of_Sale
     public partial class FormProduct : Form
     {
         private Product _product;
+        private bool productexist = false;
+        
         public FormProduct()
         {
             InitializeComponent();
             _product = new Product();
+        }
+        public FormProduct(int ID)
+        {
+            InitializeComponent();
+            _product = new Product(ID);
+            productexist = true;
+            setValues();
         }
 
         private void btn_save_Click(object sender, EventArgs e)
@@ -28,22 +37,46 @@ namespace Point_of_Sale
                 connection.Open();
                 saveProduct();
 
-                MySqlCommand cmd = new MySqlCommand("insert_product", connection);
-                cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@Name", _product.Name);
-                cmd.Parameters.AddWithValue("@Category", _product.Category);
-                cmd.Parameters.AddWithValue("@Cost", _product.Cost);
-                cmd.Parameters.AddWithValue("@Price", _product.Price);
-                cmd.Parameters.AddWithValue("@DiscountPercent", 0);
-                cmd.Parameters.AddWithValue("@Provider", _product.Provider);
+                if (productexist == false)
+                {
+                    MySqlCommand cmd = new MySqlCommand("insert_product", connection);
+                    cmd.CommandType = CommandType.StoredProcedure;     
+                    cmd.Parameters.AddWithValue("@Name", _product.Name);
+                    cmd.Parameters.AddWithValue("@Category", _product.Category);
+                    cmd.Parameters.AddWithValue("@Cost", _product.Cost);
+                    cmd.Parameters.AddWithValue("@Price", _product.Price);
+                    cmd.Parameters.AddWithValue("@DiscountPercent", 0);
+                    cmd.Parameters.AddWithValue("@Provider", _product.Provider);
 
-                cmd.ExecuteNonQuery();
-                this.Close();
+                    cmd.ExecuteNonQuery();
+                    this.Close();
+                }
+
+                else
+                {
+                    MySqlCommand cmd = new MySqlCommand("update_product", connection);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@Name", _product.Name);
+                    cmd.Parameters.AddWithValue("@cid", _product.Id);
+                    cmd.Parameters.AddWithValue("@Category", _product.Category);
+                    cmd.Parameters.AddWithValue("@Cost", _product.Cost);
+                    cmd.Parameters.AddWithValue("@Price", _product.Price);
+                    cmd.Parameters.AddWithValue("@DiscountPercent", 0);
+                    cmd.Parameters.AddWithValue("@Provider", _product.Provider);
+
+                    cmd.ExecuteNonQuery();
+                    this.DialogResult = System.Windows.Forms.DialogResult.OK;
+                    this.Close();
+
+                }
+
+
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
+           
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
         }
 
         private void saveProduct()
@@ -53,6 +86,16 @@ namespace Point_of_Sale
             _product.Category = (int) cbx_category.SelectedValue;
             _product.Cost = float.Parse(txt_cost.Text);
             _product.Price = float.Parse(txt_price.Text);
+        }
+
+        private void setValues()
+        {
+            
+            txt_name.Text = _product.Name;
+            cbx_provider.SelectedValue = _product.Provider;
+            cbx_category.SelectedValue = _product.Category;
+            txt_cost.Text = _product.Cost.ToString();
+            txt_price.Text = _product.Price.ToString();
         }
 
 
@@ -71,6 +114,14 @@ namespace Point_of_Sale
             this.providerTableAdapter1.Connection.ConnectionString = DBConnect.ConnectionString;
             this.providerTableAdapter1.Fill(this._point_of_saleDataSet1.provider);
 
+        }
+
+        private void txt_price_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btn_save_Click(null, null);
+            }
         }
     }
 }

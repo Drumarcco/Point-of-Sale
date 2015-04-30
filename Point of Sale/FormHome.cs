@@ -10,37 +10,128 @@ using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 
 
+
 namespace Point_of_Sale
 {
     public partial class FormHome : Form
     {
         private BindingList<Lot> productList;
+        private float subtotal;
+        private float tax;
+        private float total;
+        private bool saleIsActive;
+
         public FormHome()
         {
             InitializeComponent();
-            productList = new BindingList<Lot>();
+            newSale();
+            
         }
+
+        private void setSubtotal()
+        {
+            float subtotal = 0;
+            foreach (Lot lot in productList) {
+                subtotal += lot.Product.getRealPrice() * lot.Quantity;
+            }
+            this.subtotal = subtotal;
+        }
+
+        private void setTax(float subtotal) {
+            this.tax = (float)(subtotal * 0.16);
+        }
+
+        private void setTotal(float subtotal, float tax) {
+            this.total = subtotal + tax;
+        }
+
+        private void updateSaleValues() {
+            setSubtotal();
+            setTax(subtotal);
+            setTotal(subtotal, tax);
+            lbl_subtotal.Text = subtotal.ToString("C2");
+            lbl_tax.Text = tax.ToString("C2");
+            lbl_total.Text = total.ToString("C2");
+        }
+
 
         private void txt_Search_KeyDown(object sender, KeyEventArgs e)
         {
+            if (e.KeyCode == Keys.F2)
+            {
+                ProductQty frmQty = new ProductQty();
+                frmQty.ShowDialog();
+
+                if (frmQty.DialogResult == System.Windows.Forms.DialogResult.OK)
+                {
+                    float quantity = frmQty.quantity;
+                    setProductQuantity(quantity);
+                    updateProductListTable();
+                    updateSaleValues();
+                }
+ 
+            }
             if (e.KeyCode == Keys.Enter) {
+                if (!saleIsActive) {
+                    newSale();
+                }
                 int productID;
                 if (! int.TryParse(txt_Search.Text, out productID))
                 {
-                    DialogProductSearch productSearch = new DialogProductSearch(txt_Search.Text);
-                    productSearch.ShowDialog();
-                    if (productSearch.DialogResult == DialogResult.OK)
+                    if (txt_Search.Text.Trim() == "" && productList.Count > 0)
                     {
-                        productID = productSearch.productId;
+                        endSale();
+                        return;
                     }
                     else {
-                        txt_Search.Clear();
-                        return;
+                        DialogProductSearch productSearch = new DialogProductSearch(txt_Search.Text);
+                        productSearch.ShowDialog();
+                        if (productSearch.DialogResult == DialogResult.OK)
+                        {
+                            productID = productSearch.productId;
+                        }
+                        else
+                        {
+                            txt_Search.Clear();
+                            return;
+                        }
                     }
                 }
                 addProductToList(productID);
                 txt_Search.Clear();
             }
+        }
+
+        private void newSale() {
+            productList = new BindingList<Lot>();
+            subtotal = 0;
+            tax = 0;
+            total = 0;
+            saleIsActive = true;
+            resetLabels();
+        }
+
+        private void resetLabels() {
+            lbl_change.Text = "-";
+            lbl_received.Text = "-";
+            lbl_subtotal.Text = "-";
+            lbl_tax.Text = "-";
+            lbl_total.Text = "-";
+        }
+
+        private void endSale() {
+            FormPayment formPayment = new FormPayment(this.total);
+            formPayment.ShowDialog();
+            if (formPayment.DialogResult == System.Windows.Forms.DialogResult.OK) {
+                lbl_received.Text = formPayment.received.ToString("C2");
+                updateChange(formPayment.received);
+                saleIsActive = false;
+            }
+        }
+
+        private void updateChange(float received) {
+            float change = received - total;
+            lbl_change.Text = change.ToString("C2");
         }
 
         private void addProductToList(int productID) {
@@ -60,6 +151,7 @@ namespace Point_of_Sale
                     productList.Add(lot);
                 }
                 updateProductListTable();
+                updateSaleValues();
             }
             catch (ArgumentException argEx) {
                 MessageBox.Show(argEx.Message);
@@ -86,7 +178,6 @@ namespace Point_of_Sale
             return -1;
         }
 
-
         private void updateProductListTable() {
             dag_productTable.Rows.Clear();
             foreach (Lot lot in productList) {
@@ -99,5 +190,72 @@ namespace Point_of_Sale
                 dag_productTable.Rows.Add(row);
             }
         }
+
+        private void productoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormProduct formProduct = new FormProduct();
+            formProduct.ShowDialog();
+        }
+
+        private void btn_cancelSale_Click(object sender, EventArgs e)
+        {
+            newSale();
+            resetLabels();
+            dag_productTable.Rows.Clear();
+        }
+
+        private void productoToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            FormDeleteProducts frm = new FormDeleteProducts();
+            frm.Show();
+        }
+
+        private void dag_productTable_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+       private void setProductQuantity(float quantity)
+        {
+            productList.Last().Quantity = quantity;
+        }
+
+       private void proveedorToolStripMenuItem_Click(object sender, EventArgs e)
+       {
+           FormProviders frmProvider = new FormProviders();
+           frmProvider.Show();
+       }
+
+       private void proveedorToolStripMenuItem1_Click(object sender, EventArgs e)
+       {
+           FormDeleteProviders frmDeleteProvider = new FormDeleteProviders();
+           frmDeleteProvider.Show();
+       }
+
+       private void removeProductToList()
+       {
+           int row = dag_productTable.CurrentRow.Index;
+           productList.RemoveAt(row);
+           dag_productTable.Rows.RemoveAt(row);
+           resetLabels();
+           updateSaleValues();
+       }
+
+       private void btn_deleteProduct_Click(object sender, EventArgs e)
+       {
+           removeProductToList();
+       }
+
+       private void productoToolStripMenuItem2_Click(object sender, EventArgs e)
+       {
+           FormUpdateProduct frmproduct = new FormUpdateProduct();
+           frmproduct.ShowDialog();
+       }
+
+       private void provedorToolStripMenuItem_Click(object sender, EventArgs e)
+       {
+           FormUpdateProvider frmupdateprovider = new FormUpdateProvider();
+           frmupdateprovider.ShowDialog();
+       }
     }
 }
