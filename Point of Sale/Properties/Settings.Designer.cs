@@ -26,7 +26,7 @@ namespace Point_of_Sale.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("server=189.171.78.90; port=3306;database=point-of-sale;")]
+        [global::System.Configuration.DefaultSettingValueAttribute("server=localhost;database=point-of-sale;")]
         public string point_of_saleConnectionString {
             get {
                 return ((string)(this["point_of_saleConnectionString"]));

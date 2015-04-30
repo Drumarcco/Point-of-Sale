@@ -105,7 +105,6 @@
     <Compile Include="FormProviders.Designer.cs">
       <DependentUpon>FormProviders.cs</DependentUpon>
     </Compile>
-<<<<<<< HEAD
     <Compile Include="FormUpdateProduct.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,8 +117,6 @@
     <Compile Include="FormUpdateProvider.Designer.cs">
       <DependentUpon>FormUpdateProvider.cs</DependentUpon>
     </Compile>
-=======
->>>>>>> origin/master
     <Compile Include="ProductQty.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -173,15 +170,12 @@
     <EmbeddedResource Include="FormProviders.resx">
       <DependentUpon>FormProviders.cs</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
     <EmbeddedResource Include="FormUpdateProduct.resx">
       <DependentUpon>FormUpdateProduct.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormUpdateProvider.resx">
       <DependentUpon>FormUpdateProvider.cs</DependentUpon>
     </EmbeddedResource>
-=======
->>>>>>> origin/master
     <EmbeddedResource Include="ProductQty.resx">
       <DependentUpon>ProductQty.cs</DependentUpon>
     </EmbeddedResource>

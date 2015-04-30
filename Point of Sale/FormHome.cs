@@ -84,49 +84,22 @@ namespace Point_of_Sale
                         return;
                     }
                     else {
-                    DialogProductSearch productSearch = new DialogProductSearch(txt_Search.Text);
-                    productSearch.ShowDialog();
-                    if (productSearch.DialogResult == DialogResult.OK)
-                    {
-                        productID = productSearch.productId;
-                    }
+                        DialogProductSearch productSearch = new DialogProductSearch(txt_Search.Text);
+                        productSearch.ShowDialog();
+                        if (productSearch.DialogResult == DialogResult.OK)
+                        {
+                            productID = productSearch.productId;
+                        }
                         else
                         {
-                        txt_Search.Clear();
-                        return;
+                            txt_Search.Clear();
+                            return;
+                        }
                     }
-                }
                 }
                 addProductToList(productID);
                 txt_Search.Clear();
             }
-        }
-
-        private void newSale() {
-            productList = new BindingList<Lot>();
-            subtotal = 0;
-            tax = 0;
-            total = 0;
-            saleIsActive = true;
-            resetLabels();
-        }
-
-        private void resetLabels() {
-            lbl_change.Text = "-";
-            lbl_received.Text = "-";
-            lbl_subtotal.Text = "-";
-            lbl_tax.Text = "-";
-            lbl_total.Text = "-";
-        }
-
-        private void endSale() {
-            FormPayment formPayment = new FormPayment(this.total);
-            formPayment.ShowDialog();
-            if (formPayment.DialogResult == System.Windows.Forms.DialogResult.OK) {
-                lbl_received.Text = formPayment.received.ToString("C2");
-                updateChange(formPayment.received);
-                saleIsActive = false;
-        }
         }
 
         private void newSale() {
@@ -283,6 +256,6 @@ namespace Point_of_Sale
        {
            FormUpdateProvider frmupdateprovider = new FormUpdateProvider();
            frmupdateprovider.ShowDialog();
-        }
+       }
     }
 }
