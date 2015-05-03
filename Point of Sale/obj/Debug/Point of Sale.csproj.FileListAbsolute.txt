@@ -91,3 +91,5 @@ C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Poi
 C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.ProductQty.resources
 C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.Properties.Resources.resources
 C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point of Sale.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2013\Projects\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormUpdateProduct.resources
+D:\Documents\Visual Studio 2013\Projects\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormUpdateProvider.resources
