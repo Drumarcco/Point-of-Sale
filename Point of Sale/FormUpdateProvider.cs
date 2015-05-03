@@ -27,12 +27,8 @@ namespace Point_of_Sale
         { 
             updateData();
             // TODO: esta línea de código carga datos en la tabla '_point_of_saleDataSet1.provider' Puede moverla o quitarla según sea necesario.
+            this.providerTableAdapter1.Connection.ConnectionString = DBConnect.ConnectionString;
             this.providerTableAdapter1.Fill(this._point_of_saleDataSet1.provider);
-           
-
-            // TODO: esta línea de código carga datos en la tabla '_point_of_saleDataSet.provider' Puede moverla o quitarla según sea necesario.
-            //this.providerTableAdapter.Fill(this._point_of_saleDataSet.provider);
-
         }
 
         private void provider_table_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)

@@ -111,8 +111,8 @@ namespace Point_of_Sale
             this.categoryTableAdapter.Connection.ConnectionString = DBConnect.ConnectionString;
             this.categoryTableAdapter.Fill(this._point_of_saleDataSet1.category);
             // TODO: This line of code loads data into the '_point_of_saleDataSet1.provider' table. You can move, or remove it, as needed.
-            this.providerTableAdapter1.Connection.ConnectionString = DBConnect.ConnectionString;
-            this.providerTableAdapter1.Fill(this._point_of_saleDataSet1.provider);
+            
+            //this.providerTableAdapter1.Fill(this._point_of_saleDataSet1.provider);
 
         }
 
