@@ -141,6 +141,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>_point_of_saleDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="_point_of_saleDataSet1.cs">
+      <DependentUpon>_point_of_saleDataSet1.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="_point_of_saleDataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

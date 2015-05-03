@@ -107,6 +107,9 @@ namespace Point_of_Sale
 
         private void FormProduct_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the '_point_of_saleDataSet11.provider' table. You can move, or remove it, as needed.
+            this.providerTableAdapter1.Connection.ConnectionString = DBConnect.ConnectionString;
+            this.providerTableAdapter1.Fill(this._point_of_saleDataSet11.provider);
             // TODO: This line of code loads data into the '_point_of_saleDataSet1.category' table. You can move, or remove it, as needed.
             this.categoryTableAdapter.Connection.ConnectionString = DBConnect.ConnectionString;
             this.categoryTableAdapter.Fill(this._point_of_saleDataSet1.category);

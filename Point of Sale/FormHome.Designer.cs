@@ -72,7 +72,7 @@
             // 
             this.txt_Search.Location = new System.Drawing.Point(76, 32);
             this.txt_Search.Name = "txt_Search";
-            this.txt_Search.Size = new System.Drawing.Size(483, 22);
+            this.txt_Search.Size = new System.Drawing.Size(483, 20);
             this.txt_Search.TabIndex = 0;
             this.txt_Search.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt_Search_KeyDown);
             // 
@@ -81,7 +81,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 17);
+            this.label1.Size = new System.Drawing.Size(58, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "Búsqueda:";
             // 
@@ -156,7 +156,7 @@
             this.modificarToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(786, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(786, 24);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -166,20 +166,20 @@
             this.productoToolStripMenuItem,
             this.proveedorToolStripMenuItem});
             this.nuevoToolStripMenuItem.Name = "nuevoToolStripMenuItem";
-            this.nuevoToolStripMenuItem.Size = new System.Drawing.Size(64, 24);
+            this.nuevoToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
             this.nuevoToolStripMenuItem.Text = "Nuevo";
             // 
             // productoToolStripMenuItem
             // 
             this.productoToolStripMenuItem.Name = "productoToolStripMenuItem";
-            this.productoToolStripMenuItem.Size = new System.Drawing.Size(146, 24);
+            this.productoToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
             this.productoToolStripMenuItem.Text = "Producto";
             this.productoToolStripMenuItem.Click += new System.EventHandler(this.productoToolStripMenuItem_Click);
             // 
             // proveedorToolStripMenuItem
             // 
             this.proveedorToolStripMenuItem.Name = "proveedorToolStripMenuItem";
-            this.proveedorToolStripMenuItem.Size = new System.Drawing.Size(146, 24);
+            this.proveedorToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
             this.proveedorToolStripMenuItem.Text = "Proveedor";
             this.proveedorToolStripMenuItem.Click += new System.EventHandler(this.proveedorToolStripMenuItem_Click);
             // 
@@ -189,20 +189,20 @@
             this.productoToolStripMenuItem1,
             this.proveedorToolStripMenuItem1});
             this.eliminarToolStripMenuItem.Name = "eliminarToolStripMenuItem";
-            this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(75, 24);
+            this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
             this.eliminarToolStripMenuItem.Text = "Eliminar";
             // 
             // productoToolStripMenuItem1
             // 
             this.productoToolStripMenuItem1.Name = "productoToolStripMenuItem1";
-            this.productoToolStripMenuItem1.Size = new System.Drawing.Size(146, 24);
+            this.productoToolStripMenuItem1.Size = new System.Drawing.Size(128, 22);
             this.productoToolStripMenuItem1.Text = "Producto";
             this.productoToolStripMenuItem1.Click += new System.EventHandler(this.productoToolStripMenuItem1_Click);
             // 
             // proveedorToolStripMenuItem1
             // 
             this.proveedorToolStripMenuItem1.Name = "proveedorToolStripMenuItem1";
-            this.proveedorToolStripMenuItem1.Size = new System.Drawing.Size(146, 24);
+            this.proveedorToolStripMenuItem1.Size = new System.Drawing.Size(128, 22);
             this.proveedorToolStripMenuItem1.Text = "Proveedor";
             this.proveedorToolStripMenuItem1.Click += new System.EventHandler(this.proveedorToolStripMenuItem1_Click);
             // 
@@ -212,20 +212,20 @@
             this.productoToolStripMenuItem2,
             this.provedorToolStripMenuItem});
             this.modificarToolStripMenuItem.Name = "modificarToolStripMenuItem";
-            this.modificarToolStripMenuItem.Size = new System.Drawing.Size(85, 24);
+            this.modificarToolStripMenuItem.Size = new System.Drawing.Size(70, 20);
             this.modificarToolStripMenuItem.Text = "Modificar";
             // 
             // productoToolStripMenuItem2
             // 
             this.productoToolStripMenuItem2.Name = "productoToolStripMenuItem2";
-            this.productoToolStripMenuItem2.Size = new System.Drawing.Size(175, 24);
+            this.productoToolStripMenuItem2.Size = new System.Drawing.Size(128, 22);
             this.productoToolStripMenuItem2.Text = "Producto";
             this.productoToolStripMenuItem2.Click += new System.EventHandler(this.productoToolStripMenuItem2_Click);
             // 
             // provedorToolStripMenuItem
             // 
             this.provedorToolStripMenuItem.Name = "provedorToolStripMenuItem";
-            this.provedorToolStripMenuItem.Size = new System.Drawing.Size(175, 24);
+            this.provedorToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
             this.provedorToolStripMenuItem.Text = "Proveedor";
             this.provedorToolStripMenuItem.Click += new System.EventHandler(this.provedorToolStripMenuItem_Click);
             // 
@@ -236,7 +236,7 @@
             this.label2.Location = new System.Drawing.Point(573, 79);
             this.label2.Margin = new System.Windows.Forms.Padding(3, 0, 3, 10);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(109, 32);
+            this.label2.Size = new System.Drawing.Size(86, 25);
             this.label2.TabIndex = 4;
             this.label2.Text = "Subtotal:";
             // 
@@ -247,7 +247,7 @@
             this.label3.Location = new System.Drawing.Point(573, 112);
             this.label3.Margin = new System.Windows.Forms.Padding(3, 0, 3, 10);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(109, 32);
+            this.label3.Size = new System.Drawing.Size(86, 25);
             this.label3.TabIndex = 5;
             this.label3.Text = "IVA 16%:";
             // 
@@ -258,7 +258,7 @@
             this.label4.Location = new System.Drawing.Point(601, 146);
             this.label4.Margin = new System.Windows.Forms.Padding(3, 0, 3, 10);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(73, 32);
+            this.label4.Size = new System.Drawing.Size(58, 25);
             this.label4.TabIndex = 6;
             this.label4.Text = "Total:";
             // 
@@ -268,7 +268,7 @@
             this.lbl_subtotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_subtotal.Location = new System.Drawing.Point(679, 76);
             this.lbl_subtotal.Name = "lbl_subtotal";
-            this.lbl_subtotal.Size = new System.Drawing.Size(25, 36);
+            this.lbl_subtotal.Size = new System.Drawing.Size(21, 29);
             this.lbl_subtotal.TabIndex = 7;
             this.lbl_subtotal.Text = "-";
             // 
@@ -278,7 +278,7 @@
             this.lbl_tax.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_tax.Location = new System.Drawing.Point(679, 108);
             this.lbl_tax.Name = "lbl_tax";
-            this.lbl_tax.Size = new System.Drawing.Size(25, 36);
+            this.lbl_tax.Size = new System.Drawing.Size(21, 29);
             this.lbl_tax.TabIndex = 8;
             this.lbl_tax.Text = "-";
             // 
@@ -288,7 +288,7 @@
             this.lbl_total.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_total.Location = new System.Drawing.Point(679, 143);
             this.lbl_total.Name = "lbl_total";
-            this.lbl_total.Size = new System.Drawing.Size(25, 36);
+            this.lbl_total.Size = new System.Drawing.Size(21, 29);
             this.lbl_total.TabIndex = 9;
             this.lbl_total.Text = "-";
             // 
@@ -299,7 +299,7 @@
             this.label5.Location = new System.Drawing.Point(570, 226);
             this.label5.Margin = new System.Windows.Forms.Padding(3, 0, 3, 10);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(112, 32);
+            this.label5.Size = new System.Drawing.Size(89, 25);
             this.label5.TabIndex = 10;
             this.label5.Text = "Recibido:";
             // 
@@ -310,7 +310,7 @@
             this.label6.Location = new System.Drawing.Point(578, 261);
             this.label6.Margin = new System.Windows.Forms.Padding(3, 0, 3, 10);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(102, 32);
+            this.label6.Size = new System.Drawing.Size(81, 25);
             this.label6.TabIndex = 11;
             this.label6.Text = "Cambio:";
             // 
@@ -320,7 +320,7 @@
             this.lbl_received.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_received.Location = new System.Drawing.Point(679, 223);
             this.lbl_received.Name = "lbl_received";
-            this.lbl_received.Size = new System.Drawing.Size(25, 36);
+            this.lbl_received.Size = new System.Drawing.Size(21, 29);
             this.lbl_received.TabIndex = 12;
             this.lbl_received.Text = "-";
             // 
@@ -330,7 +330,7 @@
             this.lbl_change.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_change.Location = new System.Drawing.Point(679, 258);
             this.lbl_change.Name = "lbl_change";
-            this.lbl_change.Size = new System.Drawing.Size(25, 36);
+            this.lbl_change.Size = new System.Drawing.Size(21, 29);
             this.lbl_change.TabIndex = 13;
             this.lbl_change.Text = "-";
             // 
@@ -340,6 +340,7 @@
             this.btn_cancelSale.Name = "btn_cancelSale";
             this.btn_cancelSale.Size = new System.Drawing.Size(75, 45);
             this.btn_cancelSale.TabIndex = 14;
+            this.btn_cancelSale.TabStop = false;
             this.btn_cancelSale.Text = "Cancelar Venta";
             this.btn_cancelSale.UseVisualStyleBackColor = true;
             this.btn_cancelSale.Click += new System.EventHandler(this.btn_cancelSale_Click);
@@ -349,7 +350,7 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(12, 412);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(177, 17);
+            this.label7.Size = new System.Drawing.Size(134, 13);
             this.label7.TabIndex = 15;
             this.label7.Text = "F2 = Cantidad de Producto";
             // 

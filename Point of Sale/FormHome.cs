@@ -59,17 +59,7 @@ namespace Point_of_Sale
         {
             if (e.KeyCode == Keys.F2)
             {
-                ProductQty frmQty = new ProductQty();
-                frmQty.ShowDialog();
-
-                if (frmQty.DialogResult == System.Windows.Forms.DialogResult.OK)
-                {
-                    float quantity = frmQty.quantity;
-                    setProductQuantity(quantity);
-                    updateProductListTable();
-                    updateSaleValues();
-                }
- 
+                showQuantityChanger();
             }
             if (e.KeyCode == Keys.Enter) {
                 if (!saleIsActive) {
@@ -78,7 +68,7 @@ namespace Point_of_Sale
                 int productID;
                 if (! int.TryParse(txt_Search.Text, out productID))
                 {
-                    if (txt_Search.Text.Trim() == "" && productList.Count > 0)
+                    if (isSaleReadyToEnd())
                     {
                         endSale();
                         return;
@@ -99,6 +89,23 @@ namespace Point_of_Sale
                 }
                 addProductToList(productID);
                 txt_Search.Clear();
+            }
+        }
+
+        private bool isSaleReadyToEnd() {
+            return txt_Search.Text.Trim() == "" && productList.Count > 0;
+        }
+
+        private void showQuantityChanger() {
+            ProductQty frmQty = new ProductQty();
+            frmQty.ShowDialog();
+
+            if (frmQty.DialogResult == System.Windows.Forms.DialogResult.OK)
+            {
+                float quantity = frmQty.quantity;
+                setProductQuantity(quantity);
+                updateProductListTable();
+                updateSaleValues();
             }
         }
 
@@ -123,9 +130,49 @@ namespace Point_of_Sale
             FormPayment formPayment = new FormPayment(this.total);
             formPayment.ShowDialog();
             if (formPayment.DialogResult == System.Windows.Forms.DialogResult.OK) {
-                lbl_received.Text = formPayment.received.ToString("C2");
+                float receivedMoney = formPayment.received;
+                lbl_received.Text = receivedMoney.ToString("C2");
                 updateChange(formPayment.received);
                 saleIsActive = false;
+
+                registerSaleOnDatabase();
+            }
+        }
+
+        private void registerSaleOnDatabase() {
+            MySqlConnection connection = new MySqlConnection(DBConnect.ConnectionString);
+            try
+            {
+                connection.Open();
+                MySqlCommand command = new MySqlCommand("insert_sale", connection);
+                command.CommandType = CommandType.StoredProcedure;
+                command.Parameters.AddWithValue("@Subtotal", this.subtotal);
+                command.ExecuteNonQuery();
+
+                int saleID = 0;
+                command = new MySqlCommand("SELECT LAST_INSERT_ID()", connection);
+                command.CommandType = CommandType.Text;
+                saleID = Convert.ToInt32(command.ExecuteScalar());
+
+                command = new MySqlCommand("insert_product_sale", connection);
+                command.CommandType = CommandType.StoredProcedure;
+                foreach (Lot lot in productList)
+                {
+                    command.Parameters.AddWithValue("@Product", lot.Product.Id);
+                    command.Parameters.AddWithValue("@Sale", saleID);
+                    command.Parameters.AddWithValue("@Quantity", lot.Quantity);
+                    command.Parameters.AddWithValue("@CurrentPrice", lot.Product.getRealPrice());
+                    command.ExecuteNonQuery();
+                }
+            }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally {
+                if (connection != null) {
+                    connection.Close();
+                }
             }
         }
 
