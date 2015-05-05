@@ -21,7 +21,6 @@ namespace Point_of_Sale
         public FormUpdateProduct()
         {
             InitializeComponent();
-            
         }
 
         private void FormUpdateProduct_Load(object sender, EventArgs e)
@@ -31,35 +30,24 @@ namespace Point_of_Sale
             updateData();
         }
 
-        private void product_table_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            String ID = product_table.CurrentRow.Cells[0].Value.ToString();
-            frmproduct = new FormProduct(int.Parse(ID));
-
-            if (frmproduct.DialogResult == System.Windows.Forms.DialogResult.OK)
-            {
-                updateData();
-            }
-        }
-
         private void updateData()
         {
             MySqlConnection connection = new MySqlConnection(DBConnect.ConnectionString);
    
             try 
-	            {
+	        {
 	            connection.Open();
                 da = new MySqlDataAdapter("SELECT * FROM product;", connection);
                 ds = new DataSet();
                 da.Fill(ds, sTable);
                 connection.Close();
-	            }
+            }
 
 	        catch (MySql.Data.MySqlClient.MySqlException ex)
-	           {
+	        {
                 MessageBox.Show(ex.Message);
                 connection.Close();
-	            }
+	        }
             
             finally 
             {
@@ -72,15 +60,13 @@ namespace Point_of_Sale
         private void product_table_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             String ID = product_table.CurrentRow.Cells[0].Value.ToString();
-            MessageBox.Show(ID);
             frmproduct = new FormProduct(int.Parse(ID));
-   
+            frmproduct.ShowDialog();
 
             if (frmproduct.DialogResult == System.Windows.Forms.DialogResult.OK)
             {
                 updateData();
             }
-
         } 
     }
 }

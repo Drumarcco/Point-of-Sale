@@ -70,7 +70,6 @@
             this.product_table.ReadOnly = true;
             this.product_table.Size = new System.Drawing.Size(994, 222);
             this.product_table.TabIndex = 0;
-            this.product_table.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.product_table_CellContentClick);
             this.product_table.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.product_table_CellDoubleClick);
             // 
             // iDDataGridViewTextBoxColumn
