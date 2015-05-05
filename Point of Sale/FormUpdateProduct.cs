@@ -74,7 +74,7 @@ namespace Point_of_Sale
             String ID = product_table.CurrentRow.Cells[0].Value.ToString();
             MessageBox.Show(ID);
             frmproduct = new FormProduct(int.Parse(ID));
-            frmproduct.ShowDialog();
+   
 
             if (frmproduct.DialogResult == System.Windows.Forms.DialogResult.OK)
             {
