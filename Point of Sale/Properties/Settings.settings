@@ -5,18 +5,10 @@
     <Setting Name="point_of_saleConnectionString" Type="(Connection string)" Scope="Application">
       <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;ConnectionString&gt;server=localhost;database=point-of-sale;&lt;/ConnectionString&gt;
+  &lt;ConnectionString&gt;server=189.171.78.90;port=3306;database=point-of-sale;&lt;/ConnectionString&gt;
   &lt;ProviderName&gt;MySql.Data.MySqlClient&lt;/ProviderName&gt;
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
-      <Value Profile="(Default)">server=localhost;database=point-of-sale;</Value>
-    </Setting>
-    <Setting Name="point_of_saleConnectionString1" Type="(Connection string)" Scope="Application">
-      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
-&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;ConnectionString&gt;server=localhost;user id=root;password=AbCd501;persistsecurityinfo=True;database=point-of-sale;allowuservariables=True&lt;/ConnectionString&gt;
-  &lt;ProviderName&gt;MySql.Data.MySqlClient&lt;/ProviderName&gt;
-&lt;/SerializableConnectionString&gt;</DesignTimeValue>
-      <Value Profile="(Default)">server=localhost;user id=root;password=AbCd501;persistsecurityinfo=True;database=point-of-sale;allowuservariables=True</Value>
+      <Value Profile="(Default)">server=189.171.78.90;port=3306;database=point-of-sale;</Value>
     </Setting>
   </Settings>
 </SettingsFile>
