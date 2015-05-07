@@ -69,6 +69,12 @@
     <Compile Include="DialogProductSearch.Designer.cs">
       <DependentUpon>DialogProductSearch.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormAddDeleteInventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddDeleteInventory.Designer.cs">
+      <DependentUpon>FormAddDeleteInventory.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormDeleteProducts.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +123,7 @@
     <Compile Include="FormUpdateProvider.Designer.cs">
       <DependentUpon>FormUpdateProvider.cs</DependentUpon>
     </Compile>
+    <Compile Include="Inventory.cs" />
     <Compile Include="ProductQty.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -152,6 +159,9 @@
     </Compile>
     <EmbeddedResource Include="DialogProductSearch.resx">
       <DependentUpon>DialogProductSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddDeleteInventory.resx">
+      <DependentUpon>FormAddDeleteInventory.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormDeleteProducts.resx">
       <DependentUpon>FormDeleteProducts.cs</DependentUpon>
