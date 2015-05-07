@@ -18,6 +18,7 @@ namespace Point_of_Sale
             Application.SetCompatibleTextRenderingDefault(false);
             FormLogIn login = new FormLogIn();
             DialogResult result = login.ShowDialog();
+
             if (result == DialogResult.OK)
             {
                 Application.Run(new FormHome());

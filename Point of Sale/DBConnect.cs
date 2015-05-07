@@ -16,7 +16,7 @@ namespace Point_of_Sale
 
         public static void Initialize()
         {
-            ConnectionString = Properties.Settings.Default.point_of_saleConnectionString;
+            ConnectionString = Properties.Settings.Default.point_of_saleConnectionString1;
             ConnectionString += "Uid=" + Username + ";";
             ConnectionString += "Pwd=" + Password + ";";
         }
