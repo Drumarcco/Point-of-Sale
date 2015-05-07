@@ -3414,7 +3414,7 @@ namespace Point_of_Sale._point_of_saleDataSet1TableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::MySql.Data.MySqlClient.MySqlConnection();
-            this._connection.ConnectionString = global::Point_of_Sale.Properties.Settings.Default.point_of_saleConnectionString;
+            this._connection.ConnectionString = global::Point_of_Sale.Properties.Settings.Default.point_of_saleConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3937,7 +3937,7 @@ namespace Point_of_Sale._point_of_saleDataSet1TableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::MySql.Data.MySqlClient.MySqlConnection();
-            this._connection.ConnectionString = global::Point_of_Sale.Properties.Settings.Default.point_of_saleConnectionString;
+            this._connection.ConnectionString = global::Point_of_Sale.Properties.Settings.Default.point_of_saleConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -4565,7 +4565,7 @@ namespace Point_of_Sale._point_of_saleDataSet1TableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::MySql.Data.MySqlClient.MySqlConnection();
-            this._connection.ConnectionString = global::Point_of_Sale.Properties.Settings.Default.point_of_saleConnectionString;
+            this._connection.ConnectionString = global::Point_of_Sale.Properties.Settings.Default.point_of_saleConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -5051,7 +5051,7 @@ namespace Point_of_Sale._point_of_saleDataSet1TableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::MySql.Data.MySqlClient.MySqlConnection();
-            this._connection.ConnectionString = global::Point_of_Sale.Properties.Settings.Default.point_of_saleConnectionString;
+            this._connection.ConnectionString = global::Point_of_Sale.Properties.Settings.Default.point_of_saleConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -5503,7 +5503,7 @@ namespace Point_of_Sale._point_of_saleDataSet1TableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::MySql.Data.MySqlClient.MySqlConnection();
-            this._connection.ConnectionString = global::Point_of_Sale.Properties.Settings.Default.point_of_saleConnectionString;
+            this._connection.ConnectionString = global::Point_of_Sale.Properties.Settings.Default.point_of_saleConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -6025,7 +6025,7 @@ namespace Point_of_Sale._point_of_saleDataSet1TableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::MySql.Data.MySqlClient.MySqlConnection();
-            this._connection.ConnectionString = global::Point_of_Sale.Properties.Settings.Default.point_of_saleConnectionString;
+            this._connection.ConnectionString = global::Point_of_Sale.Properties.Settings.Default.point_of_saleConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -6246,23 +6246,23 @@ namespace Point_of_Sale._point_of_saleDataSet1TableAdapters {
         private void InitCommandCollection() {
             this._commandCollection = new global::System.Data.IDbCommand[5];
             this._commandCollection[0] = new global::MySql.Data.MySqlClient.MySqlCommand();
-            ((global::MySql.Data.MySqlClient.MySqlCommand)(this._commandCollection[0])).Connection = new global::MySql.Data.MySqlClient.MySqlConnection(global::Point_of_Sale.Properties.Settings.Default.point_of_saleConnectionString);
+            ((global::MySql.Data.MySqlClient.MySqlCommand)(this._commandCollection[0])).Connection = new global::MySql.Data.MySqlClient.MySqlConnection(global::Point_of_Sale.Properties.Settings.Default.point_of_saleConnectionString1);
             ((global::MySql.Data.MySqlClient.MySqlCommand)(this._commandCollection[0])).CommandText = "`point-of-sale`.`delete_provider`";
             ((global::MySql.Data.MySqlClient.MySqlCommand)(this._commandCollection[0])).CommandType = global::System.Data.CommandType.StoredProcedure;
             this._commandCollection[1] = new global::MySql.Data.MySqlClient.MySqlCommand();
-            ((global::MySql.Data.MySqlClient.MySqlCommand)(this._commandCollection[1])).Connection = new global::MySql.Data.MySqlClient.MySqlConnection(global::Point_of_Sale.Properties.Settings.Default.point_of_saleConnectionString);
+            ((global::MySql.Data.MySqlClient.MySqlCommand)(this._commandCollection[1])).Connection = new global::MySql.Data.MySqlClient.MySqlConnection(global::Point_of_Sale.Properties.Settings.Default.point_of_saleConnectionString1);
             ((global::MySql.Data.MySqlClient.MySqlCommand)(this._commandCollection[1])).CommandText = "`point-of-sale`.`insert_product`";
             ((global::MySql.Data.MySqlClient.MySqlCommand)(this._commandCollection[1])).CommandType = global::System.Data.CommandType.StoredProcedure;
             this._commandCollection[2] = new global::MySql.Data.MySqlClient.MySqlCommand();
-            ((global::MySql.Data.MySqlClient.MySqlCommand)(this._commandCollection[2])).Connection = new global::MySql.Data.MySqlClient.MySqlConnection(global::Point_of_Sale.Properties.Settings.Default.point_of_saleConnectionString);
+            ((global::MySql.Data.MySqlClient.MySqlCommand)(this._commandCollection[2])).Connection = new global::MySql.Data.MySqlClient.MySqlConnection(global::Point_of_Sale.Properties.Settings.Default.point_of_saleConnectionString1);
             ((global::MySql.Data.MySqlClient.MySqlCommand)(this._commandCollection[2])).CommandText = "`point-of-sale`.`insert_provider`";
             ((global::MySql.Data.MySqlClient.MySqlCommand)(this._commandCollection[2])).CommandType = global::System.Data.CommandType.StoredProcedure;
             this._commandCollection[3] = new global::MySql.Data.MySqlClient.MySqlCommand();
-            ((global::MySql.Data.MySqlClient.MySqlCommand)(this._commandCollection[3])).Connection = new global::MySql.Data.MySqlClient.MySqlConnection(global::Point_of_Sale.Properties.Settings.Default.point_of_saleConnectionString);
+            ((global::MySql.Data.MySqlClient.MySqlCommand)(this._commandCollection[3])).Connection = new global::MySql.Data.MySqlClient.MySqlConnection(global::Point_of_Sale.Properties.Settings.Default.point_of_saleConnectionString1);
             ((global::MySql.Data.MySqlClient.MySqlCommand)(this._commandCollection[3])).CommandText = "`point-of-sale`.`update_product`";
             ((global::MySql.Data.MySqlClient.MySqlCommand)(this._commandCollection[3])).CommandType = global::System.Data.CommandType.StoredProcedure;
             this._commandCollection[4] = new global::MySql.Data.MySqlClient.MySqlCommand();
-            ((global::MySql.Data.MySqlClient.MySqlCommand)(this._commandCollection[4])).Connection = new global::MySql.Data.MySqlClient.MySqlConnection(global::Point_of_Sale.Properties.Settings.Default.point_of_saleConnectionString);
+            ((global::MySql.Data.MySqlClient.MySqlCommand)(this._commandCollection[4])).Connection = new global::MySql.Data.MySqlClient.MySqlConnection(global::Point_of_Sale.Properties.Settings.Default.point_of_saleConnectionString1);
             ((global::MySql.Data.MySqlClient.MySqlCommand)(this._commandCollection[4])).CommandText = "`point-of-sale`.`update_provider`";
             ((global::MySql.Data.MySqlClient.MySqlCommand)(this._commandCollection[4])).CommandType = global::System.Data.CommandType.StoredProcedure;
         }

@@ -21,14 +21,11 @@ namespace Point_of_Sale
         private float total;
         private bool saleIsActive;
 
-        string keepUser;
-
-        public FormHome(string printUser)
+        public FormHome()
         {
-            keepUser = printUser;
             InitializeComponent();
-            showLoggedUser();
             newSale();
+            
         }
 
         private void setSubtotal()
@@ -314,10 +311,5 @@ namespace Point_of_Sale
            FormUpdateProvider frmupdateprovider = new FormUpdateProvider();
            frmupdateprovider.ShowDialog();
        }
-
-        private void showLoggedUser()
-        {
-            this.lbl_user.Text = keepUser; 
-        }
     }
 }
