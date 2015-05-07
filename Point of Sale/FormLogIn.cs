@@ -13,6 +13,7 @@ namespace Point_of_Sale
 {
     public partial class FormLogIn : Form
     {
+        public String savedUser;
         public FormLogIn()
         {
             InitializeComponent();
@@ -21,6 +22,7 @@ namespace Point_of_Sale
 
         private void btn_login_Click(object sender, EventArgs e)
         {
+            savedUser = DBConnect.Username;
             DBConnect.Username = txt_user.Text;
             DBConnect.Password = txt_password.Text;
             DBConnect.Initialize();

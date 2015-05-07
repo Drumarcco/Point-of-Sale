@@ -20,10 +20,13 @@ namespace Point_of_Sale
         private float tax;
         private float total;
         private bool saleIsActive;
+        string keepUser;
 
-        public FormHome()
+        public FormHome(string printUser)
         {
+            keepUser = printUser;
             InitializeComponent();
+            showLoggedUser();
             newSale();
             
         }
@@ -310,6 +313,10 @@ namespace Point_of_Sale
        {
            FormUpdateProvider frmupdateprovider = new FormUpdateProvider();
            frmupdateprovider.ShowDialog();
+       }
+       private void showLoggedUser()
+       {
+           this.lbl_user.Text = keepUser;
        }
     }
 }
