@@ -41,7 +41,6 @@ namespace Point_of_Sale
 
         static async Task stopJSReportServer() {
             await JSReportServer.StopAsync();
-            Console.Write("JSReport Server stopped");
         }
     }
 }
