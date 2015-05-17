@@ -1,0 +1,10 @@
+{
+    "name": "CashOut Report Data",
+    "dataJson": "{\n    \"day\" : 16,\n    \"month\" : \"Mayo\",\n    \"year\" : 2015,\n    \"cashier\" : \"Marco Antonio Alvarado Mazon\",\n    \"sale\" : \n    [\n        {\"product\": \"Coca-Cola 600ML\", \"quantity\": 20, \"total\": 2000 },\n        {\"product\": \"Pan Bimbo\", \"quantity\": 3, \"total\": 60 }\n    ]\n    \n}",
+    "shortid": "7yF6uVqR",
+    "creationDate": "2015-05-17T02:44:31.000Z",
+    "modificationDate": {
+        "$$date": 1431839599444
+    },
+    "_id": "pq1DqBNrmdupbmeo"
+}
