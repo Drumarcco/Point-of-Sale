@@ -26,6 +26,7 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <NuGetPackageImportStamp>8bcf520b</NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -47,11 +48,78 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Ionic.Zip, Version=1.9.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetZip.1.9.3\lib\net20\Ionic.Zip.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="jsreport.Client, Version=0.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\jsreport.Client.0.3.0.0\lib\net45\jsreport.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="jsreport.Embedded, Version=0.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\jsreport.Embedded.0.3.0.0\lib\net45\jsreport.Embedded.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Data.Edm, Version=5.6.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Data.Edm.5.6.3\lib\net40\Microsoft.Data.Edm.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Data.OData, Version=5.6.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Data.OData.5.6.3\lib\net40\Microsoft.Data.OData.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.OData.Core, Version=6.10.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.OData.Core.6.10.0\lib\portable-net40+sl5+wp8+win8+wpa\Microsoft.OData.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.OData.Edm, Version=6.10.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.OData.Edm.6.10.0\lib\portable-net40+sl5+wp8+win8+wpa\Microsoft.OData.Edm.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Spatial, Version=6.10.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Spatial.6.10.0\lib\portable-net40+sl5+wp8+win8+wpa\Microsoft.Spatial.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks, Version=1.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks.Extensions, Version=1.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks.Extensions.Desktop, Version=1.0.168.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.Desktop.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="MySql.Data, Version=6.9.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Simple.OData.Client.Net40, Version=4.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Simple.OData.Client.4.3.0\lib\net40\Simple.OData.Client.Net40.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Extensions, Version=2.2.28.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.28\lib\net45\System.Net.Http.Extensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives, Version=4.2.28.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.28\lib\net45\System.Net.Http.Primitives.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Spatial, Version=5.6.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Spatial.5.6.3\lib\net40\System.Spatial.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -69,58 +137,58 @@
     <Compile Include="DialogProductSearch.Designer.cs">
       <DependentUpon>DialogProductSearch.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormAddDeleteInventory.cs">
+    <Compile Include="Forms\FormAddDeleteInventory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormAddDeleteInventory.Designer.cs">
+    <Compile Include="Forms\FormAddDeleteInventory.Designer.cs">
       <DependentUpon>FormAddDeleteInventory.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormDeleteProducts.cs">
+    <Compile Include="Forms\FormDeleteProducts.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormDeleteProducts.Designer.cs">
+    <Compile Include="Forms\FormDeleteProducts.Designer.cs">
       <DependentUpon>FormDeleteProducts.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormDeleteProviders.cs">
+    <Compile Include="Forms\FormDeleteProviders.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormDeleteProviders.Designer.cs">
+    <Compile Include="Forms\FormDeleteProviders.Designer.cs">
       <DependentUpon>FormDeleteProviders.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormLogIn.cs">
+    <Compile Include="Forms\FormLogIn.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormLogIn.Designer.cs">
+    <Compile Include="Forms\FormLogIn.Designer.cs">
       <DependentUpon>FormLogIn.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormPayment.cs">
+    <Compile Include="Forms\FormPayment.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormPayment.Designer.cs">
+    <Compile Include="Forms\FormPayment.Designer.cs">
       <DependentUpon>FormPayment.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormProduct.cs">
+    <Compile Include="Forms\FormProduct.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormProduct.Designer.cs">
+    <Compile Include="Forms\FormProduct.Designer.cs">
       <DependentUpon>FormProduct.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormProviders.cs">
+    <Compile Include="Forms\FormProviders.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormProviders.Designer.cs">
+    <Compile Include="Forms\FormProviders.Designer.cs">
       <DependentUpon>FormProviders.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormUpdateProduct.cs">
+    <Compile Include="Forms\FormUpdateProduct.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormUpdateProduct.Designer.cs">
+    <Compile Include="Forms\FormUpdateProduct.Designer.cs">
       <DependentUpon>FormUpdateProduct.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormUpdateProvider.cs">
+    <Compile Include="Forms\FormUpdateProvider.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormUpdateProvider.Designer.cs">
+    <Compile Include="Forms\FormUpdateProvider.Designer.cs">
       <DependentUpon>FormUpdateProvider.cs</DependentUpon>
     </Compile>
     <Compile Include="Inventory.cs" />
@@ -131,10 +199,10 @@
       <DependentUpon>ProductQty.cs</DependentUpon>
     </Compile>
     <Compile Include="Sale.cs" />
-    <Compile Include="FormHome.cs">
+    <Compile Include="Forms\FormHome.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormHome.Designer.cs">
+    <Compile Include="Forms\FormHome.Designer.cs">
       <DependentUpon>FormHome.cs</DependentUpon>
     </Compile>
     <Compile Include="Product.cs" />
@@ -150,7 +218,6 @@
     </Compile>
     <Compile Include="_point_of_saleDataSet1.cs">
       <DependentUpon>_point_of_saleDataSet1.xsd</DependentUpon>
-      <SubType>Component</SubType>
     </Compile>
     <Compile Include="_point_of_saleDataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -160,34 +227,34 @@
     <EmbeddedResource Include="DialogProductSearch.resx">
       <DependentUpon>DialogProductSearch.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormAddDeleteInventory.resx">
+    <EmbeddedResource Include="Forms\FormAddDeleteInventory.resx">
       <DependentUpon>FormAddDeleteInventory.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormDeleteProducts.resx">
+    <EmbeddedResource Include="Forms\FormDeleteProducts.resx">
       <DependentUpon>FormDeleteProducts.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormDeleteProviders.resx">
+    <EmbeddedResource Include="Forms\FormDeleteProviders.resx">
       <DependentUpon>FormDeleteProviders.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormHome.resx">
+    <EmbeddedResource Include="Forms\FormHome.resx">
       <DependentUpon>FormHome.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormLogIn.resx">
+    <EmbeddedResource Include="Forms\FormLogIn.resx">
       <DependentUpon>FormLogIn.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormPayment.resx">
+    <EmbeddedResource Include="Forms\FormPayment.resx">
       <DependentUpon>FormPayment.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormProduct.resx">
+    <EmbeddedResource Include="Forms\FormProduct.resx">
       <DependentUpon>FormProduct.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormProviders.resx">
+    <EmbeddedResource Include="Forms\FormProviders.resx">
       <DependentUpon>FormProviders.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormUpdateProduct.resx">
+    <EmbeddedResource Include="Forms\FormUpdateProduct.resx">
       <DependentUpon>FormUpdateProduct.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormUpdateProvider.resx">
+    <EmbeddedResource Include="Forms\FormUpdateProvider.resx">
       <DependentUpon>FormUpdateProvider.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProductQty.resx">
@@ -202,6 +269,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="jsreport-net-embedded.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -254,7 +325,19 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="node.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
+  </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
