@@ -133,9 +133,9 @@ C:\Users\JANN\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sa
 C:\Users\JANN\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.ProductQty.resources
 C:\Users\JANN\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.Properties.Resources.resources
 C:\Users\JANN\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point of Sale.csproj.GenerateResource.Cache
-C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\Point of Sale.exe.config
 C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\node.exe
 C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded.zip
+C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\Point of Sale.exe.config
 C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\Point of Sale.exe
 C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\Point of Sale.pdb
 C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\Ionic.Zip.dll
@@ -225,7 +225,6 @@ C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\ko\
 C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\ru\System.Spatial.resources.dll
 C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\zh-Hans\System.Spatial.resources.dll
 C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\zh-Hant\System.Spatial.resources.dll
-C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point of Sale.csprojResolveAssemblyReference.cache
 C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.DialogProductSearch.resources
 C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormAddDeleteInventory.resources
 C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormDeleteProducts.resources
@@ -242,3 +241,4 @@ C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Poi
 C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point of Sale.csproj.GenerateResource.Cache
 C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point of Sale.exe
 C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point of Sale.pdb
+C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point of Sale.csprojResolveAssemblyReference.cache

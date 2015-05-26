@@ -1,0 +1,18 @@
+{
+    "engine": "jsrender",
+    "recipe": "phantom-pdf",
+    "phantom": {
+        "orientation": "portrait",
+        "format": "A4"
+    },
+    "data": {},
+    "script": {},
+    "name": "CashOut",
+    "content": "<style>\r\n    h1 {\r\n        text-align: center;\r\n        background-color: dimgray;\r\n        color: white;\r\n        margin-bottom:0px;\r\n        padding: 5px;\r\n    }\r\n    \r\n    h2 {\r\n        text-align: center;\r\n        margin-top: 0px;\r\n        padding: 4px;\r\n        background-color: #add0a1;\r\n    }\r\n    \r\n    table {\r\n        margin: auto;\r\n        text-align: center;\r\n        border-style: solid;\r\n    }\r\n    \r\n    th {\r\n        background-color: #add0a1;\r\n        border: 1px solid;\r\n        padding: 5px 10px;\r\n    }\r\n    \r\n    td {\r\n        padding: 5px 10px;\r\n        border: 1px solid;\r\n    }\r\n    \r\n    #cashier {\r\n        text-align: center;\r\n    }\r\n    \r\n    #cashier h3 {\r\n        margin: 0px;\r\n    }\r\n        \r\n    #cashier p {\r\n        margin-top: 0px;\r\n    }\r\n        \r\n    #total {\r\n        background-color: lightgrey;\r\n        font-weight: bold;\r\n    }\r\n</style>\r\n\r\n<h1>Corte de Caja</h1>\r\n<h2>{{:day}} de {{:month}} del {{:year}}</h2>\r\n<div id=\"cashier\">\r\n    <h3>Cajero:</h3>\r\n    <p>{{:cashier}}</p>\r\n</div>\r\n<table>\r\n    <tr>\r\n        <th>Producto</th>\r\n        <th>Cantidad</th>\r\n        <th>Total</th>\r\n    </tr>\r\n    {{for sale}}\r\n        <tr>\r\n            <td>{{:product}}</td>\r\n            <td>{{:quantity}}</td>\r\n            <td>{{:~toCurrency(total)}}</td>\r\n        </tr>\r\n    {{/for}}\r\n    <tr id=\"total\">\r\n        <td></td>\r\n        <td>Total</td>\r\n        <td>{{:~getTotal(sale)}}</td>\r\n    </tr>\r\n</table>\r\n",
+    "helpers": "function getTotal(sales){\r\n    var total = 0;\r\n    sales.forEach(function(s){\r\n       total += s.total; \r\n    });\r\n    total *= 1.16;\r\n    return toCurrency(total);\r\n}\r\n\r\nfunction toCurrency(number){\r\n    return '$' + number.toFixed(2).replace(/\\d(?=(\\d{3})+\\.)/g, '$&,');\r\n}",
+    "shortid": "Q1RB2D81e",
+    "modificationDate": {
+        "$$date": 1432630292499
+    },
+    "_id": "44iqDtZb5RLQEKac"
+}

@@ -27,7 +27,7 @@ namespace Point_of_Sale
             reportTemplate += getReportData() + "] }";
 
             try {
-                var report = await Program.JSReportServer.ReportingService.RenderAsync("7kNUnVqA", reportTemplate);
+                var report = await Program.JSReportServer.ReportingService.RenderAsync("Q1RB2D81e", reportTemplate);
                 String filePath = "C:\\temp\\report.pdf";
                 using (var fileStream = File.Create(filePath))
                 {
