@@ -66,6 +66,7 @@
             this.btn_deleteProduct = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.lbl_user = new System.Windows.Forms.Label();
+            this.btn_cashout = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dag_productTable)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -384,10 +385,21 @@
             this.lbl_user.Size = new System.Drawing.Size(0, 13);
             this.lbl_user.TabIndex = 18;
             // 
+            // btn_cashout
+            // 
+            this.btn_cashout.Location = new System.Drawing.Point(200, 347);
+            this.btn_cashout.Name = "btn_cashout";
+            this.btn_cashout.Size = new System.Drawing.Size(89, 45);
+            this.btn_cashout.TabIndex = 19;
+            this.btn_cashout.Text = "Corte de Caja";
+            this.btn_cashout.UseVisualStyleBackColor = true;
+            this.btn_cashout.Click += new System.EventHandler(this.btn_cashout_Click);
+            // 
             // FormHome
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.ClientSize = new System.Drawing.Size(786, 446);
+            this.Controls.Add(this.btn_cashout);
             this.Controls.Add(this.lbl_user);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.btn_deleteProduct);
@@ -454,6 +466,7 @@
         private System.Windows.Forms.ToolStripMenuItem provedorToolStripMenuItem;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label lbl_user;
+        private System.Windows.Forms.Button btn_cashout;
     }
 }
 

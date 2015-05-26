@@ -1,0 +1,248 @@
+2015-05-18T06:39:16.477Z - error: Error when starting http server on port 2000 Error: listen EADDRINUSE
+    at errnoException (net.js:904:11)
+    at Server._listen2 (net.js:1042:14)
+    at listen (net.js:1064:10)
+    at Server.listen (net.js:1138:5)
+    at startAsync (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\reporter.express.js:36:12)
+    at startExpressApp (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\reporter.express.js:54:16)
+    at null.<anonymous> (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\reporter.express.js:149:16)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\lib\util\listenerCollection.js:121:41
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\lib\util\listenerCollection.js:100:24
+    at _fulfilled (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:794:54)
+    at self.promiseDispatch.done (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:823:30)
+    at Promise.promise.promiseDispatch (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:756:13)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:817:14
+    at flush (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:110:17)
+    at process._tickCallback (node.js:419:13)
+2015-05-18T06:39:16.477Z - error: Error occured during reporter init Error: listen EADDRINUSE
+    at errnoException (net.js:904:11)
+    at Server._listen2 (net.js:1042:14)
+    at listen (net.js:1064:10)
+    at Server.listen (net.js:1138:5)
+    at startAsync (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\reporter.express.js:36:12)
+    at startExpressApp (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\reporter.express.js:54:16)
+    at null.<anonymous> (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\reporter.express.js:149:16)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\lib\util\listenerCollection.js:121:41
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\lib\util\listenerCollection.js:100:24
+    at _fulfilled (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:794:54)
+    at self.promiseDispatch.done (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:823:30)
+    at Promise.promise.promiseDispatch (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:756:13)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:817:14
+    at flush (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:110:17)
+From previous event:
+    at defer (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:542:19)
+    at Promise.then (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:788:20)
+    at null.<anonymous> (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\reporter.express.js:149:65)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\lib\util\listenerCollection.js:121:41
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\lib\util\listenerCollection.js:100:24
+    at _fulfilled (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:794:54)
+    at self.promiseDispatch.done (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:823:30)
+    at Promise.promise.promiseDispatch (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:756:13)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:817:14
+    at flush (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:110:17)
+2015-05-18T06:39:56.708Z - error: Error when starting http server on port 2000 Error: listen EADDRINUSE
+    at errnoException (net.js:904:11)
+    at Server._listen2 (net.js:1042:14)
+    at listen (net.js:1064:10)
+    at Server.listen (net.js:1138:5)
+    at startAsync (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\reporter.express.js:36:12)
+    at startExpressApp (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\reporter.express.js:54:16)
+    at null.<anonymous> (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\reporter.express.js:149:16)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\lib\util\listenerCollection.js:121:41
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\lib\util\listenerCollection.js:100:24
+    at _fulfilled (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:794:54)
+    at self.promiseDispatch.done (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:823:30)
+    at Promise.promise.promiseDispatch (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:756:13)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:817:14
+    at flush (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:110:17)
+    at process._tickCallback (node.js:419:13)
+2015-05-18T06:39:56.708Z - error: Error occured during reporter init Error: listen EADDRINUSE
+    at errnoException (net.js:904:11)
+    at Server._listen2 (net.js:1042:14)
+    at listen (net.js:1064:10)
+    at Server.listen (net.js:1138:5)
+    at startAsync (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\reporter.express.js:36:12)
+    at startExpressApp (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\reporter.express.js:54:16)
+    at null.<anonymous> (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\reporter.express.js:149:16)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\lib\util\listenerCollection.js:121:41
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\lib\util\listenerCollection.js:100:24
+    at _fulfilled (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:794:54)
+    at self.promiseDispatch.done (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:823:30)
+    at Promise.promise.promiseDispatch (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:756:13)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:817:14
+    at flush (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:110:17)
+From previous event:
+    at defer (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:542:19)
+    at Promise.then (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:788:20)
+    at null.<anonymous> (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\reporter.express.js:149:65)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\lib\util\listenerCollection.js:121:41
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\lib\util\listenerCollection.js:100:24
+    at _fulfilled (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:794:54)
+    at self.promiseDispatch.done (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:823:30)
+    at Promise.promise.promiseDispatch (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:756:13)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:817:14
+    at flush (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:110:17)
+2015-05-18T06:41:10.415Z - error: Error when starting http server on port 2000 Error: listen EADDRINUSE
+    at errnoException (net.js:904:11)
+    at Server._listen2 (net.js:1042:14)
+    at listen (net.js:1064:10)
+    at Server.listen (net.js:1138:5)
+    at startAsync (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\reporter.express.js:36:12)
+    at startExpressApp (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\reporter.express.js:54:16)
+    at null.<anonymous> (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\reporter.express.js:149:16)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\lib\util\listenerCollection.js:121:41
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\lib\util\listenerCollection.js:100:24
+    at _fulfilled (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:794:54)
+    at self.promiseDispatch.done (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:823:30)
+    at Promise.promise.promiseDispatch (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:756:13)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:817:14
+    at flush (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:110:17)
+    at process._tickCallback (node.js:419:13)
+2015-05-18T06:41:10.415Z - error: Error occured during reporter init Error: listen EADDRINUSE
+    at errnoException (net.js:904:11)
+    at Server._listen2 (net.js:1042:14)
+    at listen (net.js:1064:10)
+    at Server.listen (net.js:1138:5)
+    at startAsync (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\reporter.express.js:36:12)
+    at startExpressApp (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\reporter.express.js:54:16)
+    at null.<anonymous> (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\reporter.express.js:149:16)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\lib\util\listenerCollection.js:121:41
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\lib\util\listenerCollection.js:100:24
+    at _fulfilled (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:794:54)
+    at self.promiseDispatch.done (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:823:30)
+    at Promise.promise.promiseDispatch (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:756:13)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:817:14
+    at flush (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:110:17)
+From previous event:
+    at defer (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:542:19)
+    at Promise.then (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:788:20)
+    at null.<anonymous> (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\reporter.express.js:149:65)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\lib\util\listenerCollection.js:121:41
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\lib\util\listenerCollection.js:100:24
+    at _fulfilled (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:794:54)
+    at self.promiseDispatch.done (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:823:30)
+    at Promise.promise.promiseDispatch (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:756:13)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:817:14
+    at flush (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:110:17)
+2015-05-18T06:43:09.865Z - error: Error when starting http server on port 2000 Error: listen EADDRINUSE
+    at errnoException (net.js:904:11)
+    at Server._listen2 (net.js:1042:14)
+    at listen (net.js:1064:10)
+    at Server.listen (net.js:1138:5)
+    at startAsync (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\reporter.express.js:36:12)
+    at startExpressApp (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\reporter.express.js:54:16)
+    at null.<anonymous> (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\reporter.express.js:149:16)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\lib\util\listenerCollection.js:121:41
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\lib\util\listenerCollection.js:100:24
+    at _fulfilled (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:794:54)
+    at self.promiseDispatch.done (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:823:30)
+    at Promise.promise.promiseDispatch (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:756:13)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:817:14
+    at flush (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:110:17)
+    at process._tickCallback (node.js:419:13)
+2015-05-18T06:43:09.865Z - error: Error occured during reporter init Error: listen EADDRINUSE
+    at errnoException (net.js:904:11)
+    at Server._listen2 (net.js:1042:14)
+    at listen (net.js:1064:10)
+    at Server.listen (net.js:1138:5)
+    at startAsync (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\reporter.express.js:36:12)
+    at startExpressApp (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\reporter.express.js:54:16)
+    at null.<anonymous> (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\reporter.express.js:149:16)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\lib\util\listenerCollection.js:121:41
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\lib\util\listenerCollection.js:100:24
+    at _fulfilled (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:794:54)
+    at self.promiseDispatch.done (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:823:30)
+    at Promise.promise.promiseDispatch (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:756:13)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:817:14
+    at flush (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:110:17)
+From previous event:
+    at defer (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:542:19)
+    at Promise.then (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:788:20)
+    at null.<anonymous> (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\reporter.express.js:149:65)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\lib\util\listenerCollection.js:121:41
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\lib\util\listenerCollection.js:100:24
+    at _fulfilled (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:794:54)
+    at self.promiseDispatch.done (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:823:30)
+    at Promise.promise.promiseDispatch (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:756:13)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:817:14
+    at flush (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:110:17)
+2015-05-26T02:51:29.011Z - error: Error when processing render request Error during rendering report: connect ECONNREFUSED Error: connect ECONNREFUSED
+    at errnoException (net.js:904:11)
+    at Object.afterConnect [as oncomplete] (net.js:895:19)
+From previous event:
+    at defer (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:542:19)
+    at Promise.then (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:788:20)
+    at Reporter.render (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\lib\reporter.js:142:8)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\routes.js:138:18
+    at Layer.handle [as handle_request] (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\layer.js:82:5)
+    at next (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\layer.js:82:5)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:321:12)
+    at next (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:261:10)
+    at serveStatic (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\serve-static\index.js:59:14)
+    at Layer.handle [as handle_request] (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:302:13)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:321:12)
+2015-05-26T02:51:29.011Z - error: Error during processing request: http://localhost:2000/api/report details: Error during rendering report: connect ECONNREFUSED Error: connect ECONNREFUSED
+    at errnoException (net.js:904:11)
+    at Object.afterConnect [as oncomplete] (net.js:895:19)
+From previous event:
+    at defer (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:542:19)
+    at Promise.then (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:788:20)
+    at Reporter.render (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\lib\reporter.js:142:8)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\routes.js:138:18
+    at Layer.handle [as handle_request] (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\layer.js:82:5)
+    at next (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\layer.js:82:5)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:321:12)
+    at next (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:261:10)
+    at serveStatic (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\serve-static\index.js:59:14)
+    at Layer.handle [as handle_request] (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:302:13)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:321:12)
+2015-05-26T03:24:35.942Z - error: Error when processing render request Error during rendering report: connect ECONNREFUSED Error: connect ECONNREFUSED
+    at errnoException (net.js:904:11)
+    at Object.afterConnect [as oncomplete] (net.js:895:19)
+From previous event:
+    at defer (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:542:19)
+    at Promise.then (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:788:20)
+    at Reporter.render (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\lib\reporter.js:142:8)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\routes.js:138:18
+    at Layer.handle [as handle_request] (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\layer.js:82:5)
+    at next (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\layer.js:82:5)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:321:12)
+    at next (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:261:10)
+    at serveStatic (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\serve-static\index.js:59:14)
+    at Layer.handle [as handle_request] (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:302:13)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:321:12)
+2015-05-26T03:24:35.942Z - error: Error during processing request: http://localhost:2000/api/report details: Error during rendering report: connect ECONNREFUSED Error: connect ECONNREFUSED
+    at errnoException (net.js:904:11)
+    at Object.afterConnect [as oncomplete] (net.js:895:19)
+From previous event:
+    at defer (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:542:19)
+    at Promise.then (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:788:20)
+    at Reporter.render (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\lib\reporter.js:142:8)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\routes.js:138:18
+    at Layer.handle [as handle_request] (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\layer.js:82:5)
+    at next (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\layer.js:82:5)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:321:12)
+    at next (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:261:10)
+    at serveStatic (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\serve-static\index.js:59:14)
+    at Layer.handle [as handle_request] (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:302:13)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:321:12)

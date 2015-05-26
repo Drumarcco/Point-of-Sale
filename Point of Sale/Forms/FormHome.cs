@@ -161,6 +161,7 @@ namespace Point_of_Sale
                 command.CommandType = CommandType.StoredProcedure;
                 foreach (Lot lot in productList)
                 {
+                    command.Parameters.Clear();
                     command.Parameters.AddWithValue("@Product", lot.Product.Id);
                     command.Parameters.AddWithValue("@Sale", saleID);
                     command.Parameters.AddWithValue("@Quantity", lot.Quantity);
@@ -317,6 +318,11 @@ namespace Point_of_Sale
        private void showLoggedUser()
        {
            this.lbl_user.Text = keepUser;
+       }
+
+       private void btn_cashout_Click(object sender, EventArgs e)
+       {
+           new CashOut();
        }
     }
 }

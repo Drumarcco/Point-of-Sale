@@ -71,26 +71,6 @@ C:\Users\Mario\Documents\Point-of-Sale-master\Point of Sale\obj\Debug\Point_of_S
 C:\Users\Mario\Documents\Point-of-Sale-master\Point of Sale\obj\Debug\Point_of_Sale.ProductQty.resources
 C:\Users\Mario\Documents\Point-of-Sale-master\Point of Sale\obj\Debug\Point_of_Sale.Properties.Resources.resources
 C:\Users\Mario\Documents\Point-of-Sale-master\Point of Sale\obj\Debug\Point of Sale.csproj.GenerateResource.Cache
-C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\Point of Sale.exe.config
-C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point of Sale.exe
-C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point of Sale.pdb
-C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\Point of Sale.exe
-C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\Point of Sale.pdb
-C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\MySql.Data.dll
-C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point of Sale.csprojResolveAssemblyReference.cache
-C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.DialogProductSearch.resources
-C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormDeleteProducts.resources
-C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormDeleteProviders.resources
-C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormHome.resources
-C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormLogIn.resources
-C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormPayment.resources
-C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormProduct.resources
-C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormProviders.resources
-C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormUpdateProduct.resources
-C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormUpdateProvider.resources
-C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.ProductQty.resources
-C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.Properties.Resources.resources
-C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point of Sale.csproj.GenerateResource.Cache
 D:\Documents\Visual Studio 2013\Projects\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormUpdateProduct.resources
 D:\Documents\Visual Studio 2013\Projects\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormUpdateProvider.resources
 C:\Users\Mario\Desktop\Point-of-Sale\Point of Sale\bin\Debug\Point of Sale.exe.config
@@ -153,8 +133,11 @@ C:\Users\JANN\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sa
 C:\Users\JANN\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.ProductQty.resources
 C:\Users\JANN\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.Properties.Resources.resources
 C:\Users\JANN\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point of Sale.csproj.GenerateResource.Cache
+C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\Point of Sale.exe.config
 C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\node.exe
 C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded.zip
+C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\Point of Sale.exe
+C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\Point of Sale.pdb
 C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\Ionic.Zip.dll
 C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport.Client.dll
 C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport.Embedded.dll
@@ -166,6 +149,7 @@ C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\Mic
 C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\Microsoft.Threading.Tasks.dll
 C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
 C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\MySql.Data.dll
 C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\Newtonsoft.Json.dll
 C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\Simple.OData.Client.Net40.dll
 C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\System.Net.Http.Extensions.dll
@@ -241,4 +225,20 @@ C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\ko\
 C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\ru\System.Spatial.resources.dll
 C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\zh-Hans\System.Spatial.resources.dll
 C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point of Sale.csprojResolveAssemblyReference.cache
+C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.DialogProductSearch.resources
 C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormAddDeleteInventory.resources
+C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormDeleteProducts.resources
+C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormDeleteProviders.resources
+C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormHome.resources
+C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormLogIn.resources
+C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormPayment.resources
+C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormProduct.resources
+C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormProviders.resources
+C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormUpdateProduct.resources
+C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.FormUpdateProvider.resources
+C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.ProductQty.resources
+C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point_of_Sale.Properties.Resources.resources
+C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point of Sale.csproj.GenerateResource.Cache
+C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point of Sale.exe
+C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\obj\Debug\Point of Sale.pdb

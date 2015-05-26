@@ -655,3 +655,485 @@ From previous event:
 2015-05-17T06:00:11.603Z - info: Starting rendering request 1 (user: null)
 2015-05-17T06:00:11.603Z - info: Rendering template {shortid:7kNUnVqA, recipe:phantom-pdf,engine:jsrender}
 2015-05-17T06:00:12.308Z - info: Rendering request 1 finished in 705 ms
+2015-05-26T02:17:00.358Z - info: Initializing embedded storage at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\data
+2015-05-26T02:17:00.468Z - info: Searching for available extensions in C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded
+2015-05-26T02:17:01.562Z - info: Found 23 extensions
+2015-05-26T02:17:01.765Z - info: Using extension express
+2015-05-26T02:17:01.765Z - info: Using extension templates
+2015-05-26T02:17:01.765Z - info: Using extension html
+2015-05-26T02:17:01.765Z - info: Using extension data
+2015-05-26T02:17:01.765Z - info: Using extension phantom-pdf
+2015-05-26T02:17:01.765Z - info: Using extension selfTerminate
+2015-05-26T02:17:01.781Z - info: Using extension childTemplates
+2015-05-26T02:17:01.781Z - info: Using extension images
+2015-05-26T02:17:01.781Z - info: Using extension xlsx
+2015-05-26T02:17:01.781Z - info: Using extension html-to-xlsx
+2015-05-26T02:17:01.781Z - info: Using extension text
+2015-05-26T02:17:01.781Z - info: Using extension fop-pdf
+2015-05-26T02:17:01.781Z - info: Using extension scripts
+2015-05-26T02:17:01.797Z - info: Using extension embedding
+2015-05-26T02:17:01.797Z - info: Using extension client-html
+2015-05-26T02:17:08.274Z - info: Extensions loaded.
+2015-05-26T02:17:08.274Z - info: Initializing embedded storage at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\data
+2015-05-26T02:17:08.352Z - info: Creating default express app.
+2015-05-26T02:17:09.274Z - info: jsreport server successfully started on http port: 2000
+2015-05-26T02:17:09.289Z - info: reporter initialized
+2015-05-26T02:19:29.866Z - info: Initializing embedded storage at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\data
+2015-05-26T02:19:29.928Z - info: Searching for available extensions in C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded
+2015-05-26T02:19:31.456Z - info: Found 23 extensions
+2015-05-26T02:19:31.503Z - info: Using extension express
+2015-05-26T02:19:31.503Z - info: Using extension templates
+2015-05-26T02:19:31.503Z - info: Using extension html
+2015-05-26T02:19:31.503Z - info: Using extension data
+2015-05-26T02:19:31.519Z - info: Using extension phantom-pdf
+2015-05-26T02:19:31.519Z - info: Using extension selfTerminate
+2015-05-26T02:19:31.519Z - info: Using extension childTemplates
+2015-05-26T02:19:31.519Z - info: Using extension images
+2015-05-26T02:19:31.519Z - info: Using extension xlsx
+2015-05-26T02:19:31.519Z - info: Using extension html-to-xlsx
+2015-05-26T02:19:31.519Z - info: Using extension text
+2015-05-26T02:19:31.535Z - info: Using extension fop-pdf
+2015-05-26T02:19:31.539Z - info: Using extension scripts
+2015-05-26T02:19:31.541Z - info: Using extension embedding
+2015-05-26T02:19:31.544Z - info: Using extension client-html
+2015-05-26T02:19:32.523Z - info: Extensions loaded.
+2015-05-26T02:19:32.523Z - info: Initializing embedded storage at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\data
+2015-05-26T02:19:32.616Z - info: Creating default express app.
+2015-05-26T02:19:32.757Z - info: jsreport server successfully started on http port: 2000
+2015-05-26T02:19:32.757Z - info: reporter initialized
+2015-05-26T02:25:28.171Z - info: Initializing embedded storage at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\data
+2015-05-26T02:25:28.249Z - info: Searching for available extensions in C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded
+2015-05-26T02:25:29.924Z - info: Found 23 extensions
+2015-05-26T02:25:29.974Z - info: Using extension express
+2015-05-26T02:25:29.974Z - info: Using extension templates
+2015-05-26T02:25:29.990Z - info: Using extension html
+2015-05-26T02:25:29.990Z - info: Using extension data
+2015-05-26T02:25:29.990Z - info: Using extension phantom-pdf
+2015-05-26T02:25:29.990Z - info: Using extension selfTerminate
+2015-05-26T02:25:29.990Z - info: Using extension childTemplates
+2015-05-26T02:25:30.006Z - info: Using extension images
+2015-05-26T02:25:30.006Z - info: Using extension xlsx
+2015-05-26T02:25:30.006Z - info: Using extension html-to-xlsx
+2015-05-26T02:25:30.006Z - info: Using extension text
+2015-05-26T02:25:30.021Z - info: Using extension fop-pdf
+2015-05-26T02:25:30.021Z - info: Using extension scripts
+2015-05-26T02:25:30.021Z - info: Using extension embedding
+2015-05-26T02:25:30.021Z - info: Using extension client-html
+2015-05-26T02:25:31.174Z - info: Extensions loaded.
+2015-05-26T02:25:31.174Z - info: Initializing embedded storage at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\data
+2015-05-26T02:25:31.361Z - info: Creating default express app.
+2015-05-26T02:25:31.518Z - info: jsreport server successfully started on http port: 2000
+2015-05-26T02:25:31.518Z - info: reporter initialized
+2015-05-26T02:29:33.106Z - info: Initializing embedded storage at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\data
+2015-05-26T02:29:33.200Z - info: Searching for available extensions in C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded
+2015-05-26T02:29:34.434Z - info: Found 23 extensions
+2015-05-26T02:29:34.497Z - info: Using extension express
+2015-05-26T02:29:34.497Z - info: Using extension templates
+2015-05-26T02:29:34.497Z - info: Using extension html
+2015-05-26T02:29:34.497Z - info: Using extension data
+2015-05-26T02:29:34.512Z - info: Using extension phantom-pdf
+2015-05-26T02:29:34.512Z - info: Using extension selfTerminate
+2015-05-26T02:29:34.512Z - info: Using extension childTemplates
+2015-05-26T02:29:34.512Z - info: Using extension images
+2015-05-26T02:29:34.512Z - info: Using extension xlsx
+2015-05-26T02:29:34.512Z - info: Using extension html-to-xlsx
+2015-05-26T02:29:34.528Z - info: Using extension text
+2015-05-26T02:29:34.528Z - info: Using extension fop-pdf
+2015-05-26T02:29:34.528Z - info: Using extension scripts
+2015-05-26T02:29:34.528Z - info: Using extension embedding
+2015-05-26T02:29:34.528Z - info: Using extension client-html
+2015-05-26T02:29:35.791Z - info: Extensions loaded.
+2015-05-26T02:29:35.792Z - info: Initializing embedded storage at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\data
+2015-05-26T02:29:35.882Z - info: Creating default express app.
+2015-05-26T02:29:36.003Z - info: jsreport server successfully started on http port: 2000
+2015-05-26T02:29:36.018Z - info: reporter initialized
+2015-05-26T02:30:22.194Z - info: Initializing embedded storage at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\data
+2015-05-26T02:30:22.256Z - info: Searching for available extensions in C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded
+2015-05-26T02:30:22.725Z - info: Found 23 extensions
+2015-05-26T02:30:22.741Z - info: Using extension express
+2015-05-26T02:30:22.741Z - info: Using extension templates
+2015-05-26T02:30:22.741Z - info: Using extension html
+2015-05-26T02:30:22.741Z - info: Using extension data
+2015-05-26T02:30:22.741Z - info: Using extension phantom-pdf
+2015-05-26T02:30:22.741Z - info: Using extension selfTerminate
+2015-05-26T02:30:22.741Z - info: Using extension childTemplates
+2015-05-26T02:30:22.741Z - info: Using extension images
+2015-05-26T02:30:22.741Z - info: Using extension xlsx
+2015-05-26T02:30:22.741Z - info: Using extension html-to-xlsx
+2015-05-26T02:30:22.756Z - info: Using extension text
+2015-05-26T02:30:22.756Z - info: Using extension fop-pdf
+2015-05-26T02:30:22.756Z - info: Using extension scripts
+2015-05-26T02:30:22.756Z - info: Using extension embedding
+2015-05-26T02:30:22.756Z - info: Using extension client-html
+2015-05-26T02:30:23.257Z - info: Extensions loaded.
+2015-05-26T02:30:23.257Z - info: Initializing embedded storage at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\data
+2015-05-26T02:30:23.288Z - info: Creating default express app.
+2015-05-26T02:30:23.366Z - info: jsreport server successfully started on http port: 2000
+2015-05-26T02:30:23.366Z - info: reporter initialized
+2015-05-26T02:31:40.687Z - info: Initializing embedded storage at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\data
+2015-05-26T02:31:40.703Z - info: Searching for available extensions in C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded
+2015-05-26T02:31:41.172Z - info: Found 23 extensions
+2015-05-26T02:31:41.187Z - info: Using extension express
+2015-05-26T02:31:41.187Z - info: Using extension templates
+2015-05-26T02:31:41.203Z - info: Using extension html
+2015-05-26T02:31:41.203Z - info: Using extension data
+2015-05-26T02:31:41.203Z - info: Using extension phantom-pdf
+2015-05-26T02:31:41.203Z - info: Using extension selfTerminate
+2015-05-26T02:31:41.203Z - info: Using extension childTemplates
+2015-05-26T02:31:41.203Z - info: Using extension images
+2015-05-26T02:31:41.203Z - info: Using extension xlsx
+2015-05-26T02:31:41.203Z - info: Using extension html-to-xlsx
+2015-05-26T02:31:41.203Z - info: Using extension text
+2015-05-26T02:31:41.203Z - info: Using extension fop-pdf
+2015-05-26T02:31:41.203Z - info: Using extension scripts
+2015-05-26T02:31:41.218Z - info: Using extension embedding
+2015-05-26T02:31:41.218Z - info: Using extension client-html
+2015-05-26T02:31:41.722Z - info: Extensions loaded.
+2015-05-26T02:31:41.722Z - info: Initializing embedded storage at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\data
+2015-05-26T02:31:41.768Z - info: Creating default express app.
+2015-05-26T02:31:41.847Z - info: jsreport server successfully started on http port: 2000
+2015-05-26T02:31:41.847Z - info: reporter initialized
+2015-05-26T02:33:11.710Z - info: Initializing embedded storage at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\data
+2015-05-26T02:33:11.788Z - info: Searching for available extensions in C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded
+2015-05-26T02:33:13.265Z - info: Found 23 extensions
+2015-05-26T02:33:13.296Z - info: Using extension express
+2015-05-26T02:33:13.296Z - info: Using extension templates
+2015-05-26T02:33:13.296Z - info: Using extension html
+2015-05-26T02:33:13.312Z - info: Using extension data
+2015-05-26T02:33:13.312Z - info: Using extension phantom-pdf
+2015-05-26T02:33:13.312Z - info: Using extension selfTerminate
+2015-05-26T02:33:13.312Z - info: Using extension childTemplates
+2015-05-26T02:33:13.312Z - info: Using extension images
+2015-05-26T02:33:13.312Z - info: Using extension xlsx
+2015-05-26T02:33:13.312Z - info: Using extension html-to-xlsx
+2015-05-26T02:33:13.327Z - info: Using extension text
+2015-05-26T02:33:13.327Z - info: Using extension fop-pdf
+2015-05-26T02:33:13.327Z - info: Using extension scripts
+2015-05-26T02:33:13.327Z - info: Using extension embedding
+2015-05-26T02:33:13.327Z - info: Using extension client-html
+2015-05-26T02:33:14.468Z - info: Extensions loaded.
+2015-05-26T02:33:14.468Z - info: Initializing embedded storage at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\data
+2015-05-26T02:33:14.561Z - info: Creating default express app.
+2015-05-26T02:33:14.733Z - info: jsreport server successfully started on http port: 2000
+2015-05-26T02:33:14.733Z - info: reporter initialized
+2015-05-26T02:35:14.950Z - info: Initializing embedded storage at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\data
+2015-05-26T02:35:15.012Z - info: Searching for available extensions in C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded
+2015-05-26T02:35:16.438Z - info: Found 23 extensions
+2015-05-26T02:35:16.469Z - info: Using extension express
+2015-05-26T02:35:16.484Z - info: Using extension templates
+2015-05-26T02:35:16.484Z - info: Using extension html
+2015-05-26T02:35:16.484Z - info: Using extension data
+2015-05-26T02:35:16.484Z - info: Using extension phantom-pdf
+2015-05-26T02:35:16.500Z - info: Using extension selfTerminate
+2015-05-26T02:35:16.500Z - info: Using extension childTemplates
+2015-05-26T02:35:16.500Z - info: Using extension images
+2015-05-26T02:35:16.500Z - info: Using extension xlsx
+2015-05-26T02:35:16.500Z - info: Using extension html-to-xlsx
+2015-05-26T02:35:16.500Z - info: Using extension text
+2015-05-26T02:35:16.500Z - info: Using extension fop-pdf
+2015-05-26T02:35:16.500Z - info: Using extension scripts
+2015-05-26T02:35:16.500Z - info: Using extension embedding
+2015-05-26T02:35:16.516Z - info: Using extension client-html
+2015-05-26T02:35:17.834Z - info: Extensions loaded.
+2015-05-26T02:35:17.849Z - info: Initializing embedded storage at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\data
+2015-05-26T02:35:18.130Z - info: Creating default express app.
+2015-05-26T02:35:18.427Z - info: jsreport server successfully started on http port: 2000
+2015-05-26T02:35:18.443Z - info: reporter initialized
+2015-05-26T02:37:07.644Z - info: Initializing embedded storage at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\data
+2015-05-26T02:37:07.691Z - info: Searching for available extensions in C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded
+2015-05-26T02:37:08.832Z - info: Found 23 extensions
+2015-05-26T02:37:08.863Z - info: Using extension express
+2015-05-26T02:37:08.863Z - info: Using extension templates
+2015-05-26T02:37:08.863Z - info: Using extension html
+2015-05-26T02:37:08.863Z - info: Using extension data
+2015-05-26T02:37:08.863Z - info: Using extension phantom-pdf
+2015-05-26T02:37:08.863Z - info: Using extension selfTerminate
+2015-05-26T02:37:08.863Z - info: Using extension childTemplates
+2015-05-26T02:37:08.863Z - info: Using extension images
+2015-05-26T02:37:08.878Z - info: Using extension xlsx
+2015-05-26T02:37:08.878Z - info: Using extension html-to-xlsx
+2015-05-26T02:37:08.878Z - info: Using extension text
+2015-05-26T02:37:08.878Z - info: Using extension fop-pdf
+2015-05-26T02:37:08.878Z - info: Using extension scripts
+2015-05-26T02:37:08.878Z - info: Using extension embedding
+2015-05-26T02:37:08.878Z - info: Using extension client-html
+2015-05-26T02:37:09.964Z - info: Extensions loaded.
+2015-05-26T02:37:09.964Z - info: Initializing embedded storage at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\data
+2015-05-26T02:37:10.054Z - info: Creating default express app.
+2015-05-26T02:37:10.226Z - info: jsreport server successfully started on http port: 2000
+2015-05-26T02:37:10.226Z - info: reporter initialized
+2015-05-26T02:41:54.288Z - info: Initializing embedded storage at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\data
+2015-05-26T02:41:54.350Z - info: Searching for available extensions in C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded
+2015-05-26T02:41:56.000Z - info: Found 23 extensions
+2015-05-26T02:42:34.467Z - info: Initializing embedded storage at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\data
+2015-05-26T02:42:34.483Z - info: Searching for available extensions in C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded
+2015-05-26T02:42:34.976Z - info: Found 23 extensions
+2015-05-26T02:42:34.976Z - info: Using extension express
+2015-05-26T02:42:34.992Z - info: Using extension templates
+2015-05-26T02:42:34.992Z - info: Using extension html
+2015-05-26T02:42:34.992Z - info: Using extension data
+2015-05-26T02:42:34.992Z - info: Using extension phantom-pdf
+2015-05-26T02:42:34.992Z - info: Using extension selfTerminate
+2015-05-26T02:42:34.992Z - info: Using extension childTemplates
+2015-05-26T02:42:34.992Z - info: Using extension images
+2015-05-26T02:42:34.992Z - info: Using extension xlsx
+2015-05-26T02:42:34.992Z - info: Using extension html-to-xlsx
+2015-05-26T02:42:34.992Z - info: Using extension text
+2015-05-26T02:42:34.992Z - info: Using extension fop-pdf
+2015-05-26T02:42:35.007Z - info: Using extension scripts
+2015-05-26T02:42:35.007Z - info: Using extension embedding
+2015-05-26T02:42:35.007Z - info: Using extension client-html
+2015-05-26T02:42:35.523Z - info: Extensions loaded.
+2015-05-26T02:42:35.523Z - info: Initializing embedded storage at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\data
+2015-05-26T02:42:35.570Z - info: Creating default express app.
+2015-05-26T02:42:35.648Z - info: jsreport server successfully started on http port: 2000
+2015-05-26T02:42:35.648Z - info: reporter initialized
+2015-05-26T02:43:49.752Z - info: Initializing embedded storage at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\data
+2015-05-26T02:43:49.814Z - info: Searching for available extensions in C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded
+2015-05-26T02:43:51.075Z - info: Found 23 extensions
+2015-05-26T02:43:51.107Z - info: Using extension express
+2015-05-26T02:43:51.107Z - info: Using extension templates
+2015-05-26T02:43:51.107Z - info: Using extension html
+2015-05-26T02:43:51.107Z - info: Using extension data
+2015-05-26T02:43:51.107Z - info: Using extension phantom-pdf
+2015-05-26T02:43:51.122Z - info: Using extension selfTerminate
+2015-05-26T02:43:51.122Z - info: Using extension childTemplates
+2015-05-26T02:43:51.122Z - info: Using extension images
+2015-05-26T02:43:51.122Z - info: Using extension xlsx
+2015-05-26T02:43:51.122Z - info: Using extension html-to-xlsx
+2015-05-26T02:43:51.122Z - info: Using extension text
+2015-05-26T02:43:51.122Z - info: Using extension fop-pdf
+2015-05-26T02:43:51.122Z - info: Using extension scripts
+2015-05-26T02:43:51.122Z - info: Using extension embedding
+2015-05-26T02:43:51.122Z - info: Using extension client-html
+2015-05-26T02:43:52.267Z - info: Extensions loaded.
+2015-05-26T02:43:52.267Z - info: Initializing embedded storage at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\data
+2015-05-26T02:43:52.361Z - info: Creating default express app.
+2015-05-26T02:43:52.595Z - info: jsreport server successfully started on http port: 2000
+2015-05-26T02:43:52.595Z - info: reporter initialized
+2015-05-26T02:45:35.344Z - info: Initializing embedded storage at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\data
+2015-05-26T02:45:35.406Z - info: Searching for available extensions in C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded
+2015-05-26T02:45:36.689Z - info: Found 23 extensions
+2015-05-26T02:45:36.720Z - info: Using extension express
+2015-05-26T02:45:36.736Z - info: Using extension templates
+2015-05-26T02:45:36.736Z - info: Using extension html
+2015-05-26T02:45:36.736Z - info: Using extension data
+2015-05-26T02:45:36.736Z - info: Using extension phantom-pdf
+2015-05-26T02:45:36.736Z - info: Using extension selfTerminate
+2015-05-26T02:45:36.736Z - info: Using extension childTemplates
+2015-05-26T02:45:36.736Z - info: Using extension images
+2015-05-26T02:45:36.736Z - info: Using extension xlsx
+2015-05-26T02:45:36.736Z - info: Using extension html-to-xlsx
+2015-05-26T02:45:36.736Z - info: Using extension text
+2015-05-26T02:45:36.752Z - info: Using extension fop-pdf
+2015-05-26T02:45:36.756Z - info: Using extension scripts
+2015-05-26T02:45:36.756Z - info: Using extension embedding
+2015-05-26T02:45:36.756Z - info: Using extension client-html
+2015-05-26T02:45:37.813Z - info: Extensions loaded.
+2015-05-26T02:45:37.813Z - info: Initializing embedded storage at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\data
+2015-05-26T02:45:37.938Z - info: Creating default express app.
+2015-05-26T02:45:38.126Z - info: jsreport server successfully started on http port: 2000
+2015-05-26T02:45:38.126Z - info: reporter initialized
+2015-05-26T02:49:24.642Z - info: Initializing embedded storage at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\data
+2015-05-26T02:49:24.673Z - info: Searching for available extensions in C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded
+2015-05-26T02:49:25.142Z - info: Found 23 extensions
+2015-05-26T02:49:25.158Z - info: Using extension express
+2015-05-26T02:49:25.158Z - info: Using extension templates
+2015-05-26T02:49:25.158Z - info: Using extension html
+2015-05-26T02:49:25.158Z - info: Using extension data
+2015-05-26T02:49:25.158Z - info: Using extension phantom-pdf
+2015-05-26T02:49:25.158Z - info: Using extension selfTerminate
+2015-05-26T02:49:25.158Z - info: Using extension childTemplates
+2015-05-26T02:49:25.158Z - info: Using extension images
+2015-05-26T02:49:25.158Z - info: Using extension xlsx
+2015-05-26T02:49:25.158Z - info: Using extension html-to-xlsx
+2015-05-26T02:49:25.158Z - info: Using extension text
+2015-05-26T02:49:25.158Z - info: Using extension fop-pdf
+2015-05-26T02:49:25.173Z - info: Using extension scripts
+2015-05-26T02:49:25.173Z - info: Using extension embedding
+2015-05-26T02:49:25.173Z - info: Using extension client-html
+2015-05-26T02:49:25.662Z - info: Extensions loaded.
+2015-05-26T02:49:25.678Z - info: Initializing embedded storage at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\data
+2015-05-26T02:49:25.724Z - info: Creating default express app.
+2015-05-26T02:49:25.803Z - info: jsreport server successfully started on http port: 2000
+2015-05-26T02:49:25.803Z - info: reporter initialized
+2015-05-26T02:50:58.922Z - info: Initializing embedded storage at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\data
+2015-05-26T02:50:58.969Z - info: Searching for available extensions in C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded
+2015-05-26T02:50:59.981Z - info: Found 23 extensions
+2015-05-26T02:50:59.996Z - info: Using extension express
+2015-05-26T02:50:59.996Z - info: Using extension templates
+2015-05-26T02:51:00.012Z - info: Using extension html
+2015-05-26T02:51:00.012Z - info: Using extension data
+2015-05-26T02:51:00.012Z - info: Using extension phantom-pdf
+2015-05-26T02:51:00.012Z - info: Using extension selfTerminate
+2015-05-26T02:51:00.012Z - info: Using extension childTemplates
+2015-05-26T02:51:00.012Z - info: Using extension images
+2015-05-26T02:51:00.012Z - info: Using extension xlsx
+2015-05-26T02:51:00.012Z - info: Using extension html-to-xlsx
+2015-05-26T02:51:00.012Z - info: Using extension text
+2015-05-26T02:51:00.012Z - info: Using extension fop-pdf
+2015-05-26T02:51:00.028Z - info: Using extension scripts
+2015-05-26T02:51:00.028Z - info: Using extension embedding
+2015-05-26T02:51:00.028Z - info: Using extension client-html
+2015-05-26T02:51:01.226Z - info: Extensions loaded.
+2015-05-26T02:51:01.226Z - info: Initializing embedded storage at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\data
+2015-05-26T02:51:01.287Z - info: Creating default express app.
+2015-05-26T02:51:01.396Z - info: jsreport server successfully started on http port: 2000
+2015-05-26T02:51:01.396Z - info: reporter initialized
+2015-05-26T02:51:06.346Z - info: Starting rendering request 1 (user: null)
+2015-05-26T02:51:06.408Z - info: Rendering template {shortid:7kNUnVqA, recipe:phantom-pdf,engine:jsrender}
+2015-05-26T02:51:29.011Z - error: Error when processing render request Error during rendering report: connect ECONNREFUSED Error: connect ECONNREFUSED
+    at errnoException (net.js:904:11)
+    at Object.afterConnect [as oncomplete] (net.js:895:19)
+From previous event:
+    at defer (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:542:19)
+    at Promise.then (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:788:20)
+    at Reporter.render (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\lib\reporter.js:142:8)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\routes.js:138:18
+    at Layer.handle [as handle_request] (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\layer.js:82:5)
+    at next (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\layer.js:82:5)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:321:12)
+    at next (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:261:10)
+    at serveStatic (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\serve-static\index.js:59:14)
+    at Layer.handle [as handle_request] (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:302:13)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:321:12)
+2015-05-26T02:51:29.011Z - error: Error during processing request: http://localhost:2000/api/report details: Error during rendering report: connect ECONNREFUSED Error: connect ECONNREFUSED
+    at errnoException (net.js:904:11)
+    at Object.afterConnect [as oncomplete] (net.js:895:19)
+From previous event:
+    at defer (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:542:19)
+    at Promise.then (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:788:20)
+    at Reporter.render (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\lib\reporter.js:142:8)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\routes.js:138:18
+    at Layer.handle [as handle_request] (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\layer.js:82:5)
+    at next (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\layer.js:82:5)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:321:12)
+    at next (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:261:10)
+    at serveStatic (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\serve-static\index.js:59:14)
+    at Layer.handle [as handle_request] (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:302:13)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:321:12)
+2015-05-26T02:52:29.213Z - info: Starting rendering request 2 (user: null)
+2015-05-26T02:52:29.229Z - info: Rendering template {shortid:7kNUnVqA, recipe:phantom-pdf,engine:jsrender}
+2015-05-26T02:52:29.962Z - info: Rendering request 2 finished in 749 ms
+2015-05-26T02:54:32.180Z - info: Starting rendering request 3 (user: null)
+2015-05-26T02:54:32.211Z - info: Rendering template {shortid:7kNUnVqA, recipe:phantom-pdf,engine:jsrender}
+2015-05-26T02:54:32.727Z - info: Rendering request 3 finished in 547 ms
+2015-05-26T03:17:09.122Z - info: Starting rendering request 4 (user: null)
+2015-05-26T03:17:09.154Z - info: Rendering template {shortid:7kNUnVqA, recipe:phantom-pdf,engine:jsrender}
+2015-05-26T03:17:09.685Z - info: Rendering request 4 finished in 563 ms
+2015-05-26T03:17:19.657Z - info: Starting rendering request 5 (user: null)
+2015-05-26T03:17:19.688Z - info: Rendering template {shortid:7kNUnVqA, recipe:phantom-pdf,engine:jsrender}
+2015-05-26T03:17:19.985Z - info: Rendering request 5 finished in 328 ms
+2015-05-26T03:17:40.334Z - info: Starting rendering request 6 (user: null)
+2015-05-26T03:17:40.366Z - info: Rendering template {shortid:7kNUnVqA, recipe:phantom-pdf,engine:jsrender}
+2015-05-26T03:17:40.738Z - info: Rendering request 6 finished in 404 ms
+2015-05-26T03:17:59.139Z - info: Starting rendering request 7 (user: null)
+2015-05-26T03:17:59.170Z - info: Rendering template {shortid:7kNUnVqA, recipe:phantom-pdf,engine:jsrender}
+2015-05-26T03:17:59.521Z - info: Rendering request 7 finished in 382 ms
+2015-05-26T03:20:39.202Z - info: Initializing embedded storage at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\data
+2015-05-26T03:20:39.264Z - info: Searching for available extensions in C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded
+2015-05-26T03:20:40.541Z - info: Found 23 extensions
+2015-05-26T03:20:40.577Z - info: Using extension express
+2015-05-26T03:20:40.581Z - info: Using extension templates
+2015-05-26T03:20:40.585Z - info: Using extension html
+2015-05-26T03:20:40.589Z - info: Using extension data
+2015-05-26T03:20:40.593Z - info: Using extension phantom-pdf
+2015-05-26T03:20:40.597Z - info: Using extension selfTerminate
+2015-05-26T03:20:40.597Z - info: Using extension childTemplates
+2015-05-26T03:20:40.601Z - info: Using extension images
+2015-05-26T03:20:40.601Z - info: Using extension xlsx
+2015-05-26T03:20:40.605Z - info: Using extension html-to-xlsx
+2015-05-26T03:20:40.605Z - info: Using extension text
+2015-05-26T03:20:40.609Z - info: Using extension fop-pdf
+2015-05-26T03:20:40.609Z - info: Using extension scripts
+2015-05-26T03:20:40.613Z - info: Using extension embedding
+2015-05-26T03:20:40.617Z - info: Using extension client-html
+2015-05-26T03:20:42.045Z - info: Extensions loaded.
+2015-05-26T03:20:42.045Z - info: Initializing embedded storage at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\data
+2015-05-26T03:20:42.162Z - info: Creating default express app.
+2015-05-26T03:20:42.303Z - info: jsreport server successfully started on http port: 2000
+2015-05-26T03:20:42.303Z - info: reporter initialized
+2015-05-26T03:22:12.386Z - info: Starting rendering request 1 (user: null)
+2015-05-26T03:22:12.398Z - info: Rendering template {shortid:7kNUnVqA, recipe:phantom-pdf,engine:jsrender}
+2015-05-26T03:22:13.258Z - info: Rendering request 1 finished in 872 ms
+2015-05-26T03:22:38.531Z - info: Starting rendering request 2 (user: null)
+2015-05-26T03:22:38.578Z - info: Rendering template {shortid:7kNUnVqA, recipe:phantom-pdf,engine:jsrender}
+2015-05-26T03:22:39.000Z - info: Rendering request 2 finished in 469 ms
+2015-05-26T03:24:29.189Z - info: Initializing embedded storage at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\data
+2015-05-26T03:24:29.268Z - info: Searching for available extensions in C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded
+2015-05-26T03:24:30.443Z - info: Found 23 extensions
+2015-05-26T03:24:30.474Z - info: Using extension express
+2015-05-26T03:24:30.474Z - info: Using extension templates
+2015-05-26T03:24:30.474Z - info: Using extension html
+2015-05-26T03:24:30.489Z - info: Using extension data
+2015-05-26T03:24:30.489Z - info: Using extension phantom-pdf
+2015-05-26T03:24:30.489Z - info: Using extension selfTerminate
+2015-05-26T03:24:30.489Z - info: Using extension childTemplates
+2015-05-26T03:24:30.489Z - info: Using extension images
+2015-05-26T03:24:30.489Z - info: Using extension xlsx
+2015-05-26T03:24:30.489Z - info: Using extension html-to-xlsx
+2015-05-26T03:24:30.489Z - info: Using extension text
+2015-05-26T03:24:30.489Z - info: Using extension fop-pdf
+2015-05-26T03:24:30.489Z - info: Using extension scripts
+2015-05-26T03:24:30.505Z - info: Using extension embedding
+2015-05-26T03:24:30.505Z - info: Using extension client-html
+2015-05-26T03:24:31.607Z - info: Extensions loaded.
+2015-05-26T03:24:31.607Z - info: Initializing embedded storage at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\data
+2015-05-26T03:24:31.748Z - info: Creating default express app.
+2015-05-26T03:24:31.936Z - info: jsreport server successfully started on http port: 2000
+2015-05-26T03:24:31.951Z - info: reporter initialized
+2015-05-26T03:24:33.856Z - info: Starting rendering request 1 (user: null)
+2015-05-26T03:24:33.887Z - info: Rendering template {shortid:7kNUnVqA, recipe:phantom-pdf,engine:jsrender}
+2015-05-26T03:24:35.942Z - error: Error when processing render request Error during rendering report: connect ECONNREFUSED Error: connect ECONNREFUSED
+    at errnoException (net.js:904:11)
+    at Object.afterConnect [as oncomplete] (net.js:895:19)
+From previous event:
+    at defer (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:542:19)
+    at Promise.then (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:788:20)
+    at Reporter.render (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\lib\reporter.js:142:8)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\routes.js:138:18
+    at Layer.handle [as handle_request] (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\layer.js:82:5)
+    at next (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\layer.js:82:5)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:321:12)
+    at next (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:261:10)
+    at serveStatic (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\serve-static\index.js:59:14)
+    at Layer.handle [as handle_request] (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:302:13)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:321:12)
+2015-05-26T03:24:35.942Z - error: Error during processing request: http://localhost:2000/api/report details: Error during rendering report: connect ECONNREFUSED Error: connect ECONNREFUSED
+    at errnoException (net.js:904:11)
+    at Object.afterConnect [as oncomplete] (net.js:895:19)
+From previous event:
+    at defer (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:542:19)
+    at Promise.then (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\q\q.js:788:20)
+    at Reporter.render (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\lib\reporter.js:142:8)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\extension\express\lib\routes.js:138:18
+    at Layer.handle [as handle_request] (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\layer.js:82:5)
+    at next (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\layer.js:82:5)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:321:12)
+    at next (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:261:10)
+    at serveStatic (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\serve-static\index.js:59:14)
+    at Layer.handle [as handle_request] (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:302:13)
+    at C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (C:\Users\MarcoAntonio\Documents\GitHub\Point-of-Sale\Point of Sale\bin\Debug\jsreport-net-embedded\node_modules\express\lib\router\index.js:321:12)
+2015-05-26T03:24:39.319Z - info: Starting rendering request 2 (user: null)
+2015-05-26T03:24:39.347Z - info: Rendering template {shortid:7kNUnVqA, recipe:phantom-pdf,engine:jsrender}
+2015-05-26T03:24:39.642Z - info: Rendering request 2 finished in 323 ms
