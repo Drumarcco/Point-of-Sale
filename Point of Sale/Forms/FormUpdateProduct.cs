@@ -14,9 +14,6 @@ namespace Point_of_Sale
     public partial class FormUpdateProduct : Form
     {
         private FormProduct frmproduct;
-        private MySqlDataAdapter da;        // Data Adapter
-        private DataSet ds;                 // Dataset
-        private string sTable = "product";  // Table Name
         private Inventory inventory;
         private String IdaddInventory;
         private String NameaddInventory;
@@ -28,37 +25,15 @@ namespace Point_of_Sale
 
         private void FormUpdateProduct_Load(object sender, EventArgs e)
         {
-            // TODO: esta línea de código carga datos en la tabla '_point_of_saleDataSet.product' Puede moverla o quitarla según sea necesario.
-    //        this.productTableAdapter.Fill(this._point_of_saleDataSet.product);
-            updateData();
-        }
-
-        private void updateData()
-        {
-            MySqlConnection connection = new MySqlConnection(DBConnect.ConnectionString);
-   
-            try 
-	        {
-	            connection.Open();
-                da = new MySqlDataAdapter("SELECT * FROM product;", connection);
-                ds = new DataSet();
-                da.Fill(ds, sTable);
-                connection.Close();
-            }
-
-	        catch (MySql.Data.MySqlClient.MySqlException ex)
-	        {
-                MessageBox.Show(ex.Message);
-                connection.Close();
-	        }
-            
-            finally 
+            try
             {
-                product_table.Refresh();
-                product_table.DataSource = ds;
-                product_table.DataMember = sTable;
+                this.productTableAdapter.Fill(this._point_of_saleDataSet.product);
+            }
+            catch (Exception ex) {
+                MessageBox.Show(ex.Message);
             }
         }
+
 
         private void product_table_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -68,7 +43,7 @@ namespace Point_of_Sale
 
             if (frmproduct.DialogResult == System.Windows.Forms.DialogResult.OK)
             {
-                updateData();
+                this.productTableAdapter.Fill(this._point_of_saleDataSet.product);
             }
         }
 
@@ -110,6 +85,14 @@ namespace Point_of_Sale
                 FormAddDeleteInventory addinventory = new FormAddDeleteInventory(int.Parse(IdaddInventory), NameaddInventory,false);
                 addinventory.ShowDialog();
             } 
+        }
+
+        private void tbx_filtro_TextChanged(object sender, EventArgs e)
+        {
+            this.productBindingSource1 = new BindingSource();
+            productBindingSource1.DataSource = product_table.DataSource;
+            productBindingSource1.Filter = "[Name] Like '%" + tbx_filtro.Text + "%'";
+            product_table.DataSource = productBindingSource1;
         }
     }
 }

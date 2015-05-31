@@ -486,15 +486,7 @@
           </TableAdapter>
         </Tables>
         <Sources>
-          <DbSource ConnectionRef="point_of_saleConnectionString (Settings)" DbObjectName="`def`.`point-of-sale`.`insert_product`" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="insert_product" MethodsParameterType="CLR" Modifier="Public" Name="insert_product" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="insert_product">
-            <SelectCommand>
-              <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
-                <CommandText>`point-of-sale`.`insert_product`</CommandText>
-                <Parameters />
-              </DbCommand>
-            </SelectCommand>
-          </DbSource>
-          <DbSource ConnectionRef="point_of_saleConnectionString (Settings)" DbObjectName="`def`.`point-of-sale`.`alter_product`" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="alter_product" MethodsParameterType="CLR" Modifier="Public" Name="alter_product" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="alter_product">
+          <DbSource ConnectionRef="point_of_saleConnectionString (Settings)" DbObjectName="`def`.`point-of-sale`.`alter_product`" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="alter_product" MethodsParameterType="CLR" Modifier="Public" Name="alter_product" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="alter_product">
             <SelectCommand>
               <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
                 <CommandText>`point-of-sale`.`alter_product`</CommandText>
@@ -502,7 +494,7 @@
               </DbCommand>
             </SelectCommand>
           </DbSource>
-          <DbSource ConnectionRef="point_of_saleConnectionString (Settings)" DbObjectName="`def`.`point-of-sale`.`alter_provider`" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="alter_provider" MethodsParameterType="CLR" Modifier="Public" Name="alter_provider" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy2" UserSourceName="alter_provider">
+          <DbSource ConnectionRef="point_of_saleConnectionString (Settings)" DbObjectName="`def`.`point-of-sale`.`alter_provider`" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="alter_provider" MethodsParameterType="CLR" Modifier="Public" Name="alter_provider" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="alter_provider">
             <SelectCommand>
               <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
                 <CommandText>`point-of-sale`.`alter_provider`</CommandText>
@@ -510,7 +502,7 @@
               </DbCommand>
             </SelectCommand>
           </DbSource>
-          <DbSource ConnectionRef="point_of_saleConnectionString (Settings)" DbObjectName="`def`.`point-of-sale`.`alter_user`" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="alter_user" MethodsParameterType="CLR" Modifier="Public" Name="alter_user" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy3" UserSourceName="alter_user">
+          <DbSource ConnectionRef="point_of_saleConnectionString (Settings)" DbObjectName="`def`.`point-of-sale`.`alter_user`" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="alter_user" MethodsParameterType="CLR" Modifier="Public" Name="alter_user" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy2" UserSourceName="alter_user">
             <SelectCommand>
               <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
                 <CommandText>`point-of-sale`.`alter_user`</CommandText>
@@ -518,7 +510,7 @@
               </DbCommand>
             </SelectCommand>
           </DbSource>
-          <DbSource ConnectionRef="point_of_saleConnectionString (Settings)" DbObjectName="`def`.`point-of-sale`.`delete_issues`" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="delete_issues" MethodsParameterType="CLR" Modifier="Public" Name="delete_issues" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy4" UserSourceName="delete_issues">
+          <DbSource ConnectionRef="point_of_saleConnectionString (Settings)" DbObjectName="`def`.`point-of-sale`.`delete_issues`" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="delete_issues" MethodsParameterType="CLR" Modifier="Public" Name="delete_issues" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy3" UserSourceName="delete_issues">
             <SelectCommand>
               <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
                 <CommandText>`point-of-sale`.`delete_issues`</CommandText>
@@ -526,7 +518,7 @@
               </DbCommand>
             </SelectCommand>
           </DbSource>
-          <DbSource ConnectionRef="point_of_saleConnectionString (Settings)" DbObjectName="`def`.`point-of-sale`.`delete_product`" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="delete_product" MethodsParameterType="CLR" Modifier="Public" Name="delete_product" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy5" UserSourceName="delete_product">
+          <DbSource ConnectionRef="point_of_saleConnectionString (Settings)" DbObjectName="`def`.`point-of-sale`.`delete_product`" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="delete_product" MethodsParameterType="CLR" Modifier="Public" Name="delete_product" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy4" UserSourceName="delete_product">
             <SelectCommand>
               <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
                 <CommandText>`point-of-sale`.`delete_product`</CommandText>
@@ -534,7 +526,7 @@
               </DbCommand>
             </SelectCommand>
           </DbSource>
-          <DbSource ConnectionRef="point_of_saleConnectionString (Settings)" DbObjectName="`def`.`point-of-sale`.`delete_provider`" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="delete_provider" MethodsParameterType="CLR" Modifier="Public" Name="delete_provider" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy6" UserSourceName="delete_provider">
+          <DbSource ConnectionRef="point_of_saleConnectionString (Settings)" DbObjectName="`def`.`point-of-sale`.`delete_provider`" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="delete_provider" MethodsParameterType="CLR" Modifier="Public" Name="delete_provider" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy5" UserSourceName="delete_provider">
             <SelectCommand>
               <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
                 <CommandText>`point-of-sale`.`delete_provider`</CommandText>
@@ -542,7 +534,7 @@
               </DbCommand>
             </SelectCommand>
           </DbSource>
-          <DbSource ConnectionRef="point_of_saleConnectionString (Settings)" DbObjectName="`def`.`point-of-sale`.`delete_user`" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="delete_user" MethodsParameterType="CLR" Modifier="Public" Name="delete_user" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy7" UserSourceName="delete_user">
+          <DbSource ConnectionRef="point_of_saleConnectionString (Settings)" DbObjectName="`def`.`point-of-sale`.`delete_user`" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="delete_user" MethodsParameterType="CLR" Modifier="Public" Name="delete_user" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy6" UserSourceName="delete_user">
             <SelectCommand>
               <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
                 <CommandText>`point-of-sale`.`delete_user`</CommandText>
@@ -550,10 +542,18 @@
               </DbCommand>
             </SelectCommand>
           </DbSource>
-          <DbSource ConnectionRef="point_of_saleConnectionString (Settings)" DbObjectName="`def`.`point-of-sale`.`insert_issues`" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="insert_issues" MethodsParameterType="CLR" Modifier="Public" Name="insert_issues" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy8" UserSourceName="insert_issues">
+          <DbSource ConnectionRef="point_of_saleConnectionString (Settings)" DbObjectName="`def`.`point-of-sale`.`insert_issues`" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="insert_issues" MethodsParameterType="CLR" Modifier="Public" Name="insert_issues" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy7" UserSourceName="insert_issues">
             <SelectCommand>
               <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
                 <CommandText>`point-of-sale`.`insert_issues`</CommandText>
+                <Parameters />
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+          <DbSource ConnectionRef="point_of_saleConnectionString (Settings)" DbObjectName="`def`.`point-of-sale`.`insert_product`" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="insert_product" MethodsParameterType="CLR" Modifier="Public" Name="insert_product" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy8" UserSourceName="insert_product">
+            <SelectCommand>
+              <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                <CommandText>`point-of-sale`.`insert_product`</CommandText>
                 <Parameters />
               </DbCommand>
             </SelectCommand>
@@ -605,7 +605,7 @@
   <xs:element name="_point_of_saleDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="_point_of_saleDataSet" msprop:Generator_UserDSName="_point_of_saleDataSet">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="category" msprop:Generator_TableClassName="categoryDataTable" msprop:Generator_TableVarName="tablecategory" msprop:Generator_RowChangedName="categoryRowChanged" msprop:Generator_TablePropName="category" msprop:Generator_RowDeletingName="categoryRowDeleting" msprop:Generator_RowChangingName="categoryRowChanging" msprop:Generator_RowEvHandlerName="categoryRowChangeEventHandler" msprop:Generator_RowDeletedName="categoryRowDeleted" msprop:Generator_RowClassName="categoryRow" msprop:Generator_UserTableName="category" msprop:Generator_RowEvArgName="categoryRowChangeEvent">
+        <xs:element name="category" msprop:Generator_TableClassName="categoryDataTable" msprop:Generator_TableVarName="tablecategory" msprop:Generator_TablePropName="category" msprop:Generator_RowDeletingName="categoryRowDeleting" msprop:Generator_RowChangingName="categoryRowChanging" msprop:Generator_RowEvHandlerName="categoryRowChangeEventHandler" msprop:Generator_RowDeletedName="categoryRowDeleted" msprop:Generator_UserTableName="category" msprop:Generator_RowChangedName="categoryRowChanged" msprop:Generator_RowEvArgName="categoryRowChangeEvent" msprop:Generator_RowClassName="categoryRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
@@ -619,7 +619,7 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="product" msprop:Generator_TableClassName="productDataTable" msprop:Generator_TableVarName="tableproduct" msprop:Generator_RowChangedName="productRowChanged" msprop:Generator_TablePropName="product" msprop:Generator_RowDeletingName="productRowDeleting" msprop:Generator_RowChangingName="productRowChanging" msprop:Generator_RowEvHandlerName="productRowChangeEventHandler" msprop:Generator_RowDeletedName="productRowDeleted" msprop:Generator_RowClassName="productRow" msprop:Generator_UserTableName="product" msprop:Generator_RowEvArgName="productRowChangeEvent">
+        <xs:element name="product" msprop:Generator_TableClassName="productDataTable" msprop:Generator_TableVarName="tableproduct" msprop:Generator_TablePropName="product" msprop:Generator_RowDeletingName="productRowDeleting" msprop:Generator_RowChangingName="productRowChanging" msprop:Generator_RowEvHandlerName="productRowChangeEventHandler" msprop:Generator_RowDeletedName="productRowDeleted" msprop:Generator_UserTableName="product" msprop:Generator_RowChangedName="productRowChanged" msprop:Generator_RowEvArgName="productRowChangeEvent" msprop:Generator_RowClassName="productRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
@@ -644,7 +644,7 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="provider" msprop:Generator_TableClassName="providerDataTable" msprop:Generator_TableVarName="tableprovider" msprop:Generator_RowChangedName="providerRowChanged" msprop:Generator_TablePropName="provider" msprop:Generator_RowDeletingName="providerRowDeleting" msprop:Generator_RowChangingName="providerRowChanging" msprop:Generator_RowEvHandlerName="providerRowChangeEventHandler" msprop:Generator_RowDeletedName="providerRowDeleted" msprop:Generator_RowClassName="providerRow" msprop:Generator_UserTableName="provider" msprop:Generator_RowEvArgName="providerRowChangeEvent">
+        <xs:element name="provider" msprop:Generator_TableClassName="providerDataTable" msprop:Generator_TableVarName="tableprovider" msprop:Generator_TablePropName="provider" msprop:Generator_RowDeletingName="providerRowDeleting" msprop:Generator_RowChangingName="providerRowChanging" msprop:Generator_RowEvHandlerName="providerRowChangeEventHandler" msprop:Generator_RowDeletedName="providerRowDeleted" msprop:Generator_UserTableName="provider" msprop:Generator_RowChangedName="providerRowChanged" msprop:Generator_RowEvArgName="providerRowChangeEvent" msprop:Generator_RowClassName="providerRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
@@ -837,7 +837,7 @@
   </xs:element>
   <xs:annotation>
     <xs:appinfo>
-      <msdata:Relationship name="Provider" msdata:parent="provider" msdata:child="product" msdata:parentkey="ID" msdata:childkey="Provider" msprop:Generator_UserChildTable="product" msprop:Generator_ChildPropName="GetproductRows" msprop:Generator_UserRelationName="Provider" msprop:Generator_ParentPropName="providerRow" msprop:Generator_RelationVarName="relationProvider" msprop:Generator_UserParentTable="provider" />
+      <msdata:Relationship name="Provider" msdata:parent="provider" msdata:child="product" msdata:parentkey="ID" msdata:childkey="Provider" msprop:Generator_UserChildTable="product" msprop:Generator_ChildPropName="GetproductRows" msprop:Generator_UserRelationName="Provider" msprop:Generator_RelationVarName="relationProvider" msprop:Generator_UserParentTable="provider" msprop:Generator_ParentPropName="providerRow" />
       <msdata:Relationship name="ProductInventory" msdata:parent="product" msdata:child="inventory" msdata:parentkey="ID" msdata:childkey="Product" msprop:Generator_UserChildTable="inventory" msprop:Generator_ChildPropName="GetinventoryRows" msprop:Generator_UserRelationName="ProductInventory" msprop:Generator_ParentPropName="productRow" msprop:Generator_RelationVarName="relationProductInventory" msprop:Generator_UserParentTable="product" />
       <msdata:Relationship name="Product_issues" msdata:parent="product" msdata:child="issues" msdata:parentkey="ID" msdata:childkey="Product" msprop:Generator_UserChildTable="issues" msprop:Generator_ChildPropName="GetissuesRows" msprop:Generator_UserRelationName="Product_issues" msprop:Generator_ParentPropName="productRow" msprop:Generator_RelationVarName="relationProduct_issues" msprop:Generator_UserParentTable="product" />
       <msdata:Relationship name="Product" msdata:parent="product" msdata:child="product_sale" msdata:parentkey="ID" msdata:childkey="Product" msprop:Generator_UserChildTable="product_sale" msprop:Generator_ChildPropName="Getproduct_saleRows" msprop:Generator_UserRelationName="Product" msprop:Generator_ParentPropName="productRow" msprop:Generator_RelationVarName="relationProduct" msprop:Generator_UserParentTable="product" />

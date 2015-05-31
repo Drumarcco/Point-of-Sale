@@ -56,7 +56,7 @@ namespace Point_of_Sale
 
                 else
                 {
-                    MySqlCommand cmd = new MySqlCommand("update_provider", connection);
+                    MySqlCommand cmd = new MySqlCommand("alter_provider", connection);
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Parameters.AddWithValue("@cid", _provider.Id);
                     cmd.Parameters.AddWithValue("@Name", _provider.Name);

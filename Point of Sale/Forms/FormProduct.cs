@@ -54,22 +54,21 @@ namespace Point_of_Sale
 
                 else
                 {
-                    MySqlCommand cmd = new MySqlCommand("update_product", connection);
+                    MySqlCommand cmd = new MySqlCommand("alter_product", connection);
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@Name", _product.Name);
-                    cmd.Parameters.AddWithValue("@cid", _product.Id);
-                    cmd.Parameters.AddWithValue("@Category", _product.Category);
-                    cmd.Parameters.AddWithValue("@Cost", _product.Cost);
-                    cmd.Parameters.AddWithValue("@Price", _product.Price);
-                    cmd.Parameters.AddWithValue("@DiscountPercent", 0);
-                    cmd.Parameters.AddWithValue("@Provider", _product.Provider);
+                    cmd.Parameters.AddWithValue("@_Name", _product.Name);
+                    cmd.Parameters.AddWithValue("@_ID", _product.Id);
+                    cmd.Parameters.AddWithValue("@_Category", _product.Category);
+                    cmd.Parameters.AddWithValue("@_Cost", _product.Cost);
+                    cmd.Parameters.AddWithValue("@_Price", _product.Price);
+                    cmd.Parameters.AddWithValue("@_DiscountPercent", 0);
+                    cmd.Parameters.AddWithValue("@_Provider", _product.Provider);
 
                     cmd.ExecuteNonQuery();
                     this.DialogResult = System.Windows.Forms.DialogResult.OK;
                     this.Close();
 
                 }
-
 
             }
            

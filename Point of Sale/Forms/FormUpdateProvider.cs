@@ -14,9 +14,9 @@ namespace Point_of_Sale
     public partial class FormUpdateProvider : Form
     {
         private FormProviders frmprovider;
-        private MySqlDataAdapter dataAdapter;        // Data Adapter
-        private DataSet dataSet;                 // Dataset
-        private string sTable = "provider";  // Table Name
+        private MySqlDataAdapter dataAdapter;
+        private DataSet dataSet;                 
+        private string sTable = "provider"; 
 
         public FormUpdateProvider()
         {
@@ -25,40 +25,13 @@ namespace Point_of_Sale
 
         private void FormUpdateProvider_Load(object sender, EventArgs e)
         { 
-            updateData();
+            this.providerTableAdapter.Fill(this._point_of_saleDataSet.provider);
         }
 
         private void provider_table_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
 
         } 
-
-        private void updateData()
-        {
-            MySqlConnection connection = new MySqlConnection(DBConnect.ConnectionString);
-
-            try
-            {
-                connection.Open();
-                dataAdapter = new MySqlDataAdapter("SELECT * FROM provider;", connection);
-                dataSet = new DataSet();
-                dataAdapter.Fill(dataSet, sTable);
-                connection.Close();
-            }
-
-            catch (MySql.Data.MySqlClient.MySqlException ex)
-            {
-                MessageBox.Show(ex.Message);
-                connection.Close();
-            }
-
-            finally
-            {
-                provider_table.Refresh();
-                provider_table.DataSource = dataSet;
-                provider_table.DataMember = sTable;
-            }
-        }
 
         private void provider_table_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -68,9 +41,17 @@ namespace Point_of_Sale
 
             if (frmprovider.DialogResult == System.Windows.Forms.DialogResult.OK)
             {
-                updateData();
+                this.providerTableAdapter.Fill(this._point_of_saleDataSet.provider);
             }
 
+        }
+
+        private void tbx_filter_TextChanged(object sender, EventArgs e)
+        {
+            this.providerBindingSource3 = new BindingSource();
+            providerBindingSource3.DataSource = provider_table.DataSource;
+            providerBindingSource3.Filter = "[Name] Like '%" + tbx_filter.Text + "%'";
+            provider_table.DataSource = providerBindingSource3;
         }
     }
 }

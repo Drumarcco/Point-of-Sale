@@ -30,24 +30,21 @@
         {
             this.components = new System.ComponentModel.Container();
             this.provider_table = new System.Windows.Forms.DataGridView();
-            this.providerBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
-            //this._point_of_saleDataSet1 = new Point_of_Sale._point_of_saleDataSet1();
-            this.providerBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.phoneDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cellphoneDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.providerBindingSource3 = new System.Windows.Forms.BindingSource(this.components);
             this._point_of_saleDataSet = new Point_of_Sale._point_of_saleDataSet();
             this.providerTableAdapter = new Point_of_Sale._point_of_saleDataSetTableAdapters.providerTableAdapter();
-            this.providerBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            //this.providerTableAdapter1 = new Point_of_Sale._point_of_saleDataSet1TableAdapters.providerTableAdapter();
-            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.addressDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pointofsaleDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.label1 = new System.Windows.Forms.Label();
+            this.tbx_filter = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.provider_table)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.providerBindingSource2)).BeginInit();
-            //((System.ComponentModel.ISupportInitialize)(this._point_of_saleDataSet1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.providerBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.providerBindingSource3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this._point_of_saleDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.providerBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pointofsaleDataSetBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // provider_table
@@ -60,40 +57,65 @@
             this.provider_table.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.provider_table.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.provider_table.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.iDDataGridViewTextBoxColumn,
-            this.nameDataGridViewTextBoxColumn,
-            this.addressDataGridViewTextBoxColumn,
-            this.dataGridViewTextBoxColumn1,
-            this.dataGridViewTextBoxColumn2});
-            this.provider_table.DataSource = this.providerBindingSource2;
-            this.provider_table.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridViewTextBoxColumn3,
+            this.dataGridViewTextBoxColumn4,
+            this.dataGridViewTextBoxColumn5,
+            this.phoneDataGridViewTextBoxColumn,
+            this.cellphoneDataGridViewTextBoxColumn});
+            this.provider_table.DataSource = this.providerBindingSource3;
             this.provider_table.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.provider_table.Location = new System.Drawing.Point(0, 0);
+            this.provider_table.Location = new System.Drawing.Point(11, 46);
             this.provider_table.Margin = new System.Windows.Forms.Padding(2);
             this.provider_table.MultiSelect = false;
             this.provider_table.Name = "provider_table";
             this.provider_table.ReadOnly = true;
             this.provider_table.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             this.provider_table.RowTemplate.Height = 24;
-            this.provider_table.Size = new System.Drawing.Size(545, 202);
+            this.provider_table.Size = new System.Drawing.Size(798, 317);
             this.provider_table.TabIndex = 0;
             this.provider_table.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.provider_table_CellContentDoubleClick);
             this.provider_table.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.provider_table_CellDoubleClick);
             // 
-            // providerBindingSource2
+            // dataGridViewTextBoxColumn3
             // 
-            this.providerBindingSource2.DataMember = "provider";
-            //this.providerBindingSource2.DataSource = this._point_of_saleDataSet1;
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "ID";
+            this.dataGridViewTextBoxColumn3.HeaderText = "ID";
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.ReadOnly = true;
+            this.dataGridViewTextBoxColumn3.Visible = false;
             // 
-            // _point_of_saleDataSet1
+            // dataGridViewTextBoxColumn4
             // 
-            //this._point_of_saleDataSet1.DataSetName = "_point_of_saleDataSet1";
-            //this._point_of_saleDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "Name";
+            this.dataGridViewTextBoxColumn4.HeaderText = "Nombre";
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.ReadOnly = true;
             // 
-            // providerBindingSource
+            // dataGridViewTextBoxColumn5
             // 
-            this.providerBindingSource.DataMember = "provider";
-            this.providerBindingSource.DataSource = this._point_of_saleDataSet;
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "Address";
+            this.dataGridViewTextBoxColumn5.HeaderText = "Dirección";
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.ReadOnly = true;
+            // 
+            // phoneDataGridViewTextBoxColumn
+            // 
+            this.phoneDataGridViewTextBoxColumn.DataPropertyName = "Phone";
+            this.phoneDataGridViewTextBoxColumn.HeaderText = "Tel. Fijo";
+            this.phoneDataGridViewTextBoxColumn.Name = "phoneDataGridViewTextBoxColumn";
+            this.phoneDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // cellphoneDataGridViewTextBoxColumn
+            // 
+            this.cellphoneDataGridViewTextBoxColumn.DataPropertyName = "Cellphone";
+            this.cellphoneDataGridViewTextBoxColumn.HeaderText = "Tel. Celular";
+            this.cellphoneDataGridViewTextBoxColumn.Name = "cellphoneDataGridViewTextBoxColumn";
+            this.cellphoneDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // providerBindingSource3
+            // 
+            this.providerBindingSource3.DataMember = "provider";
+            this.providerBindingSource3.DataSource = this._point_of_saleDataSet;
             // 
             // _point_of_saleDataSet
             // 
@@ -104,57 +126,36 @@
             // 
             this.providerTableAdapter.ClearBeforeFill = true;
             // 
-            // providerBindingSource1
+            // pointofsaleDataSetBindingSource
             // 
-            this.providerBindingSource1.DataMember = "provider";
-            this.providerBindingSource1.DataSource = this._point_of_saleDataSet;
+            this.pointofsaleDataSetBindingSource.DataSource = this._point_of_saleDataSet;
+            this.pointofsaleDataSetBindingSource.Position = 0;
             // 
-            // providerTableAdapter1
+            // label1
             // 
-            //this.providerTableAdapter1.ClearBeforeFill = true;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(13, 13);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(32, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Filtro:";
             // 
-            // iDDataGridViewTextBoxColumn
+            // tbx_filter
             // 
-            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
-            this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
-            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
-            this.iDDataGridViewTextBoxColumn.ReadOnly = true;
-            this.iDDataGridViewTextBoxColumn.Visible = false;
-            // 
-            // nameDataGridViewTextBoxColumn
-            // 
-            this.nameDataGridViewTextBoxColumn.DataPropertyName = "Name";
-            this.nameDataGridViewTextBoxColumn.HeaderText = "Proveedor";
-            this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
-            this.nameDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // addressDataGridViewTextBoxColumn
-            // 
-            this.addressDataGridViewTextBoxColumn.DataPropertyName = "Address";
-            this.addressDataGridViewTextBoxColumn.HeaderText = "Dirección";
-            this.addressDataGridViewTextBoxColumn.Name = "addressDataGridViewTextBoxColumn";
-            this.addressDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "Cellphone";
-            this.dataGridViewTextBoxColumn1.HeaderText = "Tel. Celular";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "Phone";
-            this.dataGridViewTextBoxColumn2.HeaderText = "Tel. Fijo";
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            this.dataGridViewTextBoxColumn2.ReadOnly = true;
+            this.tbx_filter.Location = new System.Drawing.Point(51, 10);
+            this.tbx_filter.Name = "tbx_filter";
+            this.tbx_filter.Size = new System.Drawing.Size(757, 20);
+            this.tbx_filter.TabIndex = 2;
+            this.tbx_filter.TextChanged += new System.EventHandler(this.tbx_filter_TextChanged);
             // 
             // FormUpdateProvider
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(545, 202);
+            this.ClientSize = new System.Drawing.Size(824, 381);
+            this.Controls.Add(this.tbx_filter);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.provider_table);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(2);
@@ -163,12 +164,11 @@
             this.Text = "Proveedores";
             this.Load += new System.EventHandler(this.FormUpdateProvider_Load);
             ((System.ComponentModel.ISupportInitialize)(this.provider_table)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.providerBindingSource2)).EndInit();
-            //((System.ComponentModel.ISupportInitialize)(this._point_of_saleDataSet1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.providerBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.providerBindingSource3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this._point_of_saleDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.providerBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pointofsaleDataSetBindingSource)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -176,14 +176,20 @@
 
         private System.Windows.Forms.DataGridView provider_table;
         private _point_of_saleDataSet _point_of_saleDataSet;
-        private System.Windows.Forms.BindingSource providerBindingSource;
         private _point_of_saleDataSetTableAdapters.providerTableAdapter providerTableAdapter;
-        private System.Windows.Forms.BindingSource providerBindingSource1;
-        private System.Windows.Forms.BindingSource providerBindingSource2;
         private System.Windows.Forms.DataGridViewTextBoxColumn iDDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn addressDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
+        private System.Windows.Forms.BindingSource pointofsaleDataSetBindingSource;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn phoneDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn cellphoneDataGridViewTextBoxColumn;
+        private System.Windows.Forms.BindingSource providerBindingSource3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox tbx_filter;
     }
 }

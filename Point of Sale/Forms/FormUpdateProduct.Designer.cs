@@ -30,13 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             this.product_table = new System.Windows.Forms.DataGridView();
-            this.productBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this._point_of_saleDataSet = new Point_of_Sale._point_of_saleDataSet();
-            this.productBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.productTableAdapter = new Point_of_Sale._point_of_saleDataSetTableAdapters.productTableAdapter();
-            this.cms_MouseClickRight = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.addInventoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.deleteInventoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.categoryDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -44,10 +37,17 @@
             this.priceDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.discountPercentDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.providerDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.productBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this._point_of_saleDataSet = new Point_of_Sale._point_of_saleDataSet();
+            this.productTableAdapter = new Point_of_Sale._point_of_saleDataSetTableAdapters.productTableAdapter();
+            this.cms_MouseClickRight = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.addInventoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.deleteInventoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label1 = new System.Windows.Forms.Label();
+            this.tbx_filtro = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.product_table)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.productBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this._point_of_saleDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.productBindingSource)).BeginInit();
             this.cms_MouseClickRight.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -69,58 +69,17 @@
             this.discountPercentDataGridViewTextBoxColumn,
             this.providerDataGridViewTextBoxColumn});
             this.product_table.DataSource = this.productBindingSource1;
-            this.product_table.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.product_table.Location = new System.Drawing.Point(0, 0);
+            this.product_table.Location = new System.Drawing.Point(11, 48);
             this.product_table.Margin = new System.Windows.Forms.Padding(2);
             this.product_table.MultiSelect = false;
             this.product_table.Name = "product_table";
             this.product_table.ReadOnly = true;
-            this.product_table.Size = new System.Drawing.Size(746, 180);
+            this.product_table.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToFirstHeader;
+            this.product_table.Size = new System.Drawing.Size(802, 322);
             this.product_table.TabIndex = 0;
             this.product_table.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.product_table_CellClick);
             this.product_table.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.product_table_CellDoubleClick);
             this.product_table.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.product_table_CellMouseClick);
-            // 
-            // productBindingSource1
-            // 
-            this.productBindingSource1.DataMember = "product";
-            this.productBindingSource1.DataSource = this._point_of_saleDataSet;
-            // 
-            // _point_of_saleDataSet
-            // 
-            this._point_of_saleDataSet.DataSetName = "_point_of_saleDataSet";
-            this._point_of_saleDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // productBindingSource
-            // 
-            this.productBindingSource.DataMember = "product";
-            this.productBindingSource.DataSource = this._point_of_saleDataSet;
-            // 
-            // productTableAdapter
-            // 
-            this.productTableAdapter.ClearBeforeFill = true;
-            // 
-            // cms_MouseClickRight
-            // 
-            this.cms_MouseClickRight.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.addInventoryToolStripMenuItem,
-            this.deleteInventoryToolStripMenuItem});
-            this.cms_MouseClickRight.Name = "cms_MouseClickRight";
-            this.cms_MouseClickRight.Size = new System.Drawing.Size(190, 48);
-            // 
-            // addInventoryToolStripMenuItem
-            // 
-            this.addInventoryToolStripMenuItem.Name = "addInventoryToolStripMenuItem";
-            this.addInventoryToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
-            this.addInventoryToolStripMenuItem.Text = "Agregar a Inventario";
-            this.addInventoryToolStripMenuItem.MouseDown += new System.Windows.Forms.MouseEventHandler(this.addInventoryToolStripMenuItem_MouseDown);
-            // 
-            // deleteInventoryToolStripMenuItem
-            // 
-            this.deleteInventoryToolStripMenuItem.Name = "deleteInventoryToolStripMenuItem";
-            this.deleteInventoryToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
-            this.deleteInventoryToolStripMenuItem.Text = "Eliminar de Inventario";
-            this.deleteInventoryToolStripMenuItem.MouseDown += new System.Windows.Forms.MouseEventHandler(this.deleteInventoryToolStripMenuItem_MouseDown);
             // 
             // iDDataGridViewTextBoxColumn
             // 
@@ -172,11 +131,66 @@
             this.providerDataGridViewTextBoxColumn.Name = "providerDataGridViewTextBoxColumn";
             this.providerDataGridViewTextBoxColumn.ReadOnly = true;
             // 
+            // productBindingSource1
+            // 
+            this.productBindingSource1.DataMember = "product";
+            this.productBindingSource1.DataSource = this._point_of_saleDataSet;
+            // 
+            // _point_of_saleDataSet
+            // 
+            this._point_of_saleDataSet.DataSetName = "_point_of_saleDataSet";
+            this._point_of_saleDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // productTableAdapter
+            // 
+            this.productTableAdapter.ClearBeforeFill = true;
+            // 
+            // cms_MouseClickRight
+            // 
+            this.cms_MouseClickRight.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.addInventoryToolStripMenuItem,
+            this.deleteInventoryToolStripMenuItem});
+            this.cms_MouseClickRight.Name = "cms_MouseClickRight";
+            this.cms_MouseClickRight.Size = new System.Drawing.Size(190, 48);
+            // 
+            // addInventoryToolStripMenuItem
+            // 
+            this.addInventoryToolStripMenuItem.Name = "addInventoryToolStripMenuItem";
+            this.addInventoryToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
+            this.addInventoryToolStripMenuItem.Text = "Agregar a Inventario";
+            this.addInventoryToolStripMenuItem.MouseDown += new System.Windows.Forms.MouseEventHandler(this.addInventoryToolStripMenuItem_MouseDown);
+            // 
+            // deleteInventoryToolStripMenuItem
+            // 
+            this.deleteInventoryToolStripMenuItem.Name = "deleteInventoryToolStripMenuItem";
+            this.deleteInventoryToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
+            this.deleteInventoryToolStripMenuItem.Text = "Eliminar de Inventario";
+            this.deleteInventoryToolStripMenuItem.MouseDown += new System.Windows.Forms.MouseEventHandler(this.deleteInventoryToolStripMenuItem_MouseDown);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(13, 13);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(32, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Filtro:";
+            // 
+            // tbx_filtro
+            // 
+            this.tbx_filtro.Location = new System.Drawing.Point(51, 10);
+            this.tbx_filtro.Name = "tbx_filtro";
+            this.tbx_filtro.Size = new System.Drawing.Size(761, 20);
+            this.tbx_filtro.TabIndex = 2;
+            this.tbx_filtro.TextChanged += new System.EventHandler(this.tbx_filtro_TextChanged);
+            // 
             // FormUpdateProduct
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(746, 180);
+            this.ClientSize = new System.Drawing.Size(824, 381);
+            this.Controls.Add(this.tbx_filtro);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.product_table);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(2);
@@ -186,9 +200,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.product_table)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.productBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this._point_of_saleDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.productBindingSource)).EndInit();
             this.cms_MouseClickRight.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -196,7 +210,6 @@
 
         private System.Windows.Forms.DataGridView product_table;
         private _point_of_saleDataSet _point_of_saleDataSet;
-        private System.Windows.Forms.BindingSource productBindingSource;
         private _point_of_saleDataSetTableAdapters.productTableAdapter productTableAdapter;
         private System.Windows.Forms.BindingSource productBindingSource1;
         private System.Windows.Forms.ContextMenuStrip cms_MouseClickRight;
@@ -209,5 +222,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn priceDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn discountPercentDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn providerDataGridViewTextBoxColumn;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox tbx_filtro;
     }
 }

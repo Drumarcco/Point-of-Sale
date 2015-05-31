@@ -154,6 +154,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.Control;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.nuevoToolStripMenuItem,
             this.eliminarToolStripMenuItem,
@@ -199,14 +200,14 @@
             // productoToolStripMenuItem1
             // 
             this.productoToolStripMenuItem1.Name = "productoToolStripMenuItem1";
-            this.productoToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.productoToolStripMenuItem1.Size = new System.Drawing.Size(128, 22);
             this.productoToolStripMenuItem1.Text = "Producto";
             this.productoToolStripMenuItem1.Click += new System.EventHandler(this.productoToolStripMenuItem1_Click);
             // 
             // proveedorToolStripMenuItem1
             // 
             this.proveedorToolStripMenuItem1.Name = "proveedorToolStripMenuItem1";
-            this.proveedorToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.proveedorToolStripMenuItem1.Size = new System.Drawing.Size(128, 22);
             this.proveedorToolStripMenuItem1.Text = "Proveedor";
             this.proveedorToolStripMenuItem1.Click += new System.EventHandler(this.proveedorToolStripMenuItem1_Click);
             // 

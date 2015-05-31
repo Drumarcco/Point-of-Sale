@@ -205,6 +205,10 @@
     <Compile Include="Provider.cs" />
     <Compile Include="Lot.cs" />
     <Compile Include="User.cs" />
+    <Compile Include="_point_of_saleDataSet.cs">
+      <DependentUpon>_point_of_saleDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="_point_of_saleDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
