@@ -43,7 +43,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 53);
+            this.label1.Location = new System.Drawing.Point(12, 24);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(47, 13);
             this.label1.TabIndex = 0;
@@ -52,7 +52,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 96);
+            this.label2.Location = new System.Drawing.Point(12, 67);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(55, 13);
             this.label2.TabIndex = 1;
@@ -61,7 +61,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 142);
+            this.label3.Location = new System.Drawing.Point(12, 113);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(42, 13);
             this.label3.TabIndex = 2;
@@ -70,7 +70,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 184);
+            this.label4.Location = new System.Drawing.Point(12, 155);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(52, 13);
             this.label4.TabIndex = 3;
@@ -78,7 +78,7 @@
             // 
             // txt_Name
             // 
-            this.txt_Name.Location = new System.Drawing.Point(73, 50);
+            this.txt_Name.Location = new System.Drawing.Point(73, 21);
             this.txt_Name.Name = "txt_Name";
             this.txt_Name.Size = new System.Drawing.Size(193, 20);
             this.txt_Name.TabIndex = 4;
@@ -86,21 +86,21 @@
             // 
             // txt_Address
             // 
-            this.txt_Address.Location = new System.Drawing.Point(73, 93);
+            this.txt_Address.Location = new System.Drawing.Point(73, 64);
             this.txt_Address.Name = "txt_Address";
             this.txt_Address.Size = new System.Drawing.Size(193, 20);
             this.txt_Address.TabIndex = 5;
             // 
             // txt_Cell
             // 
-            this.txt_Cell.Location = new System.Drawing.Point(73, 139);
+            this.txt_Cell.Location = new System.Drawing.Point(73, 110);
             this.txt_Cell.Name = "txt_Cell";
             this.txt_Cell.Size = new System.Drawing.Size(193, 20);
             this.txt_Cell.TabIndex = 6;
             // 
             // txt_Phone
             // 
-            this.txt_Phone.Location = new System.Drawing.Point(73, 181);
+            this.txt_Phone.Location = new System.Drawing.Point(73, 152);
             this.txt_Phone.Name = "txt_Phone";
             this.txt_Phone.Size = new System.Drawing.Size(193, 20);
             this.txt_Phone.TabIndex = 7;
@@ -108,7 +108,7 @@
             // 
             // btn_save
             // 
-            this.btn_save.Location = new System.Drawing.Point(73, 226);
+            this.btn_save.Location = new System.Drawing.Point(73, 197);
             this.btn_save.Name = "btn_save";
             this.btn_save.Size = new System.Drawing.Size(75, 23);
             this.btn_save.TabIndex = 8;
@@ -118,7 +118,7 @@
             // 
             // btn_cancel
             // 
-            this.btn_cancel.Location = new System.Drawing.Point(180, 226);
+            this.btn_cancel.Location = new System.Drawing.Point(180, 197);
             this.btn_cancel.Name = "btn_cancel";
             this.btn_cancel.Size = new System.Drawing.Size(75, 23);
             this.btn_cancel.TabIndex = 9;
@@ -130,7 +130,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(304, 261);
+            this.ClientSize = new System.Drawing.Size(304, 240);
             this.Controls.Add(this.btn_cancel);
             this.Controls.Add(this.btn_save);
             this.Controls.Add(this.txt_Phone);
@@ -142,7 +142,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "FormProviders";
-            this.Text = "FormProviders";
+            this.Text = "Proveedor";
             this.Load += new System.EventHandler(this.FormProviders_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

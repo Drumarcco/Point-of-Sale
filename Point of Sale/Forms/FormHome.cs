@@ -27,9 +27,7 @@ namespace Point_of_Sale
             keepUser = printUser;
             InitializeComponent();
             showLoggedUser();
-            newSale();
-            System.Diagnostics.Process.Start("http://www.chartjs.org/");
-            
+            newSale();            
         }
 
         private void setSubtotal()

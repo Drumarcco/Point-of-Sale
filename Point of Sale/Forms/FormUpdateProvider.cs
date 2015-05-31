@@ -14,8 +14,8 @@ namespace Point_of_Sale
     public partial class FormUpdateProvider : Form
     {
         private FormProviders frmprovider;
-        private MySqlDataAdapter da;        // Data Adapter
-        private DataSet ds;                 // Dataset
+        private MySqlDataAdapter dataAdapter;        // Data Adapter
+        private DataSet dataSet;                 // Dataset
         private string sTable = "provider";  // Table Name
 
         public FormUpdateProvider()
@@ -26,9 +26,6 @@ namespace Point_of_Sale
         private void FormUpdateProvider_Load(object sender, EventArgs e)
         { 
             updateData();
-            // TODO: esta línea de código carga datos en la tabla '_point_of_saleDataSet1.provider' Puede moverla o quitarla según sea necesario.
-            this.providerTableAdapter1.Connection.ConnectionString = DBConnect.ConnectionString;
-            this.providerTableAdapter1.Fill(this._point_of_saleDataSet1.provider);
         }
 
         private void provider_table_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
@@ -43,9 +40,9 @@ namespace Point_of_Sale
             try
             {
                 connection.Open();
-                da = new MySqlDataAdapter("SELECT * FROM provider;", connection);
-                ds = new DataSet();
-                da.Fill(ds, sTable);
+                dataAdapter = new MySqlDataAdapter("SELECT * FROM provider;", connection);
+                dataSet = new DataSet();
+                dataAdapter.Fill(dataSet, sTable);
                 connection.Close();
             }
 
@@ -58,7 +55,7 @@ namespace Point_of_Sale
             finally
             {
                 provider_table.Refresh();
-                provider_table.DataSource = ds;
+                provider_table.DataSource = dataSet;
                 provider_table.DataMember = sTable;
             }
         }

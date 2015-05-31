@@ -83,7 +83,7 @@
             this.Controls.Add(this.txt_received);
             this.Controls.Add(this.label1);
             this.Name = "FormPayment";
-            this.Text = "FormPayment";
+            this.Text = "Pago";
             this.Load += new System.EventHandler(this.FormPayment_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -80,7 +80,7 @@
             this.Controls.Add(this.btn_Delete);
             this.Controls.Add(this.label1);
             this.Name = "FormDeleteProducts";
-            this.Text = "FormDeleteProducts";
+            this.Text = "Eliminar Producto";
             this.Load += new System.EventHandler(this.FormDeleteProducts_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

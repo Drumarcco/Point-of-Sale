@@ -81,7 +81,7 @@
             this.Controls.Add(this.txt_ID);
             this.Controls.Add(this.label1);
             this.Name = "FormDeleteProviders";
-            this.Text = "FormDeleteProviders";
+            this.Text = "Eliminar Producto";
             this.Load += new System.EventHandler(this.FormDeleteProviders_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

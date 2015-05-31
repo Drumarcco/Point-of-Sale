@@ -43,8 +43,8 @@ namespace Point_of_Sale
                 }
                 else
                 {
-                    //throw new ArgumentException("No se encontró el Proveedor, "
-                    //+ "favor de registrarlo.");
+                    throw new ArgumentException("No se encontró el Proveedor, "
+                    + "favor de registrarlo.");
                 }
             }
             catch (MySqlException ex)

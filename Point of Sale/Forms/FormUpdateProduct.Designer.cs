@@ -30,13 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             this.product_table = new System.Windows.Forms.DataGridView();
-            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.categoryDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.costDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.priceDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.discountPercentDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.providerDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.productBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this._point_of_saleDataSet = new Point_of_Sale._point_of_saleDataSet();
             this.productBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -44,6 +37,13 @@
             this.cms_MouseClickRight = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.addInventoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deleteInventoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.categoryDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.costDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.priceDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.discountPercentDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.providerDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.product_table)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.productBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this._point_of_saleDataSet)).BeginInit();
@@ -57,6 +57,7 @@
             this.product_table.AllowUserToDeleteRows = false;
             this.product_table.AllowUserToOrderColumns = true;
             this.product_table.AutoGenerateColumns = false;
+            this.product_table.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.product_table.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.product_table.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.product_table.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -71,6 +72,7 @@
             this.product_table.Dock = System.Windows.Forms.DockStyle.Fill;
             this.product_table.Location = new System.Drawing.Point(0, 0);
             this.product_table.Margin = new System.Windows.Forms.Padding(2);
+            this.product_table.MultiSelect = false;
             this.product_table.Name = "product_table";
             this.product_table.ReadOnly = true;
             this.product_table.Size = new System.Drawing.Size(746, 180);
@@ -78,55 +80,6 @@
             this.product_table.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.product_table_CellClick);
             this.product_table.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.product_table_CellDoubleClick);
             this.product_table.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.product_table_CellMouseClick);
-            // 
-            // iDDataGridViewTextBoxColumn
-            // 
-            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
-            this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
-            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
-            this.iDDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // nameDataGridViewTextBoxColumn
-            // 
-            this.nameDataGridViewTextBoxColumn.DataPropertyName = "Name";
-            this.nameDataGridViewTextBoxColumn.HeaderText = "Name";
-            this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
-            this.nameDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // categoryDataGridViewTextBoxColumn
-            // 
-            this.categoryDataGridViewTextBoxColumn.DataPropertyName = "Category";
-            this.categoryDataGridViewTextBoxColumn.HeaderText = "Category";
-            this.categoryDataGridViewTextBoxColumn.Name = "categoryDataGridViewTextBoxColumn";
-            this.categoryDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // costDataGridViewTextBoxColumn
-            // 
-            this.costDataGridViewTextBoxColumn.DataPropertyName = "Cost";
-            this.costDataGridViewTextBoxColumn.HeaderText = "Cost";
-            this.costDataGridViewTextBoxColumn.Name = "costDataGridViewTextBoxColumn";
-            this.costDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // priceDataGridViewTextBoxColumn
-            // 
-            this.priceDataGridViewTextBoxColumn.DataPropertyName = "Price";
-            this.priceDataGridViewTextBoxColumn.HeaderText = "Price";
-            this.priceDataGridViewTextBoxColumn.Name = "priceDataGridViewTextBoxColumn";
-            this.priceDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // discountPercentDataGridViewTextBoxColumn
-            // 
-            this.discountPercentDataGridViewTextBoxColumn.DataPropertyName = "DiscountPercent";
-            this.discountPercentDataGridViewTextBoxColumn.HeaderText = "DiscountPercent";
-            this.discountPercentDataGridViewTextBoxColumn.Name = "discountPercentDataGridViewTextBoxColumn";
-            this.discountPercentDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // providerDataGridViewTextBoxColumn
-            // 
-            this.providerDataGridViewTextBoxColumn.DataPropertyName = "Provider";
-            this.providerDataGridViewTextBoxColumn.HeaderText = "Provider";
-            this.providerDataGridViewTextBoxColumn.Name = "providerDataGridViewTextBoxColumn";
-            this.providerDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // productBindingSource1
             // 
@@ -169,6 +122,56 @@
             this.deleteInventoryToolStripMenuItem.Text = "Eliminar de Inventario";
             this.deleteInventoryToolStripMenuItem.MouseDown += new System.Windows.Forms.MouseEventHandler(this.deleteInventoryToolStripMenuItem_MouseDown);
             // 
+            // iDDataGridViewTextBoxColumn
+            // 
+            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
+            this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
+            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
+            this.iDDataGridViewTextBoxColumn.ReadOnly = true;
+            this.iDDataGridViewTextBoxColumn.Visible = false;
+            // 
+            // nameDataGridViewTextBoxColumn
+            // 
+            this.nameDataGridViewTextBoxColumn.DataPropertyName = "Name";
+            this.nameDataGridViewTextBoxColumn.HeaderText = "Producto";
+            this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
+            this.nameDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // categoryDataGridViewTextBoxColumn
+            // 
+            this.categoryDataGridViewTextBoxColumn.DataPropertyName = "Category";
+            this.categoryDataGridViewTextBoxColumn.HeaderText = "Categoría";
+            this.categoryDataGridViewTextBoxColumn.Name = "categoryDataGridViewTextBoxColumn";
+            this.categoryDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // costDataGridViewTextBoxColumn
+            // 
+            this.costDataGridViewTextBoxColumn.DataPropertyName = "Cost";
+            this.costDataGridViewTextBoxColumn.HeaderText = "Costo";
+            this.costDataGridViewTextBoxColumn.Name = "costDataGridViewTextBoxColumn";
+            this.costDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // priceDataGridViewTextBoxColumn
+            // 
+            this.priceDataGridViewTextBoxColumn.DataPropertyName = "Price";
+            this.priceDataGridViewTextBoxColumn.HeaderText = "Precio";
+            this.priceDataGridViewTextBoxColumn.Name = "priceDataGridViewTextBoxColumn";
+            this.priceDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // discountPercentDataGridViewTextBoxColumn
+            // 
+            this.discountPercentDataGridViewTextBoxColumn.DataPropertyName = "DiscountPercent";
+            this.discountPercentDataGridViewTextBoxColumn.HeaderText = "Descuento (%)";
+            this.discountPercentDataGridViewTextBoxColumn.Name = "discountPercentDataGridViewTextBoxColumn";
+            this.discountPercentDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // providerDataGridViewTextBoxColumn
+            // 
+            this.providerDataGridViewTextBoxColumn.DataPropertyName = "Provider";
+            this.providerDataGridViewTextBoxColumn.HeaderText = "Proveedor";
+            this.providerDataGridViewTextBoxColumn.Name = "providerDataGridViewTextBoxColumn";
+            this.providerDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
             // FormUpdateProduct
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -178,7 +181,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormUpdateProduct";
-            this.Text = "FormUpdateProduct";
+            this.Text = "Productos";
             this.Load += new System.EventHandler(this.FormUpdateProduct_Load);
             ((System.ComponentModel.ISupportInitialize)(this.product_table)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.productBindingSource1)).EndInit();
@@ -195,6 +198,10 @@
         private _point_of_saleDataSet _point_of_saleDataSet;
         private System.Windows.Forms.BindingSource productBindingSource;
         private _point_of_saleDataSetTableAdapters.productTableAdapter productTableAdapter;
+        private System.Windows.Forms.BindingSource productBindingSource1;
+        private System.Windows.Forms.ContextMenuStrip cms_MouseClickRight;
+        private System.Windows.Forms.ToolStripMenuItem addInventoryToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem deleteInventoryToolStripMenuItem;
         private System.Windows.Forms.DataGridViewTextBoxColumn iDDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn categoryDataGridViewTextBoxColumn;
@@ -202,9 +209,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn priceDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn discountPercentDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn providerDataGridViewTextBoxColumn;
-        private System.Windows.Forms.BindingSource productBindingSource1;
-        private System.Windows.Forms.ContextMenuStrip cms_MouseClickRight;
-        private System.Windows.Forms.ToolStripMenuItem addInventoryToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem deleteInventoryToolStripMenuItem;
     }
 }
