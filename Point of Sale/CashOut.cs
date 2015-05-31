@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using System.IO;
 using MySql.Data.MySqlClient;
 using System.Windows.Forms;
+using jsreport.Client;
 
 namespace Point_of_Sale
 {
     class CashOut
     {
-
         public CashOut() {
             generateReport();
         }
@@ -27,8 +27,9 @@ namespace Point_of_Sale
             reportTemplate += getReportData() + "] }";
 
             try {
-                var report = await Program.JSReportServer.ReportingService.RenderAsync("Q1RB2D81e", reportTemplate);
-                String filePath = "C:\\temp\\report.pdf";
+                var ReportingService = new ReportingService("http://localhost:2000");
+                var report = await ReportingService.RenderAsync("NyKnBxXr", reportTemplate);
+                String filePath = "C:\\temp\\" + day + "-" + month + "-" + year + " Corte de Caja.pdf";
                 using (var fileStream = File.Create(filePath))
                 {
                     report.Content.CopyTo(fileStream);

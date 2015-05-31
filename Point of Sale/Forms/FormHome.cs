@@ -28,6 +28,7 @@ namespace Point_of_Sale
             InitializeComponent();
             showLoggedUser();
             newSale();
+            System.Diagnostics.Process.Start("http://www.chartjs.org/");
             
         }
 
